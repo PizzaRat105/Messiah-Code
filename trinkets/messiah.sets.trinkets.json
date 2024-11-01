@@ -1,0 +1,51 @@
+{
+   "sets":
+   [
+      
+	  {
+         "id" : "messiah_common_flavour_set_1",
+         "buffs" : []
+      },
+	   {
+         "id" : "messiah_common_flavour_set_2",
+         "buffs" : []
+      },
+	  
+	  {
+         "id" : "messiah_uncommon_flavour_set",
+         "buffs" : []
+      },
+	  
+	  {
+         "id" : "messiah_rare_flavour_set",
+         "buffs" : []
+      },
+	  
+	  {
+         "id" : "messiah_battery_flavour_set",
+         "buffs" : []
+      },
+	  
+	  {
+         "id" : "messiah_very_rare_flavour_set_2",
+         "buffs" : []
+      },
+	  
+	  {
+         "id" : "messiah_cc_flavour_set",
+         "buffs" : 
+		 [
+			"MessiahCCSet_ACC_10",
+			"MessiahCCSet_Stealth_DMG_HIGH_30",
+			"MessiahCCSet_Stealth_DMG_LOW_30",
+			"MessiahCCSet_Stealth_Prot_Ignore_25"
+		 ]
+      },
+	  
+	  {
+         "id" : "messiah_com_flavour_set",
+         "buffs" : []
+      }
+	  
+   ]
+}

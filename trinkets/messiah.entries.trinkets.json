@@ -1,0 +1,185 @@
+{
+   "entries":
+   [
+	  {
+         "id" : "messiah_common_trinket",
+         "buffs" : 
+         [	 
+			 "AlcoholBottle_ACC_5",
+		     "AlcoholBottle_Debuff_Skill_Chance_10",
+			 "AlcoholBottle_Move_Resist_Penalty_10"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "common",
+		 "set_id" : "messiah_common_flavour_set_1",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "messiah_gasmask_trinket",
+         "buffs" : 
+         [
+		     "GasMask_Disease_Res_20",
+			 "GasMask_Blight_Res_20",
+			 "GasMask_Bleed_Reduce_33",
+			 "GasMask_Blight_Reduce_33",
+			 "GasMask_DoT_Reduce_TT",
+			 "GasMask_Dodge_Penalty_4"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "common",
+		 "set_id" : "messiah_common_flavour_set_2",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+      {
+         "id" : "messiah_uncommon_trinket",
+         "buffs" : 
+         [
+			"MedicinalWater_Heal_Received_15",
+			"MedicinalWater_Flat_Heal_3",
+			"MedicinalWater_Flat_Heal_TT",
+			"MedicinalWater_Debuff_Cure_TT"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "uncommon",
+		 "set_id" : "messiah_uncommon_flavour_set",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+
+	  
+	   {
+         "id" : "messiah_rare_trinket",
+         "buffs" : 
+         [
+			"Crowbar_Crit_5",
+			"Crowbar_Crit_Received_5"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "rare",
+		 "set_id" : "messiah_rare_flavour_set",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+		 [
+		     "CrowbarCritRecDBF"
+		 ]
+      },
+
+      {
+         "id" : "messiah_battery_trinket",
+         "buffs" : 
+         [
+			 "ChargedBattery_Stun_Resist_Penalty_25",
+			 "ChargedBattery_Remove_Debuff_TT",
+			 "ChargedBattery_Add_Stun_TT"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "very_rare",
+		 "set_id" : "messiah_battery_flavour_set",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+         "id" : "messiah_phosphor_trinket",
+         "buffs" : 
+         [
+			 "YellowPhosphor_Scouting_20",
+			 "YellowPhosphor_Torch_Burn_33",
+			 "YellowPhosphor_Dodge_Penalty_10"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "very_rare",
+		 "set_id" : "messiah_very_rare_flavour_set_2",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+
+      {
+         "id" : "messiah_cc_trinket_1",
+         "buffs" : 
+         [
+			 "Clover_Spd_2",
+			 "Clover_Restoration_Amount_50"
+         ],
+         "hero_class_requirements":
+         [
+		     "messiah"
+         ],
+         "rarity" : "crimson_court",
+		 "set_id" : "messiah_cc_flavour_set",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+
+      {
+         "id" : "messiah_cc_trinket_2",
+         "buffs" : 
+         [
+		     "SpoilerPicture_Stress_Heal_Amount_20",
+			 "SpoilerPicture_High_Torch_Stress_Resist_25"
+         ],
+         "hero_class_requirements":
+         [
+		     "messiah"
+         ],
+         "rarity" : "crimson_court",
+		 "set_id" : "messiah_cc_flavour_set",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+
+      {
+         "id" : "messiah_com_trinket",
+         "buffs" : 
+         [
+		     "StrangeNotebook_ACC_5",
+			 "StrangeNotebook_Dodge_10",
+			 "StrangeNotebook_Stress_Penalty_25"
+         ],
+         "hero_class_requirements":
+         [
+		     "messiah"
+         ],
+         "rarity" : "comet",
+		 "set_id" : "messiah_com_flavour_set",
+         "shard" : 90,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		     "NoteBookVirtueBuff10"
+		 ]
+      }	  
+   ]
+}
