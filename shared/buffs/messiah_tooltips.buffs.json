@@ -1,0 +1,253 @@
+{
+	"buffs":
+	[
+		
+		{
+
+			"id" : "MessiahTooltip",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahTooltip",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "Seasoned_Arson_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "OneShot_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_OneShot_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "My_Burden_is_Light_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_My_Burden_is_Light_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Skill_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Skill_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+
+		
+		
+		
+		{
+
+			"id" : "MessiahSunsetCritTooltip",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahSunsetCritTooltip",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "GasMask_DoT_Reduce_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_GasMask_DoT_Reduce_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+
+		
+		{
+
+			"id" : "MedicinalWater_Debuff_Cure_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MedicinalWater_Debuff_Cure_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MedicinalWater_Flat_Heal_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MedicinalWater_Flat_Heal_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "ChargedBattery_Remove_Debuff_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_ChargedBattery_Remove_Debuff_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "ChargedBattery_Add_Stun_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_ChargedBattery_Add_Stun_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahShowofFaithCDTooltip",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahShowofFaithCDTooltip",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+	]
+}

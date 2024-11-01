@@ -1,0 +1,419 @@
+{
+	"buffs":
+	[
+		{
+
+			"id" : "MessiahCritAcc5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "OneshotSelfDMG15",
+			"stat_type" : "damage_received_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "SunlightStressRes1",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunlightStressRes2",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.12,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunlightStressRes3",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunlightStressRes4",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.17,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunlightStressRes5",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "ShowOfFaithStressRes1",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+
+			"id" : "ShowOfFaithStressRes2",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.12,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+
+			"id" : "ShowOfFaithStressRes3",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+
+			"id" : "ShowOfFaithStressRes4",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.17,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+
+			"id" : "ShowOfFaithStressRes5",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "FaithBleedDisable",
+			"stat_type" : "disable_combat_skill_attribute",
+			"stat_sub_type" : "bleed",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"has_description" : false,
+			"is_clear_debuff_valid": false
+		},
+		
+		
+		
+		
+		{
+
+			"id" : "SunsetDbfChance1",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunsetDbfChance2",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.12,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunsetDbfChance3",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunsetDbfChance4",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.17,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "SunsetDbfChance5",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "Messiah_Virtue_ACC_Buff_5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "virtued",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Virtue_CRIT_Buff_5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "virtued",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Virtue_Stress_Resist_20",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.2,
+			"remove_if_not_active" : false,
+			"rule_type" : "virtued",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Virtue_Stress_Resist_25",
+			"stat_type" : "stress_dmg_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "virtued",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Affliction_Dodge_Penalty_10",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Affliction_SPD_Penalty_2",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Messiah_Affliction_ACC_Penalty_10",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : -0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "afflicted",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		}
+		
+	]
+		
+		
+		
+		
+		
+		
+	 
+
+} 
+
+
