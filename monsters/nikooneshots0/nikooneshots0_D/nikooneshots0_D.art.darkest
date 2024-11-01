@@ -1,0 +1,6 @@
+commonfx: .deathfx death_small
+display_modifier: .disabled_popup_text_types no_damage damage hero_heal 
+display_modifier: .disabled_popup_text_types monster_heal buff debuff poison
+display_modifier: .disabled_popup_text_types bleed cured tagged stun 
+display_modifier: .disabled_popup_text_types poison_resist cured tagged stun_resist 
+display_modifier: .disabled_popup_text_types bleed_resist stun_resist debuff_resist

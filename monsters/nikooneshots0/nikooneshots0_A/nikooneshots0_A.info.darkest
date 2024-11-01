@@ -1,0 +1,20 @@
+display: .size 0
+enemy_type: .id "nikooneshots0"
+stats: .hp 100
+loot: .code "" .count 0
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+spawn: .effects s0hpr_patch_anti_ng
+spawn: .effects niko_hpsteal niko_s0heal niko_s0kill
+hp_reaction: .hp_ratio 0.954 .is_under false .effects niko_s0_changelvl1
+hp_reaction: .hp_ratio 0.949 .is_under false .effects niko_s0_changelvl1
+hp_reaction: .hp_ratio 0.655 .is_under false .effects niko_s0_changelvl2
+hp_reaction: .hp_ratio 0.633 .is_under false .effects niko_s0_changelvl2
+hp_reaction: .hp_ratio 0.499 .is_under false .effects niko_s0_changelvl3
+hp_reaction: .hp_ratio 0.474 .is_under false .effects niko_s0_changelvl3
+hp_reaction: .hp_ratio 0.403 .is_under false .effects niko_s0_changelvl4
+hp_reaction: .hp_ratio 0.379 .is_under false .effects niko_s0_changelvl4
+hp_reaction: .hp_ratio 0.338 .is_under false .effects niko_s0_changelvl5
+hp_reaction: .hp_ratio 0.316 .is_under false .effects niko_s0_changelvl5
+mode: .id nikos0mode .is_raid_default true

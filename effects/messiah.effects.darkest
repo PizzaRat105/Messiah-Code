@@ -8,7 +8,7 @@
 
 
 //-----------------------On crit stuff------------------------------------------------
-effect: .name "MessiahCritAccBuff"    .target "performer_group" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "MessiahCritAcc5" .duration 1	.on_hit true .on_miss false .apply_once true
+effect: .name "MessiahCritAccBuff"    .target "performer_group" .chance 100% .buff_source_type bsrc_crit .buff_ids "MessiahCritAcc5" .duration 1	.on_hit true .on_miss false .apply_once true
 
 
 
@@ -25,9 +25,27 @@ effect: .name "ArsonDebuff5"    .target "target" .chance 140% .combat_stat_buff 
 
 
 //-----------------------OneShot----------------------------------------------
-effect: .name "OneShotRecoil" .target "performer" .curio_result_type "negative" .buff_ids OneshotSelfDMG15 .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
-
-
+effect: .name "OneShotRecoil" .target "performer" .buff_ids OneshotSelfDMG15 .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true
+effect: .name "OneShot_s0_HP_1" .target "performer" .buff_ids "OneShot_s0_HP_1" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0_HP_2" .target "performer" .buff_ids "OneShot_s0_HP_2" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0_HP_3" .target "performer" .buff_ids "OneShot_s0_HP_3" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0_HP_4" .target "performer" .buff_ids "OneShot_s0_HP_4" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0_HP_5" .target "performer" .buff_ids "OneShot_s0_HP_5" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0_HEALRECV" .target "target" .swap_source_and_target true .chance 50000% .buff_ids "OneShot_s0_HEALRECV" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
+effect: .name "OneShot_s0summon" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_A .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .summon_limits 1 .on_hit true .on_miss false .has_description false .has_description false
+effect: .name "niko_hpsteal" .target "target" .spawn_target_actor_base_class_id messiah .steal_buff_source_type bsrc_last_hero .on_hit true .on_miss true
+effect: .name "niko_s0heal" .target "performer" .heal 90 .on_hit true .on_miss true .can_crit_heal false
+effect: .name "niko_s0kill" .target "performer" .kill 1 .on_hit true .on_miss true
+effect: .name "niko_s0_changelvl1" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_B .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
+effect: .name "niko_s0_changelvl2" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_C .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
+effect: .name "niko_s0_changelvl3" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_D .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
+effect: .name "niko_s0_changelvl4" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_E .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
+effect: .name "niko_s0_changelvl5" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_F .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
+effect: .name "niko_oneshotbuff_1" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.04 .damage_low_multiply 0.04 .crit_chance_add 0.01 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_2" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.05 .damage_low_multiply 0.05 .crit_chance_add 0.015 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_3" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.06 .damage_low_multiply 0.06 .crit_chance_add 0.02 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_4" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.07 .damage_low_multiply 0.07 .crit_chance_add 0.025 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_5" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.08 .damage_low_multiply 0.08 .crit_chance_add 0.03 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
 
 //-----------------------Soothing Sunlight------------------------------------------------
 effect: .name "SunlightHeal1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true 
@@ -85,7 +103,7 @@ effect: .name "BurdenLightStressHeal5" .target "target"  .chance 100% .healstres
 effect: .name "BurdenLightTorchBuff" .target "global" .chance 100% .torch_increase 5	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "BurdenLightHorrorCure" .target "target" .clearDotStress 1 .on_hit true .on_miss true
 
-effect: .name "BurdenLightSelfStress" .target "performer" .curio_result_type "negative" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
+effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
 
 
 
@@ -110,7 +128,7 @@ effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat
 
 //-----------------------Trinkets------------------------------------------------
 
-effect: .name "CrowbarCritRecDBF" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true
+effect: .name "CrowbarCritRecDBF" .target "target" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true
 
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false
 
@@ -122,7 +140,7 @@ effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal
 
 
 effect: .name "MessiahVirtueActoutStressHeal5" .target "performer_group" .chance 100%	.healstress 5	.on_hit true .on_miss false .queue true
-effect: .name "MessiahVirtueActoutDMGBuff10" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10%	.on_hit true .on_miss true	.queue true
+effect: .name "MessiahVirtueActoutDMGBuff10" .target "performer_group" .chance 100% .duration 3 combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10%	.on_hit true .on_miss true	.queue true
 
 effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
 

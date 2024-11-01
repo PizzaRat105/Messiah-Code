@@ -403,8 +403,99 @@
 				"float" : 0,
 				"string" : ""
 			}
+		},
+
+		{
+
+			"id" : "OneShot_s0_HP_1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
+		},
+		{
+
+			"id" : "OneShot_s0_HP_2",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 2,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
+		},
+		{
+
+			"id" : "OneShot_s0_HP_3",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 3,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
+		},
+		{
+
+			"id" : "OneShot_s0_HP_4",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 4,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
+		},
+		{
+
+			"id" : "OneShot_s0_HP_5",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
+		},
+		{
+
+			"id" : "OneShot_s0_HEALRECV",
+			"stat_type" : "hp_heal_received_percent",
+			"stat_sub_type" : "",
+			"amount" : -50,
+			"remove_if_not_active" : false,
+			"rule_type" : "in_mode",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "nikos0mode"
+			}
 		}
-		
+
 	]
 		
 		

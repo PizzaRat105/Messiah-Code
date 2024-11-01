@@ -17,7 +17,10 @@
 		
 		{"event_id": "event:/char/ally/messiah_mes_my_burden_is_light",                           "guid_override":"{04bbb68d-5689-4dc5-b8db-fdcb18673993}"},
 		
-		{"event_id": "event:/char/ally/messiah_mes_sunset",                           "guid_override":"{336422b0-dd96-4077-8b95-e1edabdb7c35}"}
+		{"event_id": "event:/char/ally/messiah_mes_sunset",                           "guid_override":"{336422b0-dd96-4077-8b95-e1edabdb7c35}"},
+
+		{"event_id": "event:/char/enemy/nikooneshots0_vo_aggro", 			"guid_override":"{38ca5488-7642-4aef-b548-d08ad1bf2970}" },
+      	{"event_id": "event:/char/enemy/nikooneshots0_vo_death", 			"guid_override":"{1f216e53-3342-4190-aa7c-e403b6952f67}" }
 		
     ]
 }
