@@ -15,11 +15,11 @@ armour: .name "messiah_armour_2" .def 20% .prot 0 .hp 24 .spd 0 .upgradeRequirem
 armour: .name "messiah_armour_3" .def 25% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 2
 armour: .name "messiah_armour_4" .def 30% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "mes_seasoned_arson" .level 0 .type "ranged" .atk 90% .dmg -40% .crit 2% .launch 4321 .target 1234 .is_crit_valid True .effect "ArsonDebuff1" .generation_guaranteed true
-combat_skill: .id "mes_seasoned_arson" .level 1 .type "ranged" .atk 95% .dmg -40% .crit 3% .launch 4321 .target 1234 .is_crit_valid True .effect "ArsonDebuff2"
-combat_skill: .id "mes_seasoned_arson" .level 2 .type "ranged" .atk 100% .dmg -40% .crit 4% .launch 4321 .target 1234 .is_crit_valid True .effect "ArsonDebuff3"
-combat_skill: .id "mes_seasoned_arson" .level 3 .type "ranged" .atk 105% .dmg -40% .crit 5% .launch 4321 .target 1234 .is_crit_valid True .effect "ArsonDebuff4"
-combat_skill: .id "mes_seasoned_arson" .level 4 .type "ranged" .atk 110% .dmg -40% .crit 6% .launch 4321 .target 1234 .is_crit_valid True .effect "ArsonDebuff5"
+combat_skill: .id "mes_seasoned_arson" .level 0 .type "ranged" .atk 90% .dmg -40% .crit 2% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff1" .generation_guaranteed true
+combat_skill: .id "mes_seasoned_arson" .level 1 .type "ranged" .atk 95% .dmg -40% .crit 3% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff2"
+combat_skill: .id "mes_seasoned_arson" .level 2 .type "ranged" .atk 100% .dmg -40% .crit 4% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff3"
+combat_skill: .id "mes_seasoned_arson" .level 3 .type "ranged" .atk 105% .dmg -40% .crit 5% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff4"
+combat_skill: .id "mes_seasoned_arson" .level 4 .type "ranged" .atk 110% .dmg -40% .crit 6% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff5"
 
 combat_skill: .id "mes_oneshot" .level 0 .type "ranged" .atk 100% .dmg +50% .crit 10% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
 combat_skill: .id "mes_oneshot" .level 1 .type "ranged" .atk 105% .dmg +50% .crit 11% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
