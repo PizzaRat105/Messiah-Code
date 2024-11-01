@@ -21,17 +21,17 @@ combat_skill: .id "mes_seasoned_arson" .level 2 .type "ranged" .atk 100% .dmg -4
 combat_skill: .id "mes_seasoned_arson" .level 3 .type "ranged" .atk 105% .dmg -40% .crit 5% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff4"
 combat_skill: .id "mes_seasoned_arson" .level 4 .type "ranged" .atk 110% .dmg -40% .crit 6% .launch 4321 .target 123 .is_crit_valid True .effect "ArsonDebuff5"
 
-combat_skill: .id "mes_oneshot" .level 0 .type "ranged" .atk 100% .dmg +50% .crit 10% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
-combat_skill: .id "mes_oneshot" .level 1 .type "ranged" .atk 105% .dmg +50% .crit 11% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
-combat_skill: .id "mes_oneshot" .level 2 .type "ranged" .atk 110% .dmg +50% .crit 12% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
-combat_skill: .id "mes_oneshot" .level 3 .type "ranged" .atk 115% .dmg +50% .crit 13% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
-combat_skill: .id "mes_oneshot" .level 4 .type "ranged" .atk 120% .dmg +50% .crit 15% .per_battle_limit 1 .launch 43 .target 1234 .is_crit_valid True  .ignore_guard true .effect "OneShotRecoil" 
+combat_skill: .id "mes_oneshot" .level 0 .type "ranged" .atk 100% .dmg +50% .crit 10% .per_battle_limit 1 .launch 43 .target 1234 .ignore_guard true .effect "OneShotRecoil" "OneShot_s0_HP_1" "OneShot_s0_HEALRECV" "OneShot_s0summon"
+combat_skill: .id "mes_oneshot" .level 1 .type "ranged" .atk 105% .dmg +50% .crit 11% .per_battle_limit 1 .launch 43 .target 1234 .ignore_guard true .effect "OneShotRecoil" "OneShot_s0_HP_2" "OneShot_s0_HEALRECV" "OneShot_s0summon"
+combat_skill: .id "mes_oneshot" .level 2 .type "ranged" .atk 110% .dmg +50% .crit 12% .per_battle_limit 1 .launch 43 .target 1234 .ignore_guard true .effect "OneShotRecoil" "OneShot_s0_HP_3" "OneShot_s0_HEALRECV" "OneShot_s0summon"
+combat_skill: .id "mes_oneshot" .level 3 .type "ranged" .atk 115% .dmg +50% .crit 13% .per_battle_limit 1 .launch 43 .target 1234 .ignore_guard true .effect "OneShotRecoil" "OneShot_s0_HP_4" "OneShot_s0_HEALRECV" "OneShot_s0summon"
+combat_skill: .id "mes_oneshot" .level 4 .type "ranged" .atk 120% .dmg +50% .crit 15% .per_battle_limit 1 .launch 43 .target 1234 .ignore_guard true .effect "OneShotRecoil" "OneShot_s0_HP_5" "OneShot_s0_HEALRECV" "OneShot_s0summon"
 
-combat_skill: .id "mes_blinding_rays" .level 0 .type "ranged" .atk 90% .dmg -80% .crit -10% .launch 432 .target ~12 .is_crit_valid True  .effect "BlindingRaysDebuff1"
-combat_skill: .id "mes_blinding_rays" .level 1 .type "ranged" .atk 95% .dmg -80% .crit -9% .launch 432 .target ~12 .is_crit_valid True  .effect "BlindingRaysDebuff2"
-combat_skill: .id "mes_blinding_rays" .level 2 .type "ranged" .atk 100% .dmg -80% .crit -8% .launch 432 .target ~12 .is_crit_valid True  .effect "BlindingRaysDebuff3"
-combat_skill: .id "mes_blinding_rays" .level 3 .type "ranged" .atk 105% .dmg -80% .crit -7% .launch 432 .target ~12 .is_crit_valid True  .effect "BlindingRaysDebuff4"
-combat_skill: .id "mes_blinding_rays" .level 4 .type "ranged" .atk 110% .dmg -80% .crit -6% .launch 432 .target ~12 .is_crit_valid True  .effect "BlindingRaysDebuff5"
+combat_skill: .id "mes_blinding_rays" .level 0 .type "ranged" .atk 90% .dmg -80% .crit -10% .launch 432 .target ~12 .effect "BlindingRaysDebuff1"
+combat_skill: .id "mes_blinding_rays" .level 1 .type "ranged" .atk 95% .dmg -80% .crit -9% .launch 432 .target ~12 .effect "BlindingRaysDebuff2"
+combat_skill: .id "mes_blinding_rays" .level 2 .type "ranged" .atk 100% .dmg -80% .crit -8% .launch 432 .target ~12 .effect "BlindingRaysDebuff3"
+combat_skill: .id "mes_blinding_rays" .level 3 .type "ranged" .atk 105% .dmg -80% .crit -7% .launch 432 .target ~12 .effect "BlindingRaysDebuff4"
+combat_skill: .id "mes_blinding_rays" .level 4 .type "ranged" .atk 110% .dmg -80% .crit -6% .launch 432 .target ~12 .effect "BlindingRaysDebuff5"
 
 combat_skill: .id "mes_soothing_sunlight" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 432 .target @1234 .is_crit_valid False  .effect "SunlightHeal1" "SunlightStressBuff1" "MedicineWaterPlaceholderHeal" .is_stall_invalidating false
 combat_skill: .id "mes_soothing_sunlight" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 432 .target @1234 .is_crit_valid False  .effect "SunlightHeal2" "SunlightStressBuff2" "MedicineWaterPlaceholderHeal" .is_stall_invalidating false
@@ -39,11 +39,11 @@ combat_skill: .id "mes_soothing_sunlight" .level 2 .type "ranged" .atk 0% .dmg 0
 combat_skill: .id "mes_soothing_sunlight" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 432 .target @1234 .is_crit_valid False  .effect "SunlightHeal4" "SunlightStressBuff4" "MedicineWaterPlaceholderHeal" .is_stall_invalidating false
 combat_skill: .id "mes_soothing_sunlight" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 432 .target @1234 .is_crit_valid False  .effect "SunlightHeal5" "SunlightStressBuff5" "MedicineWaterPlaceholderHeal" .is_stall_invalidating false
 
-combat_skill: .id "mes_show_of_faith" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .is_crit_valid True  .effect "FaithPartyBuff1" "FaithStressBuff1" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
-combat_skill: .id "mes_show_of_faith" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .is_crit_valid True  .effect "FaithPartyBuff2" "FaithStressBuff2" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
-combat_skill: .id "mes_show_of_faith" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .is_crit_valid True  .effect "FaithPartyBuff3" "FaithStressBuff3" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
-combat_skill: .id "mes_show_of_faith" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .is_crit_valid True  .effect "FaithPartyBuff4" "FaithStressBuff4" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
-combat_skill: .id "mes_show_of_faith" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .is_crit_valid True  .effect "FaithPartyBuff5" "FaithStressBuff5" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
+combat_skill: .id "mes_show_of_faith" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .effect "FaithPartyBuff1" "FaithStressBuff1" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
+combat_skill: .id "mes_show_of_faith" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .effect "FaithPartyBuff2" "FaithStressBuff2" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
+combat_skill: .id "mes_show_of_faith" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .effect "FaithPartyBuff3" "FaithStressBuff3" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
+combat_skill: .id "mes_show_of_faith" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .effect "FaithPartyBuff4" "FaithStressBuff4" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
+combat_skill: .id "mes_show_of_faith" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 234 .target @~1234 .effect "FaithPartyBuff5" "FaithStressBuff5" "FaithFakeBleed" "FaithFakeBleedCD" "MessiahShowofFaithCDTooltipEffect" .is_stall_invalidating false
 
 combat_skill: .id "mes_my_burden_is_light" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target @1234 .is_crit_valid False  .effect "BurdenLightStressHeal1" "BurdenLightSelfStress" "BurdenLightTorchBuff" "BurdenLightHorrorCure" .is_stall_invalidating false
 combat_skill: .id "mes_my_burden_is_light" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 1234 .target @1234 .is_crit_valid False  .effect "BurdenLightStressHeal2" "BurdenLightSelfStress" "BurdenLightTorchBuff" "BurdenLightHorrorCure" .is_stall_invalidating false

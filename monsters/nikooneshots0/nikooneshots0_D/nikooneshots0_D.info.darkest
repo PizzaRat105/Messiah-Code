@@ -1,0 +1,7 @@
+display: .size 0
+stats: .hp 100
+loot: .code "" .count 0
+initiative: .number_of_turns_per_round 0
+monster_brain: .id default
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
+spawn: .effects niko_oneshotbuff_3 niko_s0kill
