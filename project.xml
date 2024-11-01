@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Users/jerr0/Pictures/DISCORD EMOTES/ONESHOT/OneShot DD/</ModDataPath>
+	<Title>Messiah Playtest</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>1</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Class Mod</Tags>
+		<Tags>character mod</Tags>
+		<Tags>english</Tags>
+	</Tags>
+	<ItemDescription>
+	Messiah (Niko from OneShot) Test Build 
+	ToDo: Barks, 
+	To be added: Workaround for Skills and Trinkets (Thanks Iris)
+	</ItemDescription>
+	<PublishedFileId>3357121300</PublishedFileId>
+</project>
+
