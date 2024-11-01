@@ -1,0 +1,28 @@
+{
+    "party_names":
+    [
+  {
+    "id": "77788111",
+    "required_hero_class": [
+      "messiah"
+    ]
+  },
+  {
+    "id": "77788112",
+    "required_hero_class": [
+	  "resonant",
+	  "messiah"
+    ]
+  },
+  
+   {
+    "id": "77788113",
+    "required_hero_class": [
+	  "messiah",
+	  "resonant"
+    ]
+  }
+  
+    ]
+
+}
