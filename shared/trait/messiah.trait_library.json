@@ -1,0 +1,110 @@
+{
+   "traits":
+   [
+      {
+         "id" : "messiah_virtue_guided",
+         "is_generated": false,
+         "overstress_type": "virtue",
+         "curio_tag" : "none",
+         "curio_tag_chance" : 0,
+         "keep_loot" : false,
+                  "buff_ids" : 
+         [
+            "STUNRESIST25",
+            "BLIGHTRESIST25",
+            "BLEEDRESIST25",
+            "DISEASERESIST25",
+            "DEBUFFRESIST25",
+            "MOVERESIST25",
+			"Messiah_Virtue_ACC_Buff_5",
+			"Messiah_Virtue_CRIT_Buff_5",
+			"Messiah_Virtue_Stress_Resist_25"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", 							"data": { "number_value": 0.0, "string_value": "" }, "chance": 8},
+            { "id": "bark_stress", 						"data": { "number_value": 0.0, "string_value": "BarkStress" }, "chance": 0},
+            { "id": "change_pos", 						"data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "ignore_command", 					"data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "random_command", 					"data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "retreat_from_combat", 				"data": { "number_value": 0.0, "string_value": "" }, "chance": 0, "raid_limit": 1},
+            { "id": "attack_self", 						"data": { "number_value": 0.1,"string_value": "" }, "chance": 0},
+            { "id": "mark_self", 						"data": { "number_value": 0.0, "string_value": "Mark Self" }, "chance": 0},
+            { "id": "stress_heal_self", 				"data": { "number_value": 0.0, "string_value": "HealStressVirtued" }, "chance": 0},
+            { "id": "stress_heal_party", 				"data": { "number_value": 0.0, "string_value": "MessiahVirtueActoutStressHeal5" }, "chance": 1},
+            { "id": "buff_random_party_member", 		"data": { "number_value": 0.0, "string_value": "FocusedAllyBuff" }, "chance": 0},
+            { "id": "buff_party", 						"data": { "number_value": 0.0, "string_value": "MessiahVirtueActoutDMGBuff10" }, "chance": 1},
+            { "id": "heal_self", 						"data": { "number_value": 0.1,"string_value": "" }, "chance": 0},
+            { "id": "consume_item", 					"data": { "number_value": 0.0, "string_value": "" }, "chance": 0}
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_move", 						"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_heal", 						"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_buff", 						"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_item", 						"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_combat_retreat", 			"data":{ "effect": "" }, "chance": 0},
+            { "id": "comment_self_hit", 				"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_self_missed", 				"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_hit", 				"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_missed", 				"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_hit", 			"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", 		"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_move", 					"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_curio_interaction", 		"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_trap_triggered", 			"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "block_effect", 					"data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_camping_meal", 				"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_performer", 	"data":{ "effect": "" }, "chance": 0},
+            { "id": "block_camping_skill_target", 		"data":{ "effect": "" }, "chance": 0}
+         ]
+      },
+      {
+         "id" : "messiah_affliction_shattered",
+         "is_generated": false,
+         "overstress_type": "affliction",
+         "curio_tag" : "worship",
+         "curio_tag_chance" : 0.25,
+         "keep_loot" : false,
+         "buff_ids" : 
+         [
+			"Messiah_Affliction_ACC_Penalty_10",
+            "Messiah_Affliction_Dodge_Penalty_10",
+			"Messiah_Affliction_SPD_Penalty_2"
+         ],
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", 					"data": { "number_value": 0.0, "string_value": "" }, "chance": 28},
+            { "id": "bark_stress", 				"data": { "number_value": 0.0, "string_value": "BarkStress" }, "chance": 5},
+            { "id": "change_pos", 				"data": { "number_value": 1.0, "string_value": "" }, "chance": 2},
+            { "id": "ignore_command", 			"data": { "number_value": 0.0, "string_value": "" }, "chance": 2},
+            { "id": "random_command", 			"data": { "number_value": 0.0, "string_value": "" }, "chance": 2},
+            { "id": "retreat_from_combat", 		"data": { "number_value": 0.0, "string_value": "" }, "chance": 0, "raid_limit": 0},
+            { "id": "attack_self", 				"data": { "number_value": 0.1,"string_value": "" }, "chance": 0},
+            { "id": "mark_self", 				"data": { "number_value": 0.0, "string_value": "Mark Self" }, "chance": 1},
+            { "id": "consume_item", 			"data": { "number_value": 0.0, "string_value": "" }, "chance": 0}
+         ],
+         "reaction_act_outs":
+         [
+            { "id": "block_move", 							"data":{ "effect": "" }, "chance": 0.15},
+            { "id": "block_heal", 							"data":{ "effect": "" }, "chance": 0.15},
+            { "id": "block_buff", 							"data":{ "effect": "" }, "chance": 0.15},
+            { "id": "block_item",							"data":{ "effect": "" }, "chance": 0.15},
+            { "id": "block_combat_retreat", 				"data":{ "effect": "" }, "chance": 0},
+            { "id": "comment_self_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_self_missed", 					"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_ally_missed", 					"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_hit", 				"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", 			"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_move", 						"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_curio_interaction", 			"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_trap_triggered", 				"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "block_effect", 						"data":{ "effect": "BarkStressHeal" }, "chance": 0},
+            { "id": "block_camping_meal", 					"data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_camping_skill_performer", 		"data":{ "effect": "" }, "chance": 0.33},
+            { "id": "block_camping_skill_target", 			"data":{ "effect": "" }, "chance": 0.33}
+         ]
+      }
+   ]
+}
