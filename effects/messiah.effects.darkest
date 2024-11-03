@@ -14,18 +14,18 @@ effect: .name "MessiahCritAccBuff"    .target "performer_group" .chance 100% .bu
 
 
 //-----------------------Seasoned Arson------------------------------------------------
-effect: .name "ArsonDebuff1"    .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -10% .duration 3 .on_hit true .on_miss false
-effect: .name "ArsonDebuff2"    .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -12% .duration 3 .on_hit true .on_miss false
-effect: .name "ArsonDebuff3"    .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -15% .duration 3 .on_hit true .on_miss false
-effect: .name "ArsonDebuff4"    .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -17% .duration 3 .on_hit true .on_miss false
-effect: .name "ArsonDebuff5"    .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss false
+effect: .name "ArsonDebuff1"    .target "target" .chance 100% .combat_stat_buff 1 .protection_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "ArsonDebuff2"    .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -12% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "ArsonDebuff3"    .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -15% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "ArsonDebuff4"    .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -17% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "ArsonDebuff5"    .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -20% .duration 3 .on_hit true .on_miss false .has_description false
 
 //-----------------------Seasoned Arson Trinket------------------------------------------------
 
 
 
 //-----------------------OneShot----------------------------------------------
-effect: .name "OneShotRecoil" .target "performer" .buff_ids OneshotSelfDMG15 .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true
+effect: .name "OneShotRecoil" .target "performer" .buff_ids OneshotSelfDMG15 .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .has_description false
 effect: .name "OneShot_s0_HP_1" .target "performer" .buff_ids "OneShot_s0_HP_1" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
 effect: .name "OneShot_s0_HP_2" .target "performer" .buff_ids "OneShot_s0_HP_2" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
 effect: .name "OneShot_s0_HP_3" .target "performer" .buff_ids "OneShot_s0_HP_3" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
@@ -41,11 +41,12 @@ effect: .name "niko_s0_changelvl2" .target "performer" .summon_can_spawn_loot fa
 effect: .name "niko_s0_changelvl3" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_D .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
 effect: .name "niko_s0_changelvl4" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_E .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
 effect: .name "niko_s0_changelvl5" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_F .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .on_hit true .on_miss true
-effect: .name "niko_oneshotbuff_1" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.04 .damage_low_multiply 0.04 .crit_chance_add 0.01 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
-effect: .name "niko_oneshotbuff_2" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.05 .damage_low_multiply 0.05 .crit_chance_add 0.015 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
-effect: .name "niko_oneshotbuff_3" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.06 .damage_low_multiply 0.06 .crit_chance_add 0.02 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
-effect: .name "niko_oneshotbuff_4" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.07 .damage_low_multiply 0.07 .crit_chance_add 0.025 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
-effect: .name "niko_oneshotbuff_5" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .combat_stat_buff 1 .damage_high_multiply 0.08 .damage_low_multiply 0.08 .crit_chance_add 0.03 .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+
+effect: .name "niko_oneshotbuff_1" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .buff_ids "OneShotKillDmgHigh1" "OneShotKillDmgLow1" .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_2" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .buff_ids "OneShotKillDmgHigh2" "OneShotKillDmgLow2" .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_3" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .buff_ids "OneShotKillDmgHigh3" "OneShotKillDmgLow3" .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_4" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .buff_ids "OneShotKillDmgHigh4" "OneShotKillDmgLow4" .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
+effect: .name "niko_oneshotbuff_5" .target "target" .chance 5000% .spawn_target_actor_base_class_id messiah .buff_ids "OneShotKillDmgHigh5" "OneShotKillDmgLow5" .duration 1 .buff_duration_type quest_end .on_hit true .on_miss false .buff_source_type bsrc_flashback_result
 
 //-----------------------Soothing Sunlight------------------------------------------------
 effect: .name "SunlightHeal1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true 
@@ -54,12 +55,11 @@ effect: .name "SunlightHeal3" .target "target" .chance 100% .dotHpHeal 2 .durati
 effect: .name "SunlightHeal4" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true 
 effect: .name "SunlightHeal5" .target "target" .chance 100% .dotHpHeal 2 .duration 4 .on_hit true .on_miss true 
 
-effect: .name "SunlightStressBuff1" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes1" .on_hit true .on_miss true .queue true
-effect: .name "SunlightStressBuff2" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes2" .on_hit true .on_miss true .queue true
-effect: .name "SunlightStressBuff3" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes3" .on_hit true .on_miss true .queue true
-effect: .name "SunlightStressBuff4" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes4" .on_hit true .on_miss true .queue true
-effect: .name "SunlightStressBuff5" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes5" .on_hit true .on_miss true .queue true
-
+effect: .name "SunlightStressBuff1" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes1" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightStressBuff2" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightStressBuff3" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes3" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightStressBuff4" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes4" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightStressBuff5" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes5" .on_hit true .on_miss true .queue true .has_description false
 
 
 
@@ -67,26 +67,26 @@ effect: .name "SunlightStressBuff5" .target "target"  .chance 100% .duration 3 .
 
 
 //-----------------------Blinding Rays------------------------------------------------
-effect: .name "BlindingRaysDebuff1" .target "target" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10% .speed_rating_add -2	.on_hit true .on_miss false
-effect: .name "BlindingRaysDebuff2" .target "target" .chance 110% .duration 2 .combat_stat_buff 1 .attack_rating_add -12% .speed_rating_add -3	.on_hit true .on_miss false
-effect: .name "BlindingRaysDebuff3" .target "target" .chance 120% .duration 2 .combat_stat_buff 1 .attack_rating_add -14% .speed_rating_add -3	.on_hit true .on_miss false
-effect: .name "BlindingRaysDebuff4" .target "target" .chance 130% .duration 2 .combat_stat_buff 1 .attack_rating_add -16% .speed_rating_add -4	.on_hit true .on_miss false
-effect: .name "BlindingRaysDebuff5" .target "target" .chance 140% .duration 2 .combat_stat_buff 1 .attack_rating_add -18% .speed_rating_add -4	.on_hit true .on_miss false
+effect: .name "BlindingRaysDebuff1" .target "target" .chance 100% .duration 2 .combat_stat_buff 1 .attack_rating_add -10% .speed_rating_add -2	.on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysDebuff2" .target "target" .chance 110% .duration 2 .combat_stat_buff 1 .attack_rating_add -11% .speed_rating_add -3	.on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysDebuff3" .target "target" .chance 120% .duration 2 .combat_stat_buff 1 .attack_rating_add -12% .speed_rating_add -3	.on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysDebuff4" .target "target" .chance 130% .duration 2 .combat_stat_buff 1 .attack_rating_add -13% .speed_rating_add -4	.on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysDebuff5" .target "target" .chance 140% .duration 2 .combat_stat_buff 1 .attack_rating_add -15% .speed_rating_add -4	.on_hit true .on_miss false .has_description false
 
 
 //-----------------------Show of Faith------------------------------------------------
 
-effect: .name "FaithPartyBuff1" .target "target"  .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add 5% .protection_rating_add 5%	.on_hit true .on_miss true .apply_once false    .queue false
-effect: .name "FaithPartyBuff2" .target "target"  .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add 7% .protection_rating_add 7%	.on_hit true .on_miss true .apply_once false    .queue false
-effect: .name "FaithPartyBuff3" .target "target"  .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add 8% .protection_rating_add 10%	.on_hit true .on_miss true .apply_once false    .queue false
-effect: .name "FaithPartyBuff4" .target "target"  .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add 10% .protection_rating_add 12%	.on_hit true .on_miss true .apply_once false    .queue false
-effect: .name "FaithPartyBuff5" .target "target"  .chance 100% .duration 3  .combat_stat_buff 1 .attack_rating_add 12% .protection_rating_add 15%	.on_hit true .on_miss true .apply_once false    .queue false
+effect: .name "FaithPartyBuff1" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .protection_rating_add 5% .duration 1 .buff_duration_type combat_end   .on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff2" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .protection_rating_add 7% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff3" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .protection_rating_add 10% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff4" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .protection_rating_add 12% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff5" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .protection_rating_add 15% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
 
-effect: .name "FaithStressBuff1" .target "performer"  .chance 100% .duration 4 .buff_ids "ShowOfFaithStressRes1" .on_hit true .on_miss true .queue true
-effect: .name "FaithStressBuff2" .target "performer"  .chance 100% .duration 4 .buff_ids "ShowOfFaithStressRes2" .on_hit true .on_miss true .queue true
-effect: .name "FaithStressBuff3" .target "performer"  .chance 100% .duration 4 .buff_ids "ShowOfFaithStressRes3" .on_hit true .on_miss true .queue true
-effect: .name "FaithStressBuff4" .target "performer"  .chance 100% .duration 4 .buff_ids "ShowOfFaithStressRes4" .on_hit true .on_miss true .queue true
-effect: .name "FaithStressBuff5" .target "performer"  .chance 100% .duration 4 .buff_ids "ShowOfFaithStressRes5" .on_hit true .on_miss true .queue true
+effect: .name "FaithStressBuff1" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
+effect: .name "FaithStressBuff2" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
+effect: .name "FaithStressBuff3" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
+effect: .name "FaithStressBuff4" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes4" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
+effect: .name "FaithStressBuff5" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes5" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
 
 
 effect: .name "FaithFakeBleed" .target "target" .chance 0%  .dotBleed 1 .duration 1 .on_hit false .on_miss false .can_apply_on_death true .has_description false
@@ -109,17 +109,17 @@ effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 6
 
 //-----------------------Sunset------------------------------------------------
 
-effect: .name "SunsetSpdBuff1" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 2 	.on_hit true .on_miss true .apply_once true    .queue true
-effect: .name "SunsetSpdBuff2" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 3 	.on_hit true .on_miss true .apply_once true    .queue true
-effect: .name "SunsetSpdBuff3" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 4 	.on_hit true .on_miss true .apply_once true    .queue true
-effect: .name "SunsetSpdBuff4" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 5 	.on_hit true .on_miss true .apply_once true    .queue true
-effect: .name "SunsetSpdBuff5" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 6 	.on_hit true .on_miss true .apply_once true    .queue true
+effect: .name "SunsetSpdBuff1" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 2 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
+effect: .name "SunsetSpdBuff2" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 3 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
+effect: .name "SunsetSpdBuff3" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 4 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
+effect: .name "SunsetSpdBuff4" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 5 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
+effect: .name "SunsetSpdBuff5" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 6 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
 
-effect: .name "SunsetDebuffChanceBuff1" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance1" .on_hit true .on_miss true .queue true
-effect: .name "SunsetDebuffChanceBuff2" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance2" .on_hit true .on_miss true .queue true
-effect: .name "SunsetDebuffChanceBuff3" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance3" .on_hit true .on_miss true .queue true
-effect: .name "SunsetDebuffChanceBuff4" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance4" .on_hit true .on_miss true .queue true
-effect: .name "SunsetDebuffChanceBuff5" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance5" .on_hit true .on_miss true .queue true
+effect: .name "SunsetDebuffChanceBuff1" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance1" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunsetDebuffChanceBuff2" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunsetDebuffChanceBuff3" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance3" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunsetDebuffChanceBuff4" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance4" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunsetDebuffChanceBuff5" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance5" .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat_stat_buff 1 .crit_chance_add 100 	.on_hit true .on_miss true .apply_once true   .queue true .has_description false
 
@@ -128,13 +128,13 @@ effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat
 
 //-----------------------Trinkets------------------------------------------------
 
-effect: .name "CrowbarCritRecDBF" .target "target" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true
+effect: .name "CrowbarCritRecDBF" .target "target" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false
+effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
 //-----------------------To be removed later------------------------------------------------
 
-effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal 0 .on_hit true .on_miss false .has_description false
+effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal 0 .on_hit true .on_miss true .has_description false 
 
 //-----------------------Virtue and Affliction Stuff------------------------------------------------
 
@@ -148,7 +148,7 @@ effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.st
 
 effect: .name "BlindingRaysStun" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false
 
-effect: .name "SunlightDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
+effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
 
 
 effect: .name "OneShotKillBuff1" .target "performer" .buff_ids oneshot_self_dmg .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
@@ -156,4 +156,3 @@ effect: .name "OneShotKillBuff2" .target "performer" .buff_ids oneshot_self_dmg 
 effect: .name "OneShotKillBuff3" .target "performer" .buff_ids oneshot_self_dmg .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
 effect: .name "OneShotKillBuff4" .target "performer" .buff_ids oneshot_self_dmg .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
 effect: .name "OneShotKillBuff5" .target "performer" .buff_ids oneshot_self_dmg .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
-
