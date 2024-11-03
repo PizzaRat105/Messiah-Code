@@ -404,6 +404,170 @@
 				"string" : ""
 			}
 		},
+		
+		{
+
+			"id" : "OneShotKillDmgHigh1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.04,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgLow1",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.04,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgHigh2",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgLow2",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+
+
+{
+
+			"id" : "OneShotKillDmgHigh3",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgLow3",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+
+
+{
+
+			"id" : "OneShotKillDmgHigh4",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgLow4",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+
+
+{
+
+			"id" : "OneShotKillDmgHigh5",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "OneShotKillDmgLow5",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+
 
 		{
 
@@ -506,5 +670,4 @@
 	 
 
 } 
-
 
