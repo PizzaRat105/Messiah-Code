@@ -130,10 +130,648 @@
 				"string" : ""
 			}
 		},
+		
+		{
 
+			"id" : "Seasoned_Arson_Debuff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
 		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
 		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
 		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+				{
+
+			"id" : "Blinding_Rays_Debuff_TT_1b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_1b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_2b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_2b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_3b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_3b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_4b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_4b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Blinding_Rays_Debuff_TT_5b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_5b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Buff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Buff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Buff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Buff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Soothing_Sunlight_Buff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Party_Buff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Party_Buff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Party_Buff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Party_Buff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Party_Buff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Party_Buff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Party_Buff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Party_Buff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Party_Buff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Party_Buff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Self_Buff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Self_Buff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Self_Buff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Self_Buff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Show_of_Faith_Self_Buff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_1a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_1a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_2a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_2a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_3a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_3a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_4a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_4a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_5a",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_5a",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+				{
+
+			"id" : "Sunset_Buff_TT_1b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_1b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_2b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_2b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_3b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_3b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_4b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_4b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sunset_Buff_TT_5b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Sunset_Buff_TT_5b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+
 		{
 
 			"id" : "MessiahSunsetCritTooltip",
@@ -150,11 +788,154 @@
 			}
 		},
 		
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillTooltip",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillTooltip",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+
+		
+		
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillDmgTooltip1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillDmgTooltip1",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillDmgTooltip2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillDmgTooltip2",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillDmgTooltip3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillDmgTooltip3",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillDmgTooltip4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillDmgTooltip4",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
+		
+		{
+
+			"id" : "MessiahOneShotKillDmgTooltip5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_MessiahOneShotKillDmgTooltip5",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+	
+		
+		{
+
+			"id" : "OneShot_Recoil_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_OneShot_Recoil_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
 		{
 
 			"id" : "GasMask_DoT_Reduce_TT",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_GasMask_DoT_Reduce_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Crowbar_Crit_Received_Debuff_5_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Crowbar_Crit_Received_Debuff_5_TT",
 			"amount" : 1,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
@@ -223,6 +1004,22 @@
 			"id" : "ChargedBattery_Add_Stun_TT",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_ChargedBattery_Add_Stun_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+			{
+
+			"id" : "StrangeNoteBook_Virtue_Buff_10_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_StrangeNoteBook_Virtue_Buff_10_TT",
 			"amount" : 1,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
