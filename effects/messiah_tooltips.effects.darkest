@@ -16,8 +16,80 @@ effect: .name "MessiahShowofFaithCDTooltipEffect" .chance 100% .target "performe
 
 
 
+//----------------------Tooltips for Seasoned Arson------------------------------------------------
+effect: .name "Seasoned_Arson_Debuff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Seasoned_Arson_Debuff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Seasoned_Arson_Debuff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Seasoned_Arson_Debuff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Seasoned_Arson_Debuff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Seasoned_Arson_Debuff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Seasoned_Arson_Debuff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Seasoned_Arson_Debuff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Seasoned_Arson_Debuff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Seasoned_Arson_Debuff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+
+//----------------------Tooltips for Blinding Rays------------------------------------------------
+effect: .name "Blinding_Rays_Debuff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+effect: .name "Blinding_Rays_Debuff_TT_1b" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_1b" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_2b" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_2b" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_3b" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_3b" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_4b" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_4b" .duration 1 .on_hit false .on_miss false
+effect: .name "Blinding_Rays_Debuff_TT_5b" .chance 100% .target "performer" .skill_instant true .buff_ids "Blinding_Rays_Debuff_TT_5b" .duration 1 .on_hit false .on_miss false
+
+//----------------------Tooltips for Soothing Sunlight------------------------------------------------
+effect: .name "Soothing_Sunlight_Buff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+//----------------------Tooltips for Show of Faith------------------------------------------------
+effect: .name "Faith_Party_Buff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Party_Buff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Party_Buff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Party_Buff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Party_Buff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+effect: .name "Faith_Self_Buff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Self_Buff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Self_Buff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Self_Buff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Self_Buff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Self_Buff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Self_Buff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Self_Buff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Faith_Self_Buff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Self_Buff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+
+
+
 //----------------------Tooltips for Sunset------------------------------------------------
+effect: .name "Sunset_Buff_TT_1a" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_1a" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_2a" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_2a" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_3a" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_3a" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_4a" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_4a" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_5a" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_5a" .duration 1 .on_hit false .on_miss false
+
+effect: .name "Sunset_Buff_TT_1b" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_1b" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_2b" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_2b" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_3b" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_3b" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_4b" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_4b" .duration 1 .on_hit false .on_miss false
+effect: .name "Sunset_Buff_TT_5b" .chance 100% .target "performer" .skill_instant true .buff_ids "Sunset_Buff_TT_5b" .duration 1 .on_hit false .on_miss false
+
 effect: .name "MessiahSunsetCritTooltipEffect" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahSunsetCritTooltip" .duration 1 .on_hit false .on_miss false
+
+
+//----------------------Tooltips for OneShot------------------------------------------------
+effect: .name "MessiahOneShotKillTooltipEffect" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillTooltip" .duration 1 .on_hit false .on_miss false
+
+effect: .name "OneShot_Recoil_TT" .chance 100% .target "performer" .skill_instant true .buff_ids "OneShot_Recoil_TT" .duration 1 .on_hit false .on_miss false
+
+
+effect: .name "MessiahOneShotKillDmgTooltipEffect1" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillDmgTooltip1" .duration 1 .on_hit false .on_miss false
+effect: .name "MessiahOneShotKillDmgTooltipEffect2" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillDmgTooltip2" .duration 1 .on_hit false .on_miss false
+effect: .name "MessiahOneShotKillDmgTooltipEffect3" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillDmgTooltip3" .duration 1 .on_hit false .on_miss false
+effect: .name "MessiahOneShotKillDmgTooltipEffect4" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillDmgTooltip4" .duration 1 .on_hit false .on_miss false
+effect: .name "MessiahOneShotKillDmgTooltipEffect5" .chance 100% .target "performer" .skill_instant true .buff_ids "MessiahOneShotKillDmgTooltip5" .duration 1 .on_hit false .on_miss false
+
+
+
 
 
 
