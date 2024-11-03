@@ -47,9 +47,8 @@
          "buffs" : 
          [
 			"MedicinalWater_Heal_Received_15",
-			"MedicinalWater_Flat_Heal_3",
-			"MedicinalWater_Flat_Heal_TT",
-			"MedicinalWater_Debuff_Cure_TT"
+			"MedicinalWater_Debuff_Resist_15",
+			"MedicinalWater_Debuff_Skill_Penalty_10"
          ],
          "hero_class_requirements":
          [
@@ -59,7 +58,11 @@
 		 "set_id" : "messiah_uncommon_flavour_set",
          "price" : 10000,
          "limit" : 1,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+		  "friendly_skill_additional_effects":
+		 [
+		     "MedicinalWaterDebuffCure"
+		 ]
       },
 
 	  
@@ -68,7 +71,8 @@
          "buffs" : 
          [
 			"Crowbar_Crit_5",
-			"Crowbar_Crit_Received_5"
+			"Crowbar_Crit_Received_5",
+			"Crowbar_Crit_Received_Debuff_5_TT"
          ],
          "hero_class_requirements":
          [
@@ -165,7 +169,8 @@
          [
 		     "StrangeNotebook_ACC_5",
 			 "StrangeNotebook_Dodge_10",
-			 "StrangeNotebook_Stress_Penalty_25"
+			 "StrangeNotebook_Stress_Penalty_25",
+			 "StrangeNoteBook_Virtue_Buff_10_TT"
          ],
          "hero_class_requirements":
          [
