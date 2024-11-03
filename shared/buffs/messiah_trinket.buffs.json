@@ -178,6 +178,38 @@
 			}
 		},
 		
+		{
+
+			"id" : "MedicinalWater_Debuff_Resist_15",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "debuff",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MedicinalWater_Debuff_Skill_Penalty_10",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
 		
 		{
 
@@ -186,13 +218,13 @@
 			"stat_sub_type" : "",
 			"amount" : 3,
 			"remove_if_not_active" : false,
-			"rule_type" : "skill",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"has_description" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "mes_soothing_sunlight"
+				"string" : ""
 			}
 		},
 		
