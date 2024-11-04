@@ -46,8 +46,7 @@
          "id" : "messiah_uncommon_trinket",
          "buffs" : 
          [
-			"MedicinalWater_Heal_Received_15",
-			"MedicinalWater_Debuff_Resist_15",
+			"MedicinalWater_Restoration_Amount_50",
 			"MedicinalWater_Debuff_Skill_Penalty_10"
          ],
          "hero_class_requirements":
@@ -71,8 +70,9 @@
          "buffs" : 
          [
 			"Crowbar_Crit_5",
-			"Crowbar_Crit_Received_5",
-			"Crowbar_Crit_Received_Debuff_5_TT"
+			"Crowbar_Marked_DMG_High_75",
+			"Crowbar_Marked_DMG_Low_75",
+			"Crowbar_Marked_CRIT_8"
          ],
          "hero_class_requirements":
          [
@@ -82,11 +82,7 @@
 		 "set_id" : "messiah_rare_flavour_set",
          "price" : 15000,
          "limit" : 1,
-         "origin_dungeon" : "",
-		 "attack_skill_additional_effects":
-		 [
-		     "CrowbarCritRecDBF"
-		 ]
+         "origin_dungeon" : ""
       },
 
       {
@@ -132,7 +128,9 @@
          "buffs" : 
          [
 			 "Clover_Spd_2",
-			 "Clover_Restoration_Amount_50"
+			 "Clover_Party_Surprised_25",
+			 "Clover_Trap_Disarm_25"
+			
          ],
          "hero_class_requirements":
          [
