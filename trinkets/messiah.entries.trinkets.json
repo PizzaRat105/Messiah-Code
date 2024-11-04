@@ -70,9 +70,10 @@
          "buffs" : 
          [
 			"Crowbar_Crit_5",
-			"Crowbar_Marked_DMG_High_75",
-			"Crowbar_Marked_DMG_Low_75",
-			"Crowbar_Marked_CRIT_8"
+			"Crowbar_Marked_DMG_High_65",
+			"Crowbar_Marked_DMG_Low_65",
+			"Crowbar_Marked_CRIT_5",
+			"Crowbar_Stress_Penalty_15"
          ],
          "hero_class_requirements":
          [
@@ -88,8 +89,9 @@
       {
          "id" : "messiah_battery_trinket",
          "buffs" : 
-         [
-			 "ChargedBattery_Stun_Resist_Penalty_25",
+         [	 
+			 "ChargedBattery_Torch_Burn_33",
+			 "ChargedBattery_Stun_Resist_Penalty_15",
 			 "ChargedBattery_Remove_Debuff_TT",
 			 "ChargedBattery_Add_Stun_TT"
          ],
@@ -109,7 +111,7 @@
          "buffs" : 
          [
 			 "YellowPhosphor_Scouting_20",
-			 "YellowPhosphor_Torch_Burn_33",
+			 "YellowPhosphor_Trap_Disarm_20",
 			 "YellowPhosphor_Dodge_Penalty_10"
          ],
          "hero_class_requirements":
@@ -128,8 +130,8 @@
          "buffs" : 
          [
 			 "Clover_Spd_2",
-			 "Clover_Party_Surprised_25",
-			 "Clover_Trap_Disarm_25"
+			 "Clover_Party_Surprised_10",
+			 "Clover_Crit_Received_5"
 			
          ],
          "hero_class_requirements":
