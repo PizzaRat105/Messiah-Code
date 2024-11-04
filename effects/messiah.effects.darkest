@@ -103,11 +103,13 @@ effect: .name "BurdenLightStressHeal5" .target "target"  .chance 100% .healstres
 effect: .name "BurdenLightTorchBuff" .target "global" .chance 100% .torch_increase 5	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "BurdenLightHorrorCure" .target "target" .clearDotStress 1 .on_hit true .on_miss true
 
-effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 6	.on_hit true .on_miss false	.queue true
+effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 6 .on_hit true .on_miss false .has_description false
 
 
 
 //-----------------------Sunset------------------------------------------------
+
+effect: .name "niko_stealth_self" .target "performer" .stealth 1 .on_hit true .on_miss false .duration 2 .has_description false
 
 effect: .name "SunsetSpdBuff1" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 2 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
 effect: .name "SunsetSpdBuff2" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .speed_rating_add 3 	.on_hit true .on_miss true .apply_once true    .queue true .has_description false
@@ -129,7 +131,9 @@ effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat
 //-----------------------Trinkets------------------------------------------------
 
 effect: .name "CrowbarCritRecDBF" .target "target" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true .has_description false
-
+effect: .name "messiah_battery_mode_swap" .target "performer" .set_mode messiah_battery .on_hit true .on_miss false .apply_with_result true .has_description false
+effect: .name "messiah_battery_to_normal" .target "performer" .set_mode messiah_normal .on_hit true .on_miss false .queue true .has_description false
+effect: .name "BlindingRaysStun" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .has_description false
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
 //-----------------------To be removed later------------------------------------------------
@@ -146,7 +150,6 @@ effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.st
 
 //-----------------------Unimplemented and is for Iris-------Thank you for carrying my sorry ass----------------------------------------------
 
-effect: .name "BlindingRaysStun" .target "target" .chance 140% .stun 1	.on_hit true .on_miss false
 
 effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
 
