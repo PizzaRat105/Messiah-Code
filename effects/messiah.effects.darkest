@@ -133,7 +133,12 @@ effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat
 effect: .name "CrowbarCritRecDBF" .target "target" .chance 140% .duration 3 .buff_ids "Crowbar_Crit_Received_5" .on_hit true .on_miss false .queue true .has_description false
 effect: .name "messiah_battery_mode_swap" .target "performer" .set_mode messiah_battery .on_hit true .on_miss false .apply_with_result true .has_description false
 effect: .name "messiah_battery_to_normal" .target "performer" .set_mode messiah_normal .on_hit true .on_miss false .queue true .has_description false
-effect: .name "BlindingRaysStun" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysStun1" .target "target" .chance 100% .stun 1 .on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysStun2" .target "target" .chance 110% .stun 1 .on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysStun3" .target "target" .chance 120% .stun 1 .on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysStun4" .target "target" .chance 130% .stun 1 .on_hit true .on_miss false .has_description false
+effect: .name "BlindingRaysStun5" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .has_description false
+
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
 //-----------------------To be removed later------------------------------------------------
