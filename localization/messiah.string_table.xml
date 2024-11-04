@@ -13,63 +13,62 @@
 
 	<!-- Custom tooltips for Skills -->
 	
-	
-	
+	<entry id="str_skill_mode_info_messiah_normal"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="str_skill_mode_info_messiah_battery"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+
+	<entry id="buff_rule_data_tooltip_messiah_torch"><![CDATA[{colour_start|messiah_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_rule_tooltip_torch_setting"><![CDATA[%s %s]]></entry>
+
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_1a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-10%% PROT (3 rds){colour_start|skill_unselectable} (100%% base){colour_end}]]></entry>
-	
-		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_2a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-12%% PROT (3 rds){colour_start|skill_unselectable} (110%% base){colour_end}]]></entry>
-	
-		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_3a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-15%% PROT (3 rds){colour_start|skill_unselectable} (120%% base){colour_end}]]></entry>
-	
-		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_4a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-17%% PROT (3 rds){colour_start|skill_unselectable} (130%% base){colour_end}]]></entry>
-	
-		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_5a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-20%% PROT (3 rds){colour_start|skill_unselectable} (140%% base){colour_end}]]></entry>
+     -10%% PROT {colour_start|skill_unselectable}(3 rds) (100%% base){colour_end}  ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_2a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+     -12%% PROT {colour_start|skill_unselectable}(3 rds) (110%% base){colour_end}  ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_3a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+     -15%% PROT {colour_start|skill_unselectable}(3 rds) (120%% base){colour_end}  ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_4a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+     -17%% PROT {colour_start|skill_unselectable}(3 rds) (130%% base){colour_end}  ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Seasoned_Arson_Debuff_TT_5a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+     -20%% PROT {colour_start|skill_unselectable}(3 rds) (140%% base){colour_end}  ]]></entry>
 	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_1a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-10 ACC (2 rds){colour_start|skill_unselectable} (100%% base){colour_end}]]></entry>
+	-10 ACC {colour_start|skill_unselectable}(2 rds) (100%% base){colour_end}]]></entry>
 	
 	
 		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_2a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-11 ACC (2 rds){colour_start|skill_unselectable} (110%% base){colour_end}]]></entry>
+	-11 ACC {colour_start|skill_unselectable}(2 rds) (110%% base){colour_end}]]></entry>
 	
 		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_3a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-12 ACC (2 rds){colour_start|skill_unselectable} (120%% base){colour_end}]]></entry>
+	-12 ACC {colour_start|skill_unselectable}(2 rds) (120%% base){colour_end}]]></entry>
 	
 		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_4a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-13 ACC (2 rds){colour_start|skill_unselectable} (130%% base){colour_end}]]></entry>
+	-13 ACC {colour_start|skill_unselectable}(2 rds) (130%% base){colour_end}]]></entry>
 	
 		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_5a"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-15 ACC (2 rds){colour_start|skill_unselectable} (140%% base){colour_end}]]></entry>
+	-15 ACC {colour_start|skill_unselectable}(2 rds) (140%% base){colour_end}]]></entry>
 	
 	
 	
 	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_1b"><![CDATA[-2 SPD (2 rds){colour_start|skill_unselectable} (100%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_1b"><![CDATA[   -2 SPD {colour_start|skill_unselectable}(2 rds) (100%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_2b"><![CDATA[-3 SPD (2 rds){colour_start|skill_unselectable} (110%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_2b"><![CDATA[   -3 SPD {colour_start|skill_unselectable}(2 rds) (110%% base){colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_3b"><![CDATA[-3 SPD (2 rds){colour_start|skill_unselectable} (120%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_3b"><![CDATA[   -3 SPD {colour_start|skill_unselectable}(2 rds) (120%% base){colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_4b"><![CDATA[-4 SPD (2 rds){colour_start|skill_unselectable} (130%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_4b"><![CDATA[   -4 SPD {colour_start|skill_unselectable}(2 rds) (130%% base){colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_5b"><![CDATA[-4 SPD (2 rds){colour_start|skill_unselectable} (140%% base){colour_end}]]></entry>
-	
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Blinding_Rays_Debuff_TT_5b"><![CDATA[   -4 SPD {colour_start|skill_unselectable}(2 rds) (140%% base){colour_end}]]></entry>
 	
 	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahOneShotKillTooltip"><![CDATA[On Monster Kill: 
-	{colour_start|buff}Buff Self:{colour_end}]]></entry>
+	
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahOneShotKillTooltip"><![CDATA[{colour_start|buff}Buff Self on Monster Kill:{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_OneShot_Recoil_TT"><![CDATA[{colour_start|debuff}Debuff Self:{colour_end}
-	+15%% DMG Taken (1 battle)]]></entry>
+  +15%% DMG Taken (1 battle) ]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahOneShotKillCritTooltip1"><![CDATA[OneShot: +1%% CRIT (Quest Long)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahOneShotKillDmgTooltip1"><![CDATA[OneShot: +4%% DMG (Quest Long)]]></entry>
@@ -88,19 +87,19 @@
 	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_1a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	-10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_2a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	-12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_3a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	-15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_4a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	-17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	-20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahShowofFaithCDTooltip"><![CDATA[Cooldown: 1 rd]]></entry>
@@ -126,21 +125,24 @@
 	+15%% PROT (1 battle)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Show_of_Faith_Self_Buff_TT_1a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	-10%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
+	   -10%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Show_of_Faith_Self_Buff_TT_2a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	-12%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
+	   -12%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Show_of_Faith_Self_Buff_TT_3a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	-15%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
+	   -15%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Show_of_Faith_Self_Buff_TT_4a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	-17%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
+	   -17%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Show_of_Faith_Self_Buff_TT_5a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
-	-20%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
+	   -20%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 
+	<entry id="buff_stat_tooltip_upgrade_discount_Burden_Stress_TT_1"><![CDATA[Self:
+    {colour_start|stress}Stress{colour_end} +6]]></entry>
 
+    <entry id="buff_stat_tooltip_upgrade_discount_Sunset_Stealth_TT"><![CDATA[{colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(2 rds){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Sunset_Buff_TT_1a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
 	+2 SPD (3 rds)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Sunset_Buff_TT_1b"><![CDATA[+10%% {colour_start|debuff}Debuff{colour_end} Skill Chance (3 rds)]]></entry>
@@ -161,7 +163,7 @@
 	+6 SPD (3 rds)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Sunset_Buff_TT_5b"><![CDATA[+20%% {colour_start|debuff}Debuff{colour_end} Skill Chance (3 rds)]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahSunsetCritTooltip"><![CDATA[Next Round: Guarenteed CRIT]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahSunsetCritTooltip"><![CDATA[   Next Round: Guaranteed CRIT]]></entry>
 	
 
 

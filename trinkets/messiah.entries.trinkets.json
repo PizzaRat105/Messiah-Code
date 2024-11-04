@@ -105,7 +105,12 @@
 		 "set_id" : "messiah_battery_flavour_set",
          "price" : 25000,
          "limit" : 1,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+         [
+             "messiah_battery_mode_swap",
+             "messiah_battery_to_normal"
+         ]
       },
 	  
 	  {

@@ -117,6 +117,22 @@
 		
 		{
 
+			"id" : "Sunset_Stealth_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Sunset_Stealth_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+
+		{
+
 			"id" : "Sunset_Skill_TT",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_Sunset_Skill_TT",
@@ -138,12 +154,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_1a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -154,12 +170,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_2a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -170,12 +186,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_3a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -186,12 +202,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_4a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -202,12 +218,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_5a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -299,12 +315,12 @@
 			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_1b",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -315,12 +331,12 @@
 			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_2b",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -331,12 +347,12 @@
 			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_3b",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -347,12 +363,12 @@
 			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_4b",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -363,12 +379,12 @@
 			"stat_sub_type" : "Loc_Blinding_Rays_Debuff_TT_5b",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -379,12 +395,12 @@
 			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_1a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -395,12 +411,12 @@
 			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_2a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -411,12 +427,12 @@
 			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_3a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -427,12 +443,12 @@
 			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_4a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -443,12 +459,12 @@
 			"stat_sub_type" : "Loc_Soothing_Sunlight_Buff_TT_5a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -539,12 +555,12 @@
 			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_1a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -555,12 +571,12 @@
 			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_2a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -571,12 +587,12 @@
 			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_3a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -587,12 +603,12 @@
 			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_4a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -603,15 +619,31 @@
 			"stat_sub_type" : "Loc_Show_of_Faith_Self_Buff_TT_5a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
+		{
+
+			"id" : "Burden_Stress_TT_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Burden_Stress_TT_1",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+
 		{
 
 			"id" : "Sunset_Buff_TT_1a",
@@ -779,12 +811,12 @@
 			"stat_sub_type" : "Loc_MessiahSunsetCritTooltip",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
@@ -906,12 +938,12 @@
 			"stat_sub_type" : "Loc_OneShot_Recoil_TT",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "torch_setting",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "messiah_torch"
 			}
 		},
 		
