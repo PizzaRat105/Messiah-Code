@@ -148,17 +148,49 @@
 		
 		{
 
-			"id" : "Crowbar_Crit_Received_5",
-			"stat_type" : "crit_received_chance",
-			"stat_sub_type" : "",
-			"amount" : 0.05,
+			"id" : "Crowbar_Marked_DMG_High_75",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.75,
 			"remove_if_not_active" : false,
-			"rule_type" : "always",
+			"rule_type" : "actorStatus",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : ""
+				"string" : "tagged"
+			}
+		},
+		
+		{
+
+			"id" : "Crowbar_Marked_DMG_Low_75",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.75,
+			"remove_if_not_active" : false,
+			"rule_type" : "actorStatus",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "tagged"
+			}
+		},
+		
+		{
+
+			"id" : "Crowbar_Marked_CRIT_8",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.08,
+			"remove_if_not_active" : false,
+			"rule_type" : "actorStatus",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "tagged"
 			}
 		},
 		
@@ -221,6 +253,22 @@
 			"rule_type" : "always",
 			"is_false_rule" : false,
 			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MedicinalWater_Restoration_Amount_50",
+			"stat_type" : "hp_heal_dot_amount_percent",
+			"stat_sub_type" : "",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
@@ -310,10 +358,10 @@
 		
 		{
 
-			"id" : "Clover_Restoration_Amount_50",
-			"stat_type" : "hp_heal_dot_amount_percent",
+			"id" : "Clover_Party_Surprised_25",
+			"stat_type" : "party_surprise_chance",
 			"stat_sub_type" : "",
-			"amount" : 0.50,
+			"amount" : -0.25,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -323,6 +371,24 @@
 				"string" : ""
 			}
 		},
+		
+		{
+
+			"id" : "Clover_Trap_Disarm_25",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "trap",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+
 		
 		{
 
@@ -374,10 +440,10 @@
 		
 		{
 
-			"id" : "MessiahCCSet_Stealth_DMG_HIGH_30",
+			"id" : "MessiahCCSet_Stealth_DMG_HIGH_20",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_high",
-			"amount" : 0.3,
+			"amount" : 0.2,
 			"remove_if_not_active" : false,
 			"rule_type" : "is_stealthed",
 			"is_false_rule" : false,
@@ -389,10 +455,10 @@
 		},
 		{
 
-			"id" : "MessiahCCSet_Stealth_DMG_LOW_30",
+			"id" : "MessiahCCSet_Stealth_DMG_LOW_20",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_low",
-			"amount" : 0.3,
+			"amount" : 0.2,
 			"remove_if_not_active" : false,
 			"rule_type" : "is_stealthed",
 			"is_false_rule" : false,
