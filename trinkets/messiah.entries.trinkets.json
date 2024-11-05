@@ -69,11 +69,10 @@
          "id" : "messiah_rare_trinket",
          "buffs" : 
          [
-			"Crowbar_Crit_5",
-			"Crowbar_Marked_DMG_High_65",
-			"Crowbar_Marked_DMG_Low_65",
-			"Crowbar_Marked_CRIT_5",
-			"Crowbar_Stress_Penalty_15"
+			"Crowbar_Debuff_Chance_20",
+			"Crowbar_DMG_High_15",
+			"Crowbar_DMG_Low_15",
+			"Crowbar_Stress_Penalty_25"
          ],
          "hero_class_requirements":
          [
@@ -174,7 +173,6 @@
          [
 		     "StrangeNotebook_ACC_5",
 			 "StrangeNotebook_Dodge_10",
-			 "StrangeNotebook_Stress_Penalty_25",
 			 "StrangeNoteBook_Virtue_Buff_10_TT"
          ],
          "hero_class_requirements":
