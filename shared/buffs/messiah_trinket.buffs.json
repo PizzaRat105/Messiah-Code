@@ -536,13 +536,82 @@
 		
 		{
 
-			"id" : "StrangeNotebook_Dodge_10",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "defense_rating",
-			"amount" : 0.1,
+			"id" : "StrangeNoteBook_Debuff_Chance_20",
+			"stat_type" : "debuff_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Blight_Chance_20",
+			"stat_type" : "poison_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Bleed_Chance_20",
+			"stat_type" : "bleed_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Stun_Chance_20",
+			"stat_type" : "stun_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Move_Chance_20",
+			"stat_type" : "move_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
@@ -552,10 +621,10 @@
 		
 		
 		{
-			"id" : "StrangeNotebook_Stress_Penalty_25",
-			"stat_type" : "stress_dmg_received_percent",
-			"stat_sub_type" : "",
-			"amount" : 0.25,
+			"id" : "StrangeNotebook_Damage_High_Penalty_40",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : -0.40,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -565,6 +634,53 @@
 				"string" : ""
 			}
 		},
+
+
+		{
+			"id" : "StrangeNotebook_Damage_Low_Penalty_40",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : -0.40,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "StrangeNotebook_Crit_Penalty_10",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "StrangeNotebook_Max_HP_Penalty_15",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : -0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
 		
 		{
 
