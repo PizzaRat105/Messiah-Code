@@ -171,9 +171,17 @@
          "id" : "messiah_com_trinket",
          "buffs" : 
          [
-		     "StrangeNotebook_ACC_5",
-			 "StrangeNotebook_Dodge_10",
-			 "StrangeNoteBook_Virtue_Buff_10_TT"
+			 "StrangeNoteBook_All_Skill_Chance_20_TT",
+			 "StrangeNoteBook_Debuff_Chance_20",
+			 "StrangeNoteBook_Bleed_Chance_20",
+			 "StrangeNoteBook_Blight_Chance_20",
+			 "StrangeNoteBook_Stun_Chance_20",
+			 "StrangeNoteBook_Move_Chance_20",
+		     "StrangeNotebook_Damage_High_Penalty_40",
+			 "StrangeNotebook_Damage_Low_Penalty_40",
+			 "StrangeNotebook_Crit_Penalty_10",
+			 "StrangeNotebook_Max_HP_Penalty_15",
+			 "StrangeNoteBook_Friendly_Effect_TT"
          ],
          "hero_class_requirements":
          [
@@ -186,7 +194,8 @@
          "origin_dungeon" : "",
 		 "friendly_skill_additional_effects":
 		 [
-		     "NoteBookVirtueBuff10"
+		     "NoteBook_Cure_DOT",
+			 "NoteBook_Heal_3"
 		 ]
       }	  
    ]
