@@ -140,6 +140,8 @@ effect: .name "BlindingRaysStun4" .target "target" .chance 130% .stun 1 .on_hit 
 effect: .name "BlindingRaysStun5" .target "target" .chance 140% .stun 1 .on_hit true .on_miss false .has_description false
 
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
+effect: .name "NoteBook_Cure_DOT" .target "target" .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
+effect: .name "NoteBook_Heal_3" .target "target" .chance 100% .heal 3	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
 //-----------------------To be removed later------------------------------------------------
 
