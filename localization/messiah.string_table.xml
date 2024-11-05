@@ -204,7 +204,13 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Virtue_Buff_10_TT"><![CDATA[On Friendly Skill: 
 	{colour_start|buff}Buff Target:{colour_end} +10%% {colour_start|virtue}Virtue{colour_end} Chance (3 rds)]]></entry>
 
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Friendly_Effect_TT"><![CDATA[On Friendly Skill: 
+	Target Hero:
+	Cure {colour_start|blight}Blight{colour_end}/{colour_start|bleed}Bleed{colour_end}/{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
 
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_All_Skill_Chance_20_TT"><![CDATA[All Skill Chances +20%%]]></entry>
+	
+	
 	
 	
 	
