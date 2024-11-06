@@ -82,11 +82,11 @@ effect: .name "FaithPartyBuff3" .target "target"  .chance 100% .combat_stat_buff
 effect: .name "FaithPartyBuff4" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .protection_rating_add 12% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
 effect: .name "FaithPartyBuff5" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .protection_rating_add 15% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
 
-effect: .name "FaithStressBuff1" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
-effect: .name "FaithStressBuff2" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
-effect: .name "FaithStressBuff3" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
-effect: .name "FaithStressBuff4" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes4" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
-effect: .name "FaithStressBuff5" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes5" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .queue true .has_description false
+effect: .name "FaithStressBuff1" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "FaithStressBuff2" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes2" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "FaithStressBuff3" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes3" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "FaithStressBuff4" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes4" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
+effect: .name "FaithStressBuff5" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes5" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
 
 
 effect: .name "FaithFakeBleed" .target "target" .chance 0%  .dotBleed 1 .duration 1 .on_hit false .on_miss false .can_apply_on_death true .has_description false
@@ -103,7 +103,7 @@ effect: .name "BurdenLightStressHeal5" .target "target"  .chance 100% .healstres
 effect: .name "BurdenLightTorchBuff" .target "global" .chance 100% .torch_increase 5	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "BurdenLightHorrorCure" .target "target" .clearDotStress 1 .on_hit true .on_miss true
 
-effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 6 .on_hit true .on_miss false .has_description false
+effect: .name "BurdenLightSelfStress" .target "performer" .chance 100% .stress 5 .on_hit true .on_miss false .has_description false
 
 
 
