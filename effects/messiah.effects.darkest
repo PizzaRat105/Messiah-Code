@@ -76,10 +76,10 @@ effect: .name "BlindingRaysDebuff5" .target "target" .chance 140% .duration 2 .c
 
 //-----------------------Show of Faith------------------------------------------------
 
-effect: .name "FaithPartyBuff1" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .protection_rating_add 5% .duration 1 .buff_duration_type combat_end   .on_hit true .on_miss true .queue false .has_description false
-effect: .name "FaithPartyBuff2" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .protection_rating_add 7% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
-effect: .name "FaithPartyBuff3" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .protection_rating_add 10% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
-effect: .name "FaithPartyBuff4" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .protection_rating_add 12% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff1" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 5% .protection_rating_add 7% .duration 1 .buff_duration_type combat_end   .on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff2" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 6% .protection_rating_add 9% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff3" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 7% .protection_rating_add 11% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
+effect: .name "FaithPartyBuff4" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 8% .protection_rating_add 13% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
 effect: .name "FaithPartyBuff5" .target "target"  .chance 100% .combat_stat_buff 1 .attack_rating_add 10% .protection_rating_add 15% .duration 1 .buff_duration_type combat_end	.on_hit true .on_miss true .queue false .has_description false
 
 effect: .name "FaithStressBuff1" .target "performer"  .chance 100% .buff_ids "ShowOfFaithStressRes1" .duration 1 .buff_duration_type combat_end .on_hit true .on_miss true .apply_once true .queue true .has_description false
