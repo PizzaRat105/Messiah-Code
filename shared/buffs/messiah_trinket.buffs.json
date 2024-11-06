@@ -621,10 +621,10 @@
 		
 		
 		{
-			"id" : "StrangeNotebook_Damage_High_Penalty_40",
+			"id" : "StrangeNotebook_Damage_High_Penalty_50",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_high",
-			"amount" : -0.40,
+			"amount" : -0.50,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -637,10 +637,10 @@
 
 
 		{
-			"id" : "StrangeNotebook_Damage_Low_Penalty_40",
+			"id" : "StrangeNotebook_Damage_Low_Penalty_50",
 			"stat_type" : "combat_stat_multiply",
 			"stat_sub_type" : "damage_low",
-			"amount" : -0.40,
+			"amount" : -0.50,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -680,6 +680,7 @@
 				"string" : ""
 			}
 		},
+		
 		
 		
 		{
