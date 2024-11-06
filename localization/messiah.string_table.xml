@@ -140,7 +140,7 @@
 	   -20%% {colour_start|stress}Stress{colour_end} (1 battle)]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Burden_Stress_TT_1"><![CDATA[Self:
-    {colour_start|stress}Stress{colour_end} +6]]></entry>
+    {colour_start|stress}Stress{colour_end} +5]]></entry>
 
     <entry id="buff_stat_tooltip_upgrade_discount_Sunset_Stealth_TT"><![CDATA[{colour_start|stealth}Stealth{colour_end} {colour_start|skill_unselectable}(2 rds){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Sunset_Buff_TT_1a"><![CDATA[{colour_start|buff}Buff Self:{colour_end}
