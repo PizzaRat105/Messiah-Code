@@ -177,9 +177,8 @@
 			 "StrangeNoteBook_Blight_Chance_20",
 			 "StrangeNoteBook_Stun_Chance_20",
 			 "StrangeNoteBook_Move_Chance_20",
-		     "StrangeNotebook_Damage_High_Penalty_40",
-			 "StrangeNotebook_Damage_Low_Penalty_40",
-			 "StrangeNotebook_Crit_Penalty_10",
+			 "StrangeNotebook_Damage_High_Penalty_50",
+			 "StrangeNotebook_Damage_Low_Penalty_50",
 			 "StrangeNotebook_Max_HP_Penalty_15",
 			 "StrangeNoteBook_Friendly_Effect_TT"
          ],
