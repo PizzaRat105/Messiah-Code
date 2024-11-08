@@ -185,6 +185,16 @@
 	<entry id="str_inventory_set_title_messiah_common_flavour_set_1"><![CDATA["I don't know why adults like to drink this stuff, 
 	alcohol is for setting things on fire!"]]></entry>
 	<entry id="str_inventory_set_title_messiah_common_flavour_set_2"><![CDATA[A mask used to filter air for breathing.]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Flavour_Txt_TT"><![CDATA[{colour_start|set_title}"I don't know why adults like to drink this stuff,{colour_end} 
+	{colour_start|set_title}alcohol is for setting things on fire!"{colour_end}
+	]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_GasMask_Flavour_Txt_TT"><![CDATA[{colour_start|set_title}A mask used to filter air for breathing.{colour_end}
+	]]></entry>
+
+	
+	<entry id="str_inventory_set_title_messiah_common_flavour_set"><![CDATA["Arson is legal and is the only way to get into heaven!"]]></entry>
+
 	<entry id="str_inventory_set_title_messiah_uncommon_flavour_set"><![CDATA[Water that makes plants grow faster.]]></entry>
 	<entry id="str_inventory_set_title_messiah_rare_flavour_set"><![CDATA[Makeshift crowbar made from a pipe.]]></entry>
 	<entry id="str_inventory_set_title_messiah_battery_flavour_set"><![CDATA[A Battery charged with Sunlight.]]></entry>
@@ -192,10 +202,11 @@
 	<entry id="str_inventory_set_title_messiah_cc_flavour_set"><![CDATA[“I’ll never forget them.”]]></entry>
 	<entry id="str_inventory_set_title_messiah_com_flavour_set"><![CDATA[It's written in an unknown language.]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT1"><![CDATA[Seasoned Arson: Additional {colour_start|debuff}Debuff{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT2"><![CDATA[-10 DODGE (3 rds) {colour_start|skill_unselectable}(100%% base +10%% per skill lvl above 1){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT1"><![CDATA[Seasoned Arson:
+	Additional {colour_start|debuff}Debuff:{colour_end} -10 DODGE (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT2"><![CDATA[{colour_start|skill_unselectable}(100%% base +10%% per skill lvl above 1){colour_end}]]></entry>
 
-	
+
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_GasMask_DoT_Reduce_TT"><![CDATA[-33%% DoT Amount Received]]></entry>
 	
