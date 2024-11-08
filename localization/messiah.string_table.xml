@@ -15,6 +15,7 @@
 	
 	<entry id="str_skill_mode_info_messiah_normal"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 	<entry id="str_skill_mode_info_messiah_battery"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
+	<entry id="str_skill_mode_info_messiah_alcohol"><![CDATA[ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​]]></entry>
 
 	<entry id="buff_rule_data_tooltip_messiah_torch"><![CDATA[{colour_start|messiah_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
 	<entry id="buff_rule_tooltip_torch_setting"><![CDATA[%s %s]]></entry>
@@ -181,7 +182,8 @@
 	<entry id="str_inventory_title_trinketmessiah_cc_trinket_2"><![CDATA[Everlasting Memory]]></entry>
 	<entry id="str_inventory_title_trinketmessiah_com_trinket"><![CDATA[Strange Journal]]></entry>
 	
-	<entry id="str_inventory_set_title_messiah_common_flavour_set_1"><![CDATA[Catalyst of Destruction.]]></entry>
+	<entry id="str_inventory_set_title_messiah_common_flavour_set_1"><![CDATA["I don't know why adults like to drink this stuff, 
+	alcohol is for setting things on fire!"]]></entry>
 	<entry id="str_inventory_set_title_messiah_common_flavour_set_2"><![CDATA[A mask used to filter air for breathing.]]></entry>
 	<entry id="str_inventory_set_title_messiah_uncommon_flavour_set"><![CDATA[Water that makes plants grow faster.]]></entry>
 	<entry id="str_inventory_set_title_messiah_rare_flavour_set"><![CDATA[Makeshift crowbar made from a pipe.]]></entry>
@@ -189,6 +191,11 @@
 	<entry id="str_inventory_set_title_messiah_very_rare_flavour_set_2"><![CDATA[An ever glowing trio of items.]]></entry>
 	<entry id="str_inventory_set_title_messiah_cc_flavour_set"><![CDATA[“I’ll never forget them.”]]></entry>
 	<entry id="str_inventory_set_title_messiah_com_flavour_set"><![CDATA[It's written in an unknown language.]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT1"><![CDATA[Seasoned Arson: Additional {colour_start|debuff}Debuff{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Alcohol_Debuff_TT2"><![CDATA[-10 DODGE (3 rds) {colour_start|skill_unselectable}(100%% base +10%% per skill lvl above 1){colour_end}]]></entry>
+
+	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_GasMask_DoT_Reduce_TT"><![CDATA[-33%% DoT Amount Received]]></entry>
 	
@@ -351,9 +358,8 @@
 	<entry id="messiah+str_bark_hp_selflow"><![CDATA[I... need to be stronger, I'm the messiah after all.]]></entry>
 	<entry id="messiah+str_bark_hp_selflow"><![CDATA[Player... I need your help.]]></entry>
 
-	<entry id="messiah+str_bark_hp_selfhigh"><![CDATA[Greased and well-fed. I'm good to go!]]></entry>
-	<entry id="messiah+str_bark_hp_selfhigh"><![CDATA[I'll keep this for a spare part.]]></entry>
-	<entry id="messiah+str_bark_hp_selfhigh"><![CDATA[This herb works really well for slash wounds.]]></entry>
+	<entry id="messiah+str_bark_hp_selfhigh"><![CDATA[I'm ready to go!]]></entry>
+	<entry id="messiah+str_bark_hp_selfhigh"><![CDATA[I'll definitely succeed!]]></entry>
 
 	<entry id="messiah+str_bark_stress_selflow"><![CDATA[*Hums Cheerfully*]]></entry>
 	<entry id="messiah+str_bark_stress_selflow"><![CDATA[I'm not afraid!]]></entry>
@@ -391,7 +397,9 @@
 	<entry id="messiah+str_quest_too_easy"><![CDATA[I think someone else could learn more from this.]]></entry>
 	<entry id="messiah+str_quest_too_easy"><![CDATA[We can't afford to get sidetracked Player!]]></entry>
 
-
+	<entry id="messiah+str_quest_too_hard"><![CDATA[Are you really sure about this Player?]]></entry>
+	<entry id="messiah+str_quest_too_hard"><![CDATA[I don't think I'm strong enough for that Player...]]></entry>
+	<entry id="messiah+str_quest_too_hard"><![CDATA[Player! This is too dangerous!]]></entry>
 
 	<entry id="messiah+str_roster_list_low_stress_bark"><![CDATA[.]]></entry>
 	<entry id="messiah+str_roster_list_low_stress_bark"><![CDATA[Send me out or keep me in. I care not.]]></entry>
@@ -412,25 +420,25 @@
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[This is the cycle. This is my lot.]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[The truth hurts. I am no stranger to it.]]></entry>
 	
-	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Broken body, broken mind.]]></entry>
-	<entry id="messiah+str_disease_treatment_committed"><![CDATA[A bigger needle, please.]]></entry>
-	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Numb me once more.]]></entry>
+	<entry id="messiah+str_disease_treatment_committed"><![CDATA[As long as it makes me feel better...]]></entry>
+	<entry id="messiah+str_disease_treatment_committed"><![CDATA[This place looks kinda scary...]]></entry>
+	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Are you sure about this Player?]]></entry>
 	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Do as you wish. It no longer matters.]]></entry>
 	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Double that dose. I don't sleep naturally.]]></entry>
 	
-	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Another needle. I'm still awake.]]></entry>
-	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[What a wonderful numbing agent.]]></entry>
-	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[A leech? Go right ahead.]]></entry>
+	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Umm... It won't hurt too much right?]]></entry>
+	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Yuck, a leech!]]></entry>
+	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Are you sure that will work on me?]]></entry>
 	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Your methods do not scare me. Do as you please.]]></entry>
 	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Good - I am beginning to lose all feeling.]]></entry>
 	
-	<entry id="messiah+str_treatment_committed"><![CDATA[You cannot fix me.]]></entry>
-	<entry id="messiah+str_treatment_committed"><![CDATA[Strap me down that I may not remember.]]></entry>
-	<entry id="messiah+str_treatment_committed"><![CDATA[A straitjacket? Fitting.]]></entry>
-	<entry id="messiah+str_treatment_committed"><![CDATA[Your methods are cruel, but effective.]]></entry>
+	<entry id="messiah+str_treatment_committed"><![CDATA[As long as it makes me better...]]></entry>
+	<entry id="messiah+str_treatment_committed"><![CDATA[Umm... Why are you strapping me to a chair?]]></entry>
+	<entry id="messiah+str_treatment_committed"><![CDATA[This place looks kinda scary...]]></entry>
+	<entry id="messiah+str_treatment_committed"><![CDATA[Are you sure about this Player?]]></entry>
 	<entry id="messiah+str_treatment_committed"><![CDATA[Make me forget — if you can.]]></entry>
 	
-	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[You do not understand my condition.]]></entry>
+	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[Are you sure that will work on me?]]></entry>
 	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[What has been learned cannot be unlearned.]]></entry>
 	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[I fool myself, pretending I can forget...]]></entry>
 	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[May I have another amnestic?]]></entry>
@@ -443,10 +451,11 @@
 	
 	<entry id="messiah+str_meditation_committed"><![CDATA[*Falls asleep while meditating*]]></entry>
     <entry id="messiah+str_meditation_committed"><![CDATA[Mama told me that this would help clear my head.]]></entry>
+	<entry id="messiah+str_meditation_committed"><![CDATA[Is is easier for you to hear me now Player?]]></entry>
 	
     <entry id="messiah+str_prayer_committed"><![CDATA[Player, can you hear me?]]></entry>
     <entry id="messiah+str_prayer_committed"><![CDATA[Player, how can I get home?]]></entry>
-	
+	<entry id="messiah+str_prayer_committed"><![CDATA[I wonder if everyone here has their own God.]]></entry>
 	
 	
 	
@@ -491,8 +500,8 @@
 	<entry id="messiah+str_bark_stressdot"><![CDATA[Whispers of implication.]]></entry>
 	<entry id="messiah+str_bark_stressdot"><![CDATA[The Abyss, made manifest.]]></entry>
 	
-	<entry id="messiah+str_bark_deathsdoor"><![CDATA[The greatest illusion of all...]]></entry>
-	<entry id="messiah+str_bark_deathsdoor"><![CDATA[Aware of the end, yet unable to stop it...]]></entry>
+	<entry id="messiah+str_bark_deathsdoor"><![CDATA[No, this can't be the end!]]></entry>
+	<entry id="messiah+str_bark_deathsdoor"><![CDATA[Player, Help!]]></entry>
 	<entry id="messiah+str_bark_deathsdoor"><![CDATA[Futility made manifest...]]></entry>
 	
 	<entry id="messiah+str_bark_deathsdoorsurvive"><![CDATA[...Thank you.]]></entry>
@@ -510,7 +519,7 @@
 	<entry id="messiah+str_bark_bigwound_ally"><![CDATA[Steady.]]></entry>
 	<entry id="messiah+str_bark_bigwound_ally"><![CDATA[Careful.]]></entry>
 	
-	<entry id="messiah+str_bark_increasingstress"><![CDATA[...]]></entry>
+	<entry id="messiah+str_bark_increasingstress"><![CDATA[My head is starting to hurt...]]></entry>
 	<entry id="messiah+str_bark_increasingstress"><![CDATA[The cycle continues.]]></entry>
 	<entry id="messiah+str_bark_increasingstress"><![CDATA[Break my mind. Clear my thoughts.]]></entry>
 	<entry id="messiah+str_bark_increasingstress"><![CDATA[This denial cannot last.]]></entry>
@@ -525,11 +534,47 @@
 	<entry id="messiah+str_bark_curiobad"><![CDATA[Player! Are you messing with me?]]></entry>
 	<entry id="messiah+str_bark_curiobad"><![CDATA[*Confused cat noises*]]></entry>
 	<entry id="messiah+str_bark_curiobad"><![CDATA[*Cowers behind a party member*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[Player! Are you messing with me?]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Confused cat noises*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Cowers behind a party member*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[Player! Are you messing with me?]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Confused cat noises*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Cowers behind a party member*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[Player! Are you messing with me?]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Confused cat noises*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Cowers behind a party member*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[Player! Are you messing with me?]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Confused cat noises*]]></entry>
+	<entry id="messiah+str_bark_curiobad"><![CDATA[*Cowers behind a party member*]]></entry>
 	
 	<entry id="messiah+str_bark_curiogood"><![CDATA[Yay! I found something!]]></entry>
 	<entry id="messiah+str_bark_curiogood"><![CDATA[Thanks Player!]]></entry>
 	<entry id="messiah+str_bark_curiogood"><![CDATA[*Satisfied nod* Mhm!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Yay! I found something!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Thanks Player!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[*Satisfied nod* Mhm!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Yay! I found something!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Thanks Player!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[*Satisfied nod* Mhm!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Yay! I found something!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Thanks Player!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[*Satisfied nod* Mhm!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Yay! I found something!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[Thanks Player!]]></entry>
+	<entry id="messiah+str_bark_curiogood"><![CDATA[*Satisfied nod* Mhm!]]></entry>
 	
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[There's nothing here!]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[*disappointed sigh*]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[...]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[There's nothing here!]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[*disappointed sigh*]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[...]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[There's nothing here!]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[*disappointed sigh*]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[...]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[There's nothing here!]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[*disappointed sigh*]]></entry>
+	<entry id="messiah+str_bark_curiomeh"><![CDATA[...]]></entry>
 	<entry id="messiah+str_bark_curiomeh"><![CDATA[There's nothing here!]]></entry>
 	<entry id="messiah+str_bark_curiomeh"><![CDATA[*disappointed sigh*]]></entry>
 	<entry id="messiah+str_bark_curiomeh"><![CDATA[...]]></entry>
@@ -562,6 +607,7 @@
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[Maybe this world isn't worth saving...]]></entry>
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[Player, where are you? I can't hear you!]]></entry>
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[Nobody here is real anyways, why bother?]]></entry>
+	
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[How many were meddled with?]]></entry>
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[His influence is absolute. But I wouldn't exist otherwise...]]></entry>
 	<entry id="messiah+str_afflicted_messiah_affliction_shattered"><![CDATA[Understanding is no blessing.]]></entry>
