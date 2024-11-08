@@ -8,14 +8,15 @@
 		     "AlcoholBottle_Debuff_Skill_Chance_10",
 			 "AlcoholBottle_Move_Resist_Penalty_20",
 			 "Alcohol_Debuff_TT1",
-			 "Alcohol_Debuff_TT2"			 
+			 "Alcohol_Debuff_TT2",
+			 "Alcohol_Flavour_Txt_TT"			 
          ],
          "hero_class_requirements":
          [
             "messiah"
          ],
          "rarity" : "common",
-		 "set_id" : "messiah_common_flavour_set_1",
+		 "set_id" : "messiah_common_flavour_set",
          "price" : 7500,
          "limit" : 1,
          "origin_dungeon" : ""
@@ -28,14 +29,15 @@
 		     "GasMask_Disease_Res_20",
 			 "GasMask_Blight_Res_30",
 			 "GasMask_PROT_5",
-			 "GasMask_Dodge_Penalty_5"
+			 "GasMask_Dodge_Penalty_5",
+			 "GasMask_Flavour_Txt_TT"
          ],
          "hero_class_requirements":
          [
             "messiah"
          ],
          "rarity" : "common",
-		 "set_id" : "messiah_common_flavour_set_1",
+		 "set_id" : "messiah_common_flavour_set",
          "price" : 7500,
          "limit" : 1,
          "origin_dungeon" : ""
