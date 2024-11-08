@@ -143,6 +143,16 @@ effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .
 effect: .name "NoteBook_Cure_DOT" .target "target" .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
 effect: .name "NoteBook_Heal_3" .target "target" .chance 100% .heal 3	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
+
+effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
+
+effect: .name "AlcoholDodgeDebuff1" .target "target" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "AlcoholDodgeDebuff2" .target "target" .chance 110% .combat_stat_buff 1 .defense_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "AlcoholDodgeDebuff3" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "AlcoholDodgeDebuff4" .target "target" .chance 130% .combat_stat_buff 1 .defense_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "AlcoholDodgeDebuff5" .target "target" .chance 140% .combat_stat_buff 1 .defense_rating_add -10% .duration 3 .on_hit true .on_miss false .has_description false
+
+
 //-----------------------To be removed later------------------------------------------------
 
 effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal 0 .on_hit true .on_miss true .has_description false 
@@ -158,7 +168,6 @@ effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.st
 //-----------------------Unimplemented and is for Iris-------Thank you for carrying my sorry ass----------------------------------------------
 
 
-effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
 
 
 effect: .name "OneShotKillBuff1" .target "performer" .buff_ids oneshot_self_dmg .duration 1 .buff_duration_type combat_end .buff_is_clear_debuff_valid false .on_hit true .on_miss true .queue true
