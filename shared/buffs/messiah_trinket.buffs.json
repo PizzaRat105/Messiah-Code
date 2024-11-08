@@ -36,10 +36,10 @@
 		
 		{
 
-			"id" : "AlcoholBottle_Move_Resist_Penalty_10",
+			"id" : "AlcoholBottle_Move_Resist_Penalty_20",
 			"stat_type" : "resistance",
 			"stat_sub_type" : "move",
-			"amount" : -0.1,
+			"amount" : -0.20,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -54,7 +54,23 @@
 			"id" : "GasMask_Disease_Res_20",
 			"stat_type" : "resistance",
 			"stat_sub_type" : "disease",
-			"amount" : 0.2,
+			"amount" : 0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "GasMask_PROT_5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "protection_rating",
+			"amount" : 0.05,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -66,10 +82,10 @@
 		},
 		{
 
-			"id" : "GasMask_Blight_Res_20",
+			"id" : "GasMask_Blight_Res_30",
 			"stat_type" : "resistance",
 			"stat_sub_type" : "poison",
-			"amount" : 0.2,
+			"amount" : 0.30,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -115,10 +131,42 @@
 		
 		{
 
-			"id" : "GasMask_Dodge_Penalty_4",
+			"id" : "GasMask_Dodge_Penalty_5",
 			"stat_type" : "combat_stat_add",
 			"stat_sub_type" : "defense_rating",
-			"amount" : -0.04,
+			"amount" : -0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahCommonSet_Acc_5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.05,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahCommonSet_SPD_1",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : 1,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
