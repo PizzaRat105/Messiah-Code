@@ -949,6 +949,38 @@
 		
 		{
 
+			"id" : "Alcohol_Flavour_Txt_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Alcohol_Flavour_Txt_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "GasMask_Flavour_Txt_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_GasMask_Flavour_Txt_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
 			"id" : "Alcohol_Debuff_TT1",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_Alcohol_Debuff_TT1",
@@ -962,6 +994,8 @@
 				"string" : ""
 			}
 		},
+		
+		
 		
 		{
 
