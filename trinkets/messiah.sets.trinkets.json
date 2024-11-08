@@ -4,7 +4,11 @@
       
 	  {
          "id" : "messiah_common_flavour_set_1",
-         "buffs" : []
+         "buffs" : 
+		 [
+		 "MessiahCommonSet_Acc_5",
+		 "MessiahCommonSet_SPD_1"
+		 ]
       },
 	   {
          "id" : "messiah_common_flavour_set_2",
