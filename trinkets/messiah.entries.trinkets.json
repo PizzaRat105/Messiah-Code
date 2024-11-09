@@ -5,10 +5,9 @@
          "id" : "messiah_common_trinket",
          "buffs" : 
          [	 
+			 "AlcoholBottle_ACC_5",
 		     "AlcoholBottle_Debuff_Skill_Chance_10",
 			 "AlcoholBottle_Move_Resist_Penalty_20",
-			 "Alcohol_Debuff_TT1",
-			 "Alcohol_Debuff_TT2",
 			 "Alcohol_Flavour_Txt_TT"			 
          ],
          "hero_class_requirements":
