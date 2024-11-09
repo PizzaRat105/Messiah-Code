@@ -6,7 +6,8 @@
          "id" : "messiah_common_flavour_set",
          "buffs" : 
 		 [
-		 "MessiahCommonSet_Acc_5",
+		 "MessiahCommonSet_Arson_DMG_HIGH_50",
+		 "MessiahCommonSet_Arson_DMG_LOW_50",
 		 "MessiahCommonSet_SPD_1"
 		 ]
       },
