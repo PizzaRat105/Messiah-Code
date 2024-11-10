@@ -7,7 +7,7 @@
          [	 
 			 "AlcoholBottle_ACC_5",
 		     "AlcoholBottle_Debuff_Skill_Chance_10",
-			 "AlcoholBottle_Move_Resist_Penalty_20",
+			 "AlcoholBottle_Move_Resist_Penalty_10",
 			 "Alcohol_Flavour_Txt_TT"			 
          ],
          "hero_class_requirements":
@@ -69,9 +69,9 @@
          "id" : "messiah_rare_trinket",
          "buffs" : 
          [
-			"Crowbar_Debuff_Chance_20",
 			"Crowbar_DMG_High_15",
 			"Crowbar_DMG_Low_15",
+			"Crowbar_Debuff_Chance_20",
 			"Crowbar_Stress_Penalty_25"
          ],
          "hero_class_requirements":
@@ -134,6 +134,7 @@
          "buffs" : 
          [
 			 "Clover_Spd_2",
+			 "Clover_Dodge_5",
 			 "Clover_Party_Surprised_10",
 			 "Clover_Crit_Received_5"
 			
@@ -164,7 +165,11 @@
 		 "set_id" : "messiah_cc_flavour_set",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
+         "origin_dungeon" : "courtyard",
+         "attack_crit_additional_effects":
+         [
+             "Memory_Crit_Stress_Heal"
+         ]
       },
 
       {
