@@ -141,7 +141,10 @@ effect: .name "BlindingRaysStun5" .target "target" .chance 140% .stun 1 .on_hit 
 
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 effect: .name "NoteBook_Cure_DOT" .target "target" .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
-effect: .name "NoteBook_Heal_3" .target "target" .chance 100% .heal 3	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
+effect: .name "NoteBook_Heal_3" .target "target" .chance 100% .heal 3	.on_hit true .on_miss true .apply_once false    .queue true .has_description false
+
+effect: .name "Memory_Crit_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 2	.on_hit true .on_miss false  .queue true 
+
 
 
 effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
@@ -155,15 +158,16 @@ effect: .name "AlcoholDodgeDebuff5" .target "target" .chance 140% .combat_stat_b
 
 //-----------------------To be removed later------------------------------------------------
 
-effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal 0 .on_hit true .on_miss true .has_description false 
+effect: .name "MedicineWaterPlaceholderHeal" .target "target" .chance 100% .heal 0 .on_hit true .on_miss false .has_description false 
 
 //-----------------------Virtue and Affliction Stuff------------------------------------------------
 
 
-effect: .name "MessiahVirtueActoutStressHeal5" .target "performer_group" .chance 100%	.healstress 5	.on_hit true .on_miss false .queue true
-effect: .name "MessiahVirtueActoutDMGBuff10" .target "performer_group" .chance 100% .duration 3 combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10%	.on_hit true .on_miss true	.queue true
+effect: .name "MessiahVirtueActoutStressHeal5" .target "target" .chance 100%	.healstress 5	.on_hit true .on_miss false .queue true
+effect: .name "MessiahVirtueActoutDMGBuff10" .target "target" .chance 100% .duration 3 combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10%	.on_hit true .on_miss true	.queue true
 
-effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
+
+effect: .name "MessiahAfflictionSelfStress" .target "target" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
 
 //-----------------------Unimplemented and is for Iris-------Thank you for carrying my sorry ass----------------------------------------------
 
