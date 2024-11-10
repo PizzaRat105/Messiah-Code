@@ -36,10 +36,10 @@
 		
 		{
 
-			"id" : "AlcoholBottle_Move_Resist_Penalty_20",
+			"id" : "AlcoholBottle_Move_Resist_Penalty_10",
 			"stat_type" : "resistance",
 			"stat_sub_type" : "move",
-			"amount" : -0.20,
+			"amount" : -0.10,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -459,6 +459,22 @@
 			"stat_type" : "combat_stat_add",
 			"stat_sub_type" : "speed_rating",
 			"amount" : 2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Clover_Dodge_5",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.05,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
