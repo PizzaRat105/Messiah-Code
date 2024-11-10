@@ -167,7 +167,7 @@ effect: .name "MessiahVirtueActoutStressHeal5" .target "target" .chance 100%	.he
 effect: .name "MessiahVirtueActoutDMGBuff10" .target "target" .chance 100% .duration 3 combat_stat_buff 1 .damage_low_multiply 10% .damage_high_multiply 10%	.on_hit true .on_miss true	.queue true
 
 
-effect: .name "MessiahAfflictionSelfStress" .target "target" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
+effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
 
 //-----------------------Unimplemented and is for Iris-------Thank you for carrying my sorry ass----------------------------------------------
 
