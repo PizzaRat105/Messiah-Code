@@ -227,6 +227,86 @@
 			}
 		},
 		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_1b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_1b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_2b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_2b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_3b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_3b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_4b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_4b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+		
+		{
+
+			"id" : "Seasoned_Arson_Debuff_TT_5b",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_5b",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "torch_setting",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "messiah_torch"
+			}
+		},
+		
 
 		{
 
