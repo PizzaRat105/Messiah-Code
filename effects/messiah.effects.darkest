@@ -18,7 +18,7 @@ effect: .name "ArsonDebuff1"    .target "target" .chance 100% .combat_stat_buff 
 effect: .name "ArsonDebuff2"    .target "target" .chance 110% .combat_stat_buff 1 .protection_rating_add -11% .duration 3 .on_hit true .on_miss false .has_description false
 effect: .name "ArsonDebuff3"    .target "target" .chance 120% .combat_stat_buff 1 .protection_rating_add -12% .duration 3 .on_hit true .on_miss false .has_description false
 effect: .name "ArsonDebuff4"    .target "target" .chance 130% .combat_stat_buff 1 .protection_rating_add -13% .duration 3 .on_hit true .on_miss false .has_description false
-effect: .name "ArsonDebuff5"    .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -25% .duration 3 .on_hit true .on_miss false .has_description false
+effect: .name "ArsonDebuff5"    .target "target" .chance 140% .combat_stat_buff 1 .protection_rating_add -15% .duration 3 .on_hit true .on_miss false .has_description false
 
 effect: .name "ArsonCritRecDebuff1" .target "target" .chance 100% .duration 3 .buff_type crit_received_chance .buff_amount 5% .on_hit true .on_miss false .queue true .has_description false
 effect: .name "ArsonCritRecDebuff2" .target "target" .chance 110% .duration 3 .buff_type crit_received_chance .buff_amount 6% .on_hit true .on_miss false .queue true .has_description false
