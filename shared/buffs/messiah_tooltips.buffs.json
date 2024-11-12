@@ -154,12 +154,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_1a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "torch_setting",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "messiah_torch"
+				"string" : ""
 			}
 		},
 		
@@ -170,12 +170,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_2a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "torch_setting",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "messiah_torch"
+				"string" : ""
 			}
 		},
 		
@@ -186,12 +186,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_3a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "torch_setting",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "messiah_torch"
+				"string" : ""
 			}
 		},
 		
@@ -202,12 +202,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_4a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "torch_setting",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "messiah_torch"
+				"string" : ""
 			}
 		},
 		
@@ -218,12 +218,12 @@
 			"stat_sub_type" : "Loc_Seasoned_Arson_Debuff_TT_5a",
 			"amount" : 1,
 			"remove_if_not_active" : false,
-			"rule_type" : "torch_setting",
+			"rule_type" : "always",
 			"is_false_rule" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
-				"string" : "messiah_torch"
+				"string" : ""
 			}
 		},
 		
