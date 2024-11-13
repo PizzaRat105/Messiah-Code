@@ -1,27 +1,38 @@
 {
     "event_guid_overrides":
     [
-        {"event_id": "event:/char/ally/messiah_mes_seasoned_arson",                           "guid_override":"{43a7e970-9122-4d92-a887-ac35b69cb9af}"},
-		{"event_id": "event:/char/ally/messiah_mes_seasoned_arson_miss",                           "guid_override":"{5a8ba237-47c4-4156-8c59-94a653b91192}"},
+        {"event_id": "event:/char/ally/messiah_mes_seasoned_arson_messiah_normal",                           "guid_override":"{43a7e970-9122-4d92-a887-ac35b69cb9af}"},
+		{"event_id": "event:/char/ally/messiah_mes_seasoned_arson_miss_messiah_normal",                           "guid_override":"{5a8ba237-47c4-4156-8c59-94a653b91192}"},
+		{"event_id": "event:/char/ally/messiah_mes_seasoned_arson_messiah_battery",                           "guid_override":"{43a7e970-9122-4d92-a887-ac35b69cb9af}"},
+		{"event_id": "event:/char/ally/messiah_mes_seasoned_arson_miss_messiah_battery",                           "guid_override":"{5a8ba237-47c4-4156-8c59-94a653b91192}"},
 		
-		{"event_id": "event:/char/ally/messiah_mes_oneshot",                           "guid_override":"{35ae996c-58dc-450a-b07d-90556c0cc074}"},
-		{"event_id": "event:/char/ally/messiah_mes_oneshot_miss",                           "guid_override":"{66b5f696-97f1-4ab0-b94c-2bca2fa3b21f}"},
+		{"event_id": "event:/char/ally/messiah_mes_oneshot_messiah_normal",                           "guid_override":"{35ae996c-58dc-450a-b07d-90556c0cc074}"},
+		{"event_id": "event:/char/ally/messiah_mes_oneshot_miss_messiah_normal",                           "guid_override":"{66b5f696-97f1-4ab0-b94c-2bca2fa3b21f}"},
+		{"event_id": "event:/char/ally/messiah_mes_oneshot_messiah_battery",                           "guid_override":"{35ae996c-58dc-450a-b07d-90556c0cc074}"},
+		{"event_id": "event:/char/ally/messiah_mes_oneshot_miss_messiah_battery",                           "guid_override":"{66b5f696-97f1-4ab0-b94c-2bca2fa3b21f}"},
 		
-		{"event_id": "event:/char/ally/messiah_mes_blinding_rays",                           "guid_override":"{634f1e68-e636-410f-8646-24f8b2c03cb0}"},
-		{"event_id": "event:/char/ally/messiah_mes_blinding_rays_miss",                           "guid_override":"{b7f69497-3807-477c-a0c3-56be0d7d401f}"},
+		
+		{"event_id": "event:/char/ally/messiah_mes_blinding_rays_messiah_normal",                           "guid_override":"{634f1e68-e636-410f-8646-24f8b2c03cb0}"},
+		{"event_id": "event:/char/ally/messiah_mes_blinding_rays_miss_messiah_normal",                           "guid_override":"{b7f69497-3807-477c-a0c3-56be0d7d401f}"},
+		{"event_id": "event:/char/ally/messiah_mes_blinding_rays_messiah_battery",                           "guid_override":"{634f1e68-e636-410f-8646-24f8b2c03cb0}"},
+		{"event_id": "event:/char/ally/messiah_mes_blinding_rays_miss_messiah_battery",                           "guid_override":"{b7f69497-3807-477c-a0c3-56be0d7d401f}"},
 		
 		
-		{"event_id": "event:/char/ally/messiah_mes_soothing_sunlight",                           "guid_override":"{230d2faa-a05d-4b9b-ada1-63be7bfbdef9}"},
+		{"event_id": "event:/char/ally/messiah_mes_soothing_sunlight_messiah_normal",                           "guid_override":"{230d2faa-a05d-4b9b-ada1-63be7bfbdef9}"},
+		{"event_id": "event:/char/ally/messiah_mes_soothing_sunlight_messiah_battery",                           "guid_override":"{230d2faa-a05d-4b9b-ada1-63be7bfbdef9}"},
 
-		{"event_id": "event:/char/ally/messiah_mes_show_of_faith",                           "guid_override":"{b7412b55-5f9c-4d00-bda5-41ff832b5b92}"},
+
+		{"event_id": "event:/char/ally/messiah_mes_show_of_faith_messiah_normal",                           "guid_override":"{b7412b55-5f9c-4d00-bda5-41ff832b5b92}"},
+		{"event_id": "event:/char/ally/messiah_mes_show_of_faith_messiah_battery",                           "guid_override":"{b7412b55-5f9c-4d00-bda5-41ff832b5b92}"},
 		
-		{"event_id": "event:/char/ally/messiah_mes_my_burden_is_light",                           "guid_override":"{04bbb68d-5689-4dc5-b8db-fdcb18673993}"},
+		{"event_id": "event:/char/ally/messiah_mes_my_burden_is_light_messiah_normal",                           "guid_override":"{04bbb68d-5689-4dc5-b8db-fdcb18673993}"},
+		{"event_id": "event:/char/ally/messiah_mes_my_burden_is_light_messiah_battery",                           "guid_override":"{04bbb68d-5689-4dc5-b8db-fdcb18673993}"},
 		
-		{"event_id": "event:/char/ally/messiah_mes_sunset",                           "guid_override":"{336422b0-dd96-4077-8b95-e1edabdb7c35}"},
+		{"event_id": "event:/char/ally/messiah_mes_sunset_messiah_normal",                           "guid_override":"{336422b0-dd96-4077-8b95-e1edabdb7c35}"},
+		{"event_id": "event:/char/ally/messiah_mes_sunset_messiah_battery",                           "guid_override":"{336422b0-dd96-4077-8b95-e1edabdb7c35}"},
 
 		{"event_id": "event:/char/enemy/nikooneshots0_vo_aggro", 			"guid_override":"{38ca5488-7642-4aef-b548-d08ad1bf2970}" },
       	{"event_id": "event:/char/enemy/nikooneshots0_vo_death", 			"guid_override":"{1f216e53-3342-4190-aa7c-e403b6952f67}" }
 		
     ]
 }
-
