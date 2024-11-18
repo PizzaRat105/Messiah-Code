@@ -7,8 +7,7 @@
          [	 
 			 "AlcoholBottle_ACC_5",
 		     "AlcoholBottle_Debuff_Skill_Chance_10",
-			 "AlcoholBottle_Move_Resist_Penalty_10",
-			 "Alcohol_Flavour_Txt_TT"			 
+			 "AlcoholBottle_Move_Resist_Penalty_10"
          ],
          "hero_class_requirements":
          [
@@ -28,8 +27,7 @@
 		     "GasMask_Disease_Res_20",
 			 "GasMask_Blight_Res_30",
 			 "GasMask_PROT_5",
-			 "GasMask_Dodge_Penalty_5",
-			 "GasMask_Flavour_Txt_TT"
+			 "GasMask_Dodge_Penalty_5"
          ],
          "hero_class_requirements":
          [
@@ -198,9 +196,36 @@
          "origin_dungeon" : "",
 		 "friendly_skill_additional_effects":
 		 [
-		     "NoteBook_Cure_DOT",
-			 "NoteBook_Heal_3"
+		     "NoteBook_Clear_Stun",
+			 "NoteBook_Heal_2"
 		 ]
-      }	  
+      },
+	  
+	  {
+         "id" : "messiah_sniper_trinket",
+         "buffs" : 
+         [
+			 "Sniper_OneShotFullAP",
+			 "Sniper_OneShot_DMG_High_25",
+			 "Sniper_OneShot_DMG_Low_25",
+			 "Sniper_OneShot_ACC_50",
+			 "Sniper_Crit_Received_10",
+			 "GodRays_Refresh_On_Kill_TT"
+         ],
+         "hero_class_requirements":
+         [
+		     "messiah"
+         ],
+         "rarity" : "comet",
+		 "set_id" : "messiah_sniper_flavour_set",
+         "shard" : 111,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		 [
+		     "OneShotKillRefresh",
+			 "SniperKillBark"
+		 ]
+      }
    ]
 }
