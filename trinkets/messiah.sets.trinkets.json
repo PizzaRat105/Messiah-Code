@@ -50,6 +50,11 @@
 	  {
          "id" : "messiah_com_flavour_set",
          "buffs" : []
+      },
+	  
+	   {
+         "id" : "messiah_sniper_flavour_set",
+         "buffs" : []
       }
 	  
    ]
