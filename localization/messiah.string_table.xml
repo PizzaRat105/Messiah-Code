@@ -360,9 +360,9 @@
 	<entry id="oneshot_bark"><![CDATA[One Shot. One Kill.]]></entry>
 	<entry id="oneshot_bark"><![CDATA[You only have One Shot.]]></entry>
 	
-	<entry id="blinding_rays_bark"><![CDATA[I detest this paradigm.]]></entry>
-	<entry id="blinding_rays_bark"><![CDATA[I detest this paradigm.]]></entry>
-	<entry id="blinding_rays_bark"><![CDATA[I detest this paradigm.]]></entry>
+	<entry id="blinding_rays_bark"><![CDATA[Looking directly at the Sun is bad for you!]]></entry>
+	<entry id="blinding_rays_bark"><![CDATA[Bright enough to light up an entire world!]]></entry>
+	<entry id="blinding_rays_bark"><![CDATA[Player seems to like this attack a lot!]]></entry>
 	
 	<entry id="soothing_sunlight_bark"><![CDATA[Look at the Sun, isn't it soothing?]]></entry>
 	<entry id="soothing_sunlight_bark"><![CDATA[Don't worry, I can heal you!]]></entry>
