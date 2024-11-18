@@ -131,8 +131,19 @@ effect: .name "SunsetDebuffChanceBuff5" .target "performer"  .chance 100% .durat
 
 effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat_stat_buff 1 .crit_chance_add 100 	.on_hit true .on_miss true .apply_once true   .queue true .has_description false
 
+//-----------------------Barks------------------------------------------------
 
+effect: .name "ArsonBark" .target performer .chance 10% .bark arson_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "OneShotBark" .target performer .chance 10% .bark oneshot_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "BlindingRaysBark" .target performer .chance 20% .bark blinding_rays_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "SunlightBark" .target performer .chance 20% .bark soothing_sunlight_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "ShowOfFaithBark" .target performer .chance 20% .bark show_of_faith_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "MyBurdenIsLightBark" .target performer .chance 20% .bark my_burden_is_light_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "SunsetBark" .target performer .chance 20% .bark sunset_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
 
+//-----------------------Trinket On Kill Barks------------------------------------------------
+
+effect: .name "SniperKillBark" .target performer .chance 25% .bark sniper_kill_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 //-----------------------Trinkets------------------------------------------------
 
@@ -147,10 +158,13 @@ effect: .name "BlindingRaysStun5" .target "target" .chance 140% .stun 1 .on_hit 
 
 effect: .name "NoteBookVirtueBuff10" .target "target" .chance 100% .duration 3 .buff_ids "NotebookVirtueChance"	.on_hit true .on_miss true .apply_once false    .queue false .has_description false
 effect: .name "NoteBook_Cure_DOT" .target "target" .chance 100% .cure_bleed 1 .cure_poison 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
-effect: .name "NoteBook_Heal_3" .target "target" .chance 100% .heal 3	.on_hit true .on_miss true .apply_once false    .queue true .has_description false
+effect: .name "NoteBook_Heal_2" .target "target" .chance 100% .heal 2	.on_hit true .on_miss true .apply_once false    .queue true .has_description false
+effect: .name "NoteBook_Clear_Stun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
+
 
 effect: .name "Memory_Crit_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 2	.on_hit true .on_miss false  .queue true 
 
+effect: .name "OneShotKillRefresh" .target "performer" .chance 100% .refreshes_skill_uses true	.on_hit true .on_miss true  .queue true .has_description false
 
 
 effect: .name "MedicinalWaterDebuffCure" .target "target" .clear_debuff 1 .on_hit true .on_miss true
@@ -175,7 +189,7 @@ effect: .name "MessiahVirtueActoutDMGBuff10" .target "target" .chance 100% .dura
 
 effect: .name "MessiahAfflictionSelfStress" .target "performer" .chance 100%	.stress 6	.on_hit true .on_miss false .queue true
 
-//-----------------------Unimplemented and is for Iris-------Thank you for carrying my sorry ass----------------------------------------------
+//-----------------------Unimplemented ----------------------------------------------
 
 
 
