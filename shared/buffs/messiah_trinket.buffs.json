@@ -778,13 +778,92 @@
 		},
 		
 		
-		
 		{
 
 			"id" : "NotebookVirtueChance",
 			"stat_type" : "resolve_check_percent",
 			"stat_sub_type" : "",
 			"amount" : 0.1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Sniper_OneShotFullAP",
+			"stat_type" : "ignore_protection",
+			"stat_sub_type" : "",
+			"amount" : 1.00,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "Sniper_OneShot_DMG_High_25",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_high",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "Sniper_OneShot_DMG_Low_25",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "damage_low",
+			"amount" : 0.25,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "Sniper_OneShot_ACC_50",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.50,
+			"remove_if_not_active" : false,
+			"rule_type" : "skill",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : "mes_oneshot"
+			}
+		},
+		
+		{
+
+			"id" : "Sniper_Crit_Received_10",
+			"stat_type" : "crit_received_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.10,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
