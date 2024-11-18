@@ -59,6 +59,7 @@
             { "id": "block_camping_skill_target", 		"data":{ "effect": "" }, "chance": 0}
          ]
       },
+	  
       {
          "id" : "messiah_affliction_shattered",
          "is_generated": false,
@@ -75,7 +76,7 @@
          "combat_start_turn_act_outs":
          [
             { "id": "nothing", 					"data": { "number_value": 0.0, "string_value": "" }, "chance": 28},
-            { "id": "bark_stress", 				"data": { "number_value": 0.0, "string_value": "BarkStress" }, "chance": 5},
+            { "id": "bark_stress", 				"data": { "number_value": 0.0, "string_value": "MessiahAfflictionSelfStress" }, "chance": 5},
             { "id": "change_pos", 				"data": { "number_value": 1.0, "string_value": "" }, "chance": 2},
             { "id": "ignore_command", 			"data": { "number_value": 0.0, "string_value": "" }, "chance": 2},
             { "id": "random_command", 			"data": { "number_value": 0.0, "string_value": "" }, "chance": 2},
@@ -91,15 +92,15 @@
             { "id": "block_buff", 							"data":{ "effect": "" }, "chance": 0.15},
             { "id": "block_item",							"data":{ "effect": "" }, "chance": 0.15},
             { "id": "block_combat_retreat", 				"data":{ "effect": "" }, "chance": 0},
-            { "id": "comment_self_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_self_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.15},
             { "id": "comment_self_missed", 					"data":{ "effect": "BarkStress" }, "chance": 0},
-            { "id": "comment_ally_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_ally_hit", 					"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.15},
             { "id": "comment_ally_missed", 					"data":{ "effect": "BarkStress" }, "chance": 0},
             { "id": "comment_ally_attack_hit", 				"data":{ "effect": "BarkStress" }, "chance": 0},
-            { "id": "comment_ally_attack_missed", 			"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
-            { "id": "comment_move", 						"data":{ "effect": "BarkStress" }, "chance": 0},
+            { "id": "comment_ally_attack_missed", 			"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.15},
+            { "id": "comment_move", 						"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.15},
             { "id": "comment_curio_interaction", 			"data":{ "effect": "BarkStress" }, "chance": 0},
-            { "id": "comment_trap_triggered", 				"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.25},
+            { "id": "comment_trap_triggered", 				"data":{ "effect": "MessiahAfflictionSelfStress" }, "chance": 0.15},
             { "id": "block_effect", 						"data":{ "effect": "BarkStressHeal" }, "chance": 0},
             { "id": "block_camping_meal", 					"data":{ "effect": "" }, "chance": 0.33},
             { "id": "block_camping_skill_performer", 		"data":{ "effect": "" }, "chance": 0.33},
