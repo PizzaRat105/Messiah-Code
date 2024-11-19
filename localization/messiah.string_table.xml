@@ -243,7 +243,8 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_GodRays_Refresh_On_Kill_TT"><![CDATA[On Monster Kill: {colour_start|buff}Refresh{colour_end} Skill Uses]]></entry>
 
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_GodRays_Guard_Block_TT"><![CDATA[Cannot be {colour_start|guard}Guarded{colour_end}]]></entry>
+
 	<!-- Hero Name/Skill/Equipment Name Strings -->
 	<entry id="hero_class_name_messiah"><![CDATA[Messiah]]></entry>
 
@@ -305,7 +306,7 @@
 	<entry id="party_name_77788113"><![CDATA[Confused Cat Noises]]></entry>
 	
 	<!-- Verbose Strings for Guild/Blacksmith/Camping Trainer -->
-	<entry id="action_verbose_body_guild_messiah"><![CDATA[Hailing from another world, the Messiah continues their duty to restore light to the realm. Despite being a child, the Messiah offers bottomless utility with their many supportative skills. There is no time for hesitation, they have only One Shot!]]></entry>
+	<entry id="action_verbose_body_guild_messiah"><![CDATA[Hailing from another world, the Messiah continues their duty to restore light to the realm. Despite being a child, the Messiah offers bottomless utility with their many skills they can use to support their companions. There is no time for hesitation, they have only One Shot!]]></entry>
     <entry id="action_verbose_body_blacksmith_messiah"><![CDATA[The Messiah wears a brown overcoat and scarf alongside a hat with catlike ears. While this garb doesn't provide much protection, the Messiah utilizes divine guidance during expeditions to avoid danger. The lightbulb they carry is a powerful artifact, capable of illuminating entire worlds, which the Messiah wields to support their allies and ward off evil.]]></entry>
     <entry id="action_verbose_body_camping_trainer_messiah"><![CDATA[During camp, the Messiah uses methods they learned during their first venture into another world, providing guidance for their companions, as well as happily sharing their favorite dish. The lightbulb they carry illuminates the campsite, discouraging all evil from approaching the resting heroes.]]></entry>
 	
@@ -590,7 +591,7 @@
 	<entry id="messiah+str_disease_treatment_committed"><![CDATA[I hope I'll be okay....]]></entry>
 	<entry id="messiah+str_disease_treatment_committed"><![CDATA[I'm all grown up so I'll be fine!]]></entry>
 	<entry id="messiah+str_disease_treatment_committed"><![CDATA[Are you sure they know how to cure me?]]></entry>
-	<entry id="messiah+str_disease_treatment_committed"><![CDATA[This place doesnt look very clean...]]></entry>
+	<entry id="messiah+str_disease_treatment_committed"><![CDATA[This place doesn't look very clean...]]></entry>
 	
 	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Umm... It won't hurt too much right?]]></entry>
 	<entry id="messiah+str_roster_list_disease_treatment_bark"><![CDATA[Yuck, a leech!]]></entry>
@@ -618,7 +619,7 @@
 	<entry id="messiah+str_roster_list_treatment_bark"><![CDATA[I feel woozy...]]></entry>
 	
 	<entry id="messiah+str_override_invalid_rejection"><![CDATA[Only adults can do that!]]></entry>
-	<entry id="messiah+str_override_invalid_rejection"><![CDATA[I don't thimk I should be doing that...]]></entry>
+	<entry id="messiah+str_override_invalid_rejection"><![CDATA[I don't think I should be doing that...]]></entry>
 	<entry id="messiah+str_override_invalid_rejection"><![CDATA[You can't make me do something like that Player!]]></entry>
 	<entry id="messiah+str_override_invalid_rejection"><![CDATA[Nuh uh!]]></entry>
 	<entry id="messiah+str_override_invalid_rejection"><![CDATA[Mama would be furious!]]></entry>
@@ -1044,97 +1045,74 @@
 
 	<!-- REFRACTED Barks Just in Case-->
 	
-	<entry id="messiah+str_afflicted_color_madness"><![CDATA[Colors spin and swirl! Whispers taunt and reveal!]]></entry>
-		
-    <entry id="messiah+str_roster_list_color_madness_bark"><![CDATA[The colors are so dull here!]]></entry>
-    <entry id="messiah+str_roster_list_color_madness_bark"><![CDATA[This town will soon shimmer beautifully.]]></entry>
+	<entry id="messiah+str_afflicted_color_madness"><![CDATA[W-what's happening? I'm starting to see weird colors, Player!]]></entry>
 	
-    <entry id="messiah+str_bark_stress_color_madness"><![CDATA[WHAT IS UNSEEN MUST REMAIN SO!]]></entry>
-    <entry id="messiah+str_bark_stress_color_madness"><![CDATA[Keep the torch lit! You must!]]></entry>
-    <entry id="messiah+str_bark_stress_color_madness"><![CDATA[My breath is choked with ash.]]></entry>
+    <entry id="messiah+str_roster_list_color_madness_bark"><![CDATA[The colors are haunting my dreams...]]></entry>
+	<entry id="messiah+str_roster_list_color_madness_bark"><![CDATA[Stupid spaghetti code making me suffer something like this...]]></entry>
 	
-    <entry id="messiah+str_bark_stress_camp_color_madness"><![CDATA[See how the patterns shift yet remain.]]></entry>
-    <entry id="messiah+str_bark_stress_camp_color_madness"><![CDATA[Douse the fire! It will glow in the absence of light.]]></entry>
-    <entry id="messiah+str_bark_stress_camp_color_madness"><![CDATA[Be grateful the cold fire of the stars is hidden this night.]]></entry>
+    <entry id="messiah+str_bark_stress_color_madness"><![CDATA[T-the colors are wailing!]]></entry>
+    <entry id="messiah+str_bark_stress_color_madness"><![CDATA[I guess this is yet another burden for me to bear...]]></entry>
 	
-    <entry id="messiah+str_block_camping_meal_color_madness"><![CDATA[What I hunger for does not exist on this plane.]]></entry>
-    <entry id="messiah+str_block_camping_meal_color_madness"><![CDATA[My stomach is full of ash.]]></entry>
-    <entry id="messiah+str_block_camping_meal_color_madness"><![CDATA[How strange, I crave ...crystals.]]></entry>
+    <entry id="messiah+str_bark_stress_camp_color_madness"><![CDATA[Can nobody see what I'm seeing??]]></entry>
+    <entry id="messiah+str_bark_stress_camp_color_madness"><![CDATA[Maybe the colors will fade if we put out the campfire...]]></entry>
 	
-    <entry id="messiah+str_block_camping_skill_target_color_madness"><![CDATA[Red is red and yellow is yellow, but you can't see can you?]]></entry>
-    <entry id="messiah+str_block_camping_skill_target_color_madness"><![CDATA[I do not see your color.]]></entry>
-    <entry id="messiah+str_block_camping_skill_target_color_madness"><![CDATA[Come with the mark of ash or come not at all.]]></entry>
+    <entry id="messiah+str_block_camping_meal_color_madness"><![CDATA[All this color is making me lose my appetite...]]></entry>
+    <entry id="messiah+str_block_camping_meal_color_madness"><![CDATA[Everything tastes like ash...]]></entry>
 	
-    <entry id="messiah+str_block_camping_skill_performer_color_madness"><![CDATA[One stands behind you now screaming.]]></entry>
-    <entry id="messiah+str_block_camping_skill_performer_color_madness"><![CDATA[No, they will never accept you as one of us.]]></entry>
-    <entry id="messiah+str_block_camping_skill_performer_color_madness"><![CDATA[My limbs are but motes of light and my words have become ash.]]></entry>
+    <entry id="messiah+str_block_camping_skill_target_color_madness"><![CDATA[N-no! The colors won't let me!]]></entry>
+    <entry id="messiah+str_block_camping_skill_target_color_madness"><![CDATA[Player, I don't think I want that!]]></entry>
 	
-    <entry id="messiah+str_change_pos_back_color_madness"><![CDATA[The colors ebb and flow and I go with them!]]></entry>
-    <entry id="messiah+str_change_pos_back_color_madness"><![CDATA[The colors within tug and pull!]]></entry>
-    <entry id="messiah+str_change_pos_back_color_madness"><![CDATA[Shades! That came close!]]></entry>
+    <entry id="messiah+str_block_camping_skill_performer_color_madness"><![CDATA[N-no! The colors won't let me!]]></entry>
+    <entry id="messiah+str_block_camping_skill_performer_color_madness"><![CDATA[The colors showed me you can't be trusted, Player.]]></entry>
 	
-    <entry id="messiah+str_change_pos_fwd_color_madness"><![CDATA[I stumble towards ineffable beauty!]]></entry>
-    <entry id="messiah+str_change_pos_fwd_color_madness"><![CDATA[The colors swell and I am their slave!]]></entry>
-    <entry id="messiah+str_change_pos_fwd_color_madness"><![CDATA[See how it shifts and gleams! I must hold it!]]></entry>
+    <entry id="messiah+str_change_pos_back_color_madness"><![CDATA[The colors are just trying to keep me safe, Player!]]></entry>
+    <entry id="messiah+str_change_pos_back_color_madness"><![CDATA[The colors showed me a warning!]]></entry>
 	
-    <entry id="messiah+str_ignore_command_color_madness"><![CDATA[What they ask for is not for us to understand.]]></entry>
-    <entry id="messiah+str_ignore_command_color_madness"><![CDATA[The glowing ones speak from the dark and I must listen.]]></entry>
-    <entry id="messiah+str_ignore_command_color_madness"><![CDATA[The cosmos unfurls its hues and their will is mine.]]></entry>
+    <entry id="messiah+str_change_pos_fwd_color_madness"><![CDATA[The colors told me to come closer!]]></entry>
+    <entry id="messiah+str_change_pos_fwd_color_madness"><![CDATA[I have to answer their call...]]></entry>
 	
-    <entry id="messiah+str_attack_friendly_color_madness"><![CDATA[I am but a puppet to their alien will!]]></entry>
-    <entry id="messiah+str_attack_friendly_color_madness"><![CDATA[Give me your eyes! I must see more of the Cosmos!]]></entry>
-    <entry id="messiah+str_attack_friendly_color_madness"><![CDATA[This is a mercy you will never understand.]]></entry>
+    <entry id="messiah+str_ignore_command_color_madness"><![CDATA[I think the colors will guide me better than you, Player.]]></entry>
+    <entry id="messiah+str_ignore_command_color_madness"><![CDATA[Sorry Player, the colors convinced me otherwise...]]></entry>
 	
-    <entry id="messiah+str_attack_self_color_madness"><![CDATA[Through wounds will the colors enter me.]]></entry>
-    <entry id="messiah+str_attack_self_color_madness"><![CDATA[Sever the fingers, sever the nose. They must not recognize me.]]></entry>
-    <entry id="messiah+str_attack_self_color_madness"><![CDATA[I must unsee that which lies beyond!]]></entry>
+    <entry id="messiah+str_attack_friendly_color_madness"><![CDATA[I-I'm sorry! I didn't mean to!]]></entry>
+    <entry id="messiah+str_attack_friendly_color_madness"><![CDATA[Player! Stop the colors from controlling me!]]></entry>
 	
-    <entry id="messiah+str_mark_self_color_madness"><![CDATA[When my eyes are turned inside out I will gain their perception.]]></entry>
-    <entry id="messiah+str_mark_self_color_madness"><![CDATA[Their will is the medium, blood and bones the pigment.]]></entry>
-    <entry id="messiah+str_mark_self_color_madness"><![CDATA[Into the colors my blood must run.]]></entry>
+    <entry id="messiah+str_attack_self_color_madness"><![CDATA[M-maybe some pain will wake me up from the constant visions...]]></entry>
+    <entry id="messiah+str_attack_self_color_madness"><![CDATA[I'm sorry Player, but this could cure me!]]></entry>
 	
-    <entry id="messiah+str_comment_self_hit_color_madness"><![CDATA[One more of those and all doors open forever.]]></entry>
-    <entry id="messiah+str_comment_self_hit_color_madness"><![CDATA[Be careful or you'll bring forth that which devours me.]]></entry>
-    <entry id="messiah+str_comment_self_hit_color_madness"><![CDATA[Suddenly all is clear.]]></entry>
+    <entry id="messiah+str_mark_self_color_madness"><![CDATA[Maybe if I get hit, the colors will get beat out of me...]]></entry>
+    <entry id="messiah+str_mark_self_color_madness"><![CDATA[The colors marked me as their savior!]]></entry>
 	
-    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[The colors have shifted, not in your favor alas.]]></entry>
-    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[Let no blood fall into that stream of gold!]]></entry>
-    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[The cosmos shifts like clockwork to strike and toll our doom.]]></entry>
-    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[Sometimes they doom us for reasons beyond our ken.]]></entry>
+    <entry id="messiah+str_comment_self_hit_color_madness"><![CDATA[The colors are getting brighter...]]></entry>
+    <entry id="messiah+str_comment_self_hit_color_madness"><![CDATA[I think my vision cleared a little!]]></entry>
 	
-    <entry id="messiah+str_comment_ally_attack_hit_color_madness"><![CDATA[But sometimes they guide us to victory.]]></entry>
-    <entry id="messiah+str_comment_ally_attack_hit_color_madness"><![CDATA[What you strike is but lowly matter, how wasteful.]]></entry>
-    <entry id="messiah+str_comment_ally_attack_hit_color_madness"><![CDATA[You have struck because they allowed you to strike!]]></entry>
+    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[Just like what the colors showed me...]]></entry>
+    <entry id="messiah+str_comment_ally_hit_color_madness"><![CDATA[You should have appealed to the colors!]]></entry>
 	
-    <entry id="messiah+str_comment_move_color_madness"><![CDATA[I have seen the things that wait beyond the shadows.]]></entry>
-    <entry id="messiah+str_comment_move_color_madness"><![CDATA[The torch flickers with the breath of the imperceptible.]]></entry>
-    <entry id="messiah+str_comment_move_color_madness"><![CDATA[Everything glitters as if covered in crystal.]]></entry>
+    <entry id="messiah+str_comment_ally_attack_hit_color_madness"><![CDATA[The colors were helping you.]]></entry>
+    <entry id="messiah+str_comment_ally_attack_hit_color_madness"><![CDATA[I guess the colors can be helpful too...]]></entry>
 	
-    <entry id="messiah+str_comment_curio_interaction_color_madness"><![CDATA[We may find those strange crystals.]]></entry>
-    <entry id="messiah+str_comment_curio_interaction_color_madness"><![CDATA[Materiality is the gross plaything of children.]]></entry>
-    <entry id="messiah+str_comment_curio_interaction_color_madness"><![CDATA[We reach into the jaws of the indescribable.]]></entry>
+    <entry id="messiah+str_comment_move_color_madness"><![CDATA[The colors are rejecting our current positions!]]></entry>
+    <entry id="messiah+str_comment_move_color_madness"><![CDATA[When the colors move places, we are getting dragged along!]]></entry>
 	
-    <entry id="messiah+str_comment_trap_triggered_color_madness"><![CDATA[Misfortune is just another hue on their palette.]]></entry>
-    <entry id="messiah+str_comment_trap_triggered_color_madness"><![CDATA[It seems we have their attention.]]></entry>
+    <entry id="messiah+str_comment_curio_interaction_color_madness"><![CDATA[Maybe some crystals could be inside here.]]></entry>
+    <entry id="messiah+str_comment_curio_interaction_color_madness"><![CDATA[Hey! Stop being greedy!]]></entry>
 	
-    <entry id="messiah+str_block_heal_color_madness"><![CDATA[To heal my flesh is to deny me the ashes.]]></entry>
-    <entry id="messiah+str_block_heal_color_madness"><![CDATA[Even if my flesh is undone, my color remains.]]></entry>
-    <entry id="messiah+str_block_heal_color_madness"><![CDATA[Have you any those sacred crystals?]]></entry>
+    <entry id="messiah+str_comment_trap_triggered_color_madness"><![CDATA[The colors are pulling pranks on us...]]></entry>
+    <entry id="messiah+str_comment_trap_triggered_color_madness"><![CDATA[They're laughing at our clumsiness...]]></entry>
 	
-    <entry id="messiah+str_block_buff_color_madness"><![CDATA[Ashes are enough.]]></entry>
-    <entry id="messiah+str_block_buff_color_madness"><![CDATA[You'll not bring me down to your level of perception.]]></entry>
-    <entry id="messiah+str_block_buff_color_madness"><![CDATA[I will not be denied their embrace from the stars.]]></entry>
+    <entry id="messiah+str_block_heal_color_madness"><![CDATA[This won't heal my mind...]]></entry>
+    <entry id="messiah+str_block_heal_color_madness"><![CDATA[Player! Do something about the colors first!]]></entry>
 	
-    <entry id="messiah+str_block_effect_color_madness"><![CDATA[To heal my flesh is to deny me the ashes.]]></entry>
-    <entry id="messiah+str_block_effect_color_madness"><![CDATA[Even if my flesh is undone, my color remains.]]></entry>
-    <entry id="messiah+str_block_effect_color_madness"><![CDATA[Have you any those sacred crystals?]]></entry>
+    <entry id="messiah+str_block_buff_color_madness"><![CDATA[The colors are rebelling!]]></entry>
+    <entry id="messiah+str_block_buff_color_madness"><![CDATA[I don't think the colors trust you, Player.]]></entry>
 	
-    <entry id="messiah+str_consume_item_color_madness"><![CDATA[It enhances my spectrum.]]></entry>
-    <entry id="messiah+str_consume_item_color_madness"><![CDATA[Fuse the radiance with my flesh.]]></entry>
+    <entry id="messiah+str_block_effect_color_madness"><![CDATA[I-I hear mama calling me...]]></entry>
 	
-    <entry id="messiah+str_heart_attack_color_madness"><![CDATA[ALL IS RED!!!]]></entry>
-    <entry id="messiah+str_heart_attack_color_madness"><![CDATA[THE STARS CALL FOR ME!!!]]></entry>
-    <entry id="messiah+str_heart_attack_color_madness"><![CDATA[THE COLORS SCREAM!!!]]></entry>
+    <entry id="messiah+str_consume_item_color_madness"><![CDATA[The colors are telling me to use this...]]></entry>
+    <entry id="messiah+str_consume_item_color_madness"><![CDATA[I thought I heard you telling me to use this, Player.]]></entry>
+	
+    <entry id="messiah+str_heart_attack_color_madness"><![CDATA[Player, Help! The colors are overwhelming me!!]]></entry>
 
 	<!-- Darkest Dungeon Barks -->
 	<entry id="messiah+str_monster_user_selected_targets_kill_pill"><![CDATA[I trust you Player...]]></entry>
@@ -1283,7 +1261,7 @@
     <entry id="messiah+str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[GLORY TO KHORNE! DEATH TO ALL!]]></entry>
 	
     <entry id="messiah+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[YES, MORE BLOOD MEANS MORE POWER FOR ME!]]></entry>
-    <entry id="messiah+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[YOU WOULD MAKE A GOOD BLOODBAG!]]></entry>
+    <entry id="messiah+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[YOU WOULD MAKE A GOOD BLOOD BAG!]]></entry>
     <entry id="messiah+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[THE BLOOD YOU SPILLED IS MINE NOW!]]></entry>
 	
 	<entry id="messiah+str_ignore_command_disease_vampire_blood_lust"><![CDATA[DID YOU REALLY THINK YOU WERE IN CONTROL?!]]></entry>
@@ -1464,7 +1442,7 @@
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[I don't think I can take much of this!]]></entry>
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[This isn't the right thing to do grandpa!]]></entry>
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Go pick on Bloodsuckers instead of innocent people!]]></entry>
-	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Why don't you try comitting some arson instead?]]></entry>
+	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Why don't you try committing  some arson instead?]]></entry>
 	
 	<!-- Miller -->
 	
