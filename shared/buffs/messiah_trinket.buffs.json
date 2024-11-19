@@ -859,6 +859,23 @@
 		},
 		
 		{
+			
+			"id" : "Sniper_Guard_Block",
+			"stat_type" : "guard_blocked",
+			"stat_sub_type" : "",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
 
 			"id" : "Sniper_Crit_Received_10",
 			"stat_type" : "crit_received_chance",
