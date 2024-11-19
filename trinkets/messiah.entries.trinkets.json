@@ -209,7 +209,8 @@
 			 "Sniper_OneShot_DMG_High_25",
 			 "Sniper_OneShot_DMG_Low_25",
 			 "Sniper_OneShot_ACC_50",
-			 "Sniper_Crit_Received_10",
+			 "Sniper_Guard_Block",
+			 "GodRays_Guard_Block_TT",
 			 "GodRays_Refresh_On_Kill_TT"
          ],
          "hero_class_requirements":
