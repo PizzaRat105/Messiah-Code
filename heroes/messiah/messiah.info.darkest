@@ -38,11 +38,11 @@ combat_skill: .id "mes_blinding_rays" .level 2 .valid_modes messiah_normal messi
 combat_skill: .id "mes_blinding_rays" .level 3 .valid_modes messiah_normal messiah_battery .messiah_normal_effects "BlindingRaysDebuff4" "BlindingRaysBark" .messiah_battery_effects BlindingRaysStun4 "BlindingRaysBark"
 combat_skill: .id "mes_blinding_rays" .level 4 .valid_modes messiah_normal messiah_battery .messiah_normal_effects "BlindingRaysDebuff5" "BlindingRaysBark" .messiah_battery_effects BlindingRaysStun5 "BlindingRaysBark"
 
-combat_skill: .id "mes_soothing_sunlight" .level 0 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal1" "SunlightStressBuff1" "Soothing_Sunlight_Buff_TT_1a" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
-combat_skill: .id "mes_soothing_sunlight" .level 1 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal2" "SunlightStressBuff2" "Soothing_Sunlight_Buff_TT_2a" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
-combat_skill: .id "mes_soothing_sunlight" .level 2 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal3" "SunlightStressBuff3" "Soothing_Sunlight_Buff_TT_3a" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
-combat_skill: .id "mes_soothing_sunlight" .level 3 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal4" "SunlightStressBuff4" "Soothing_Sunlight_Buff_TT_4a" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
-combat_skill: .id "mes_soothing_sunlight" .level 4 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal5" "SunlightStressBuff5" "Soothing_Sunlight_Buff_TT_5a" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
+combat_skill: .id "mes_soothing_sunlight" .level 0 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal1" "SunlightAntiCritBuff1" "SunlightStressBuff1" "Soothing_Sunlight_Buff_TT_1a" "Soothing_Sunlight_Buff_TT_1b" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
+combat_skill: .id "mes_soothing_sunlight" .level 1 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal2" "SunlightAntiCritBuff2" "SunlightStressBuff2" "Soothing_Sunlight_Buff_TT_2a" "Soothing_Sunlight_Buff_TT_2b" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
+combat_skill: .id "mes_soothing_sunlight" .level 2 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal3" "SunlightAntiCritBuff3" "SunlightStressBuff3" "Soothing_Sunlight_Buff_TT_3a" "Soothing_Sunlight_Buff_TT_3b" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
+combat_skill: .id "mes_soothing_sunlight" .level 3 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal4" "SunlightAntiCritBuff4" "SunlightStressBuff4" "Soothing_Sunlight_Buff_TT_4a" "Soothing_Sunlight_Buff_TT_4b" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
+combat_skill: .id "mes_soothing_sunlight" .level 4 .launch 432 .target @1234 .is_crit_valid False .effect "SunlightHeal5" "SunlightAntiCritBuff5" "SunlightStressBuff5" "Soothing_Sunlight_Buff_TT_5a" "Soothing_Sunlight_Buff_TT_5b" "SunlightBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
 
 combat_skill: .id "mes_show_of_faith" .level 0 .per_battle_limit 1 .launch 234 .target @~1234 .effect "FaithPartyBuff1" "FaithStressBuff1" "Faith_Party_Buff_TT_1a" "Faith_Self_Buff_TT_1a" "ShowOfFaithBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
 combat_skill: .id "mes_show_of_faith" .level 1 .per_battle_limit 1 .launch 234 .target @~1234 .effect "FaithPartyBuff2" "FaithStressBuff2" "Faith_Party_Buff_TT_2a" "Faith_Self_Buff_TT_2a" "ShowOfFaithBark" .is_stall_invalidating false .valid_modes messiah_normal messiah_battery
@@ -65,8 +65,8 @@ combat_skill: .id "mes_sunset" .level 4 .move 2 0 .launch 21 .target .effect "Su
 tag: .id "light"
 tag: .id "religious"
 
-overstressed_modifier: .override_trait_type_ids messiah_virtue_guided .override_trait_type_chances 0.35
-overstressed_modifier: .override_trait_type_ids messiah_affliction_shattered .override_trait_type_chances 0.65
+overstressed_modifier: .override_trait_type_ids messiah_virtue_guided .override_trait_type_chances 0.50
+overstressed_modifier: .override_trait_type_ids messiah_affliction_shattered .override_trait_type_chances 0.50
 
 incompatible_party_member: .id messiah_nodupes .hero_tag messiah
 
