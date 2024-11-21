@@ -50,6 +50,13 @@ effect: .name "Soothing_Sunlight_Buff_TT_3a" .target "performer" .skill_instant 
 effect: .name "Soothing_Sunlight_Buff_TT_4a" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_4a" .duration 1 .on_hit false .on_miss false
 effect: .name "Soothing_Sunlight_Buff_TT_5a" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_5a" .duration 1 .on_hit false .on_miss false
 
+effect: .name "Soothing_Sunlight_Buff_TT_1b" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_1b" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_2b" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_2b" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_3b" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_3b" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_4b" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_4b" .duration 1 .on_hit false .on_miss false
+effect: .name "Soothing_Sunlight_Buff_TT_5b" .target "performer" .skill_instant true .buff_ids "Soothing_Sunlight_Buff_TT_5b" .duration 1 .on_hit false .on_miss false
+
+
 //----------------------Tooltips for Show of Faith------------------------------------------------
 effect: .name "Faith_Party_Buff_TT_1a" .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_1a" .duration 1 .on_hit false .on_miss false
 effect: .name "Faith_Party_Buff_TT_2a" .target "performer" .skill_instant true .buff_ids "Show_of_Faith_Party_Buff_TT_2a" .duration 1 .on_hit false .on_miss false
