@@ -95,19 +95,29 @@
 	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_1a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	   -10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -5%% Crits Received Chance (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_2a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	   -12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -6%% Crits Received Chance (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_3a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	   -15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -6%% Crits Received Chance (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_4a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	   -17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -7%% Crits Received Chance (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
-	   -20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	   -7%% Crits Received Chance (3 rds)]]></entry>
+	   
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_1b"><![CDATA[-10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_2b"><![CDATA[-12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_3b"><![CDATA[-15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_4b"><![CDATA[-17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5b"><![CDATA[-20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahShowofFaithCDTooltip"><![CDATA[Cooldown: 1 rd]]></entry>
@@ -230,12 +240,21 @@
 	{colour_start|debuff}Debuff Target:{colour_end}
 	+5%% Crits Received Chance (3 rds) {colour_start|skill_unselectable}(140%% base){colour_end}]]></entry>
 	
+		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Crowbar_Crit_Mark_TT"><![CDATA[On Attack Crit: {colour_start|mark}Mark{colour_end} Target (3 rds)]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Crowbar_Crit_Mark_Buff_TT"><![CDATA[{colour_start|buff}Buff Party:{colour_end} +10%% Crit vs {colour_start|mark}Marked{colour_end} (3 rds)]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_YellowPhosphor_Unstealth_TT"><![CDATA[On Friendly Skill Use: {colour_start|stealth}Unstealth{colour_end} Self]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Clover_No_Mark_TT"><![CDATA[Cannot be {colour_start|mark}Marked{colour_end}]]></entry>
+
+
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Virtue_Buff_10_TT"><![CDATA[On Friendly Skill:
 	{colour_start|buff}Buff Target:{colour_end} +10%% {colour_start|virtue}Virtue{colour_end} Chance (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Bleed_Disable_TT"><![CDATA[Disables OneShot]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Friendly_Effect_TT"><![CDATA[On Friendly Skill: 
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_StrangeNoteBook_Friendly_Effect_TT"><![CDATA[On Friendly Skill Use: 
 	Target Hero:
 	Clear {colour_start|stun}Stun{colour_end}/{colour_start|healhp}Heal{colour_end} 2 HP]]></entry>
 
