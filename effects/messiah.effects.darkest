@@ -67,6 +67,11 @@ effect: .name "SunlightStressBuff3" .target "target"  .chance 100% .duration 3 .
 effect: .name "SunlightStressBuff4" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes4" .on_hit true .on_miss true .queue true .has_description false
 effect: .name "SunlightStressBuff5" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightStressRes5" .on_hit true .on_miss true .queue true .has_description false
 
+effect: .name "SunlightAntiCritBuff1" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightAntiCrit1" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightAntiCritBuff2" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightAntiCrit2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightAntiCritBuff3" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightAntiCrit2" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightAntiCritBuff4" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightAntiCrit3" .on_hit true .on_miss true .queue true .has_description false
+effect: .name "SunlightAntiCritBuff5" .target "target"  .chance 100% .duration 3 .buff_ids "SunlightAntiCrit3" .on_hit true .on_miss true .queue true .has_description false
 
 
 
@@ -162,7 +167,13 @@ effect: .name "NoteBook_Heal_2" .target "target" .chance 100% .heal 2	.on_hit tr
 effect: .name "NoteBook_Clear_Stun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss true .apply_once false    .queue false .has_description false
 
 
-effect: .name "Memory_Crit_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 2	.on_hit true .on_miss false  .queue true 
+
+effect: .name "Crowbar_Mark" .target "target" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss false  .queue true .has_description false
+effect: .name "Crowbar_Mark_Buff" .target "performer_group" .chance 100% .duration 3 .buff_ids "CrowbarMarkCrit10" .on_hit true .on_miss false    .queue true .has_description false
+
+effect: .name "Messiah_Self_Unstealth" .target "performer" .chance 100% .unstealth 1 .on_hit true .on_miss true  .queue true .has_description false
+
+effect: .name "Memory_Crit_Stress_Heal" .target "performer_group_other" .chance 100% .healstress 3	.on_hit true .on_miss false  .queue true 
 
 effect: .name "OneShotKillRefresh" .target "performer" .chance 100% .refreshes_skill_uses true	.on_hit true .on_miss true  .queue true .has_description false
 
