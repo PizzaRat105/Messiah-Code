@@ -6,6 +6,7 @@
          "buffs" : 
          [	 
 			 "AlcoholBottle_ACC_5",
+			 "AlcoholBottle_Crit_5",
 		     "AlcoholBottle_Debuff_Skill_Chance_10",
 			 "AlcoholBottle_Move_Resist_Penalty_10"
          ],
@@ -67,10 +68,10 @@
          "id" : "messiah_rare_trinket",
          "buffs" : 
          [
-			"Crowbar_DMG_High_15",
-			"Crowbar_DMG_Low_15",
 			"Crowbar_Debuff_Chance_20",
-			"Crowbar_Stress_Penalty_25"
+			"Crowbar_Stress_Penalty_25",
+			"Crowbar_Crit_Mark_TT",
+			"Crowbar_Crit_Mark_Buff_TT"
          ],
          "hero_class_requirements":
          [
@@ -80,7 +81,12 @@
 		 "set_id" : "messiah_rare_flavour_set",
          "price" : 15000,
          "limit" : 1,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+         "attack_crit_additional_effects":
+         [
+             "Crowbar_Mark",
+             "Crowbar_Mark_Buff"
+         ]
       },
 
       {
@@ -112,9 +118,9 @@
          "id" : "messiah_phosphor_trinket",
          "buffs" : 
          [
+			 "YellowPhosphor_Trap_Disarm_30",
 			 "YellowPhosphor_Scouting_20",
-			 "YellowPhosphor_Trap_Disarm_20",
-			 "YellowPhosphor_Dodge_Penalty_10"
+			 "YellowPhosphor_Unstealth_TT"
          ],
          "hero_class_requirements":
          [
@@ -124,7 +130,11 @@
 		 "set_id" : "messiah_very_rare_flavour_set_2",
          "price" : 25000,
          "limit" : 1,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		    "Messiah_Self_Unstealth"
+		 ]
       },
 
       {
@@ -132,10 +142,10 @@
          "buffs" : 
          [
 			 "Clover_Spd_2",
-			 "Clover_Dodge_5",
-			 "Clover_Party_Surprised_10",
-			 "Clover_Crit_Received_5"
-			
+			 "Clover_No_Mark_TT",
+			 "Clover_No_Mark",
+			 "Clover_Crit_Received_5",
+			 "Clover_Party_Surprised_10"
          ],
          "hero_class_requirements":
          [
@@ -152,7 +162,7 @@
          "id" : "messiah_cc_trinket_2",
          "buffs" : 
          [
-		     "SpoilerPicture_Stress_Heal_Amount_20",
+		     "SpoilerPicture_Stress_Heal_Amount_25",
 			 "SpoilerPicture_High_Torch_Stress_Resist_25"
          ],
          "hero_class_requirements":
