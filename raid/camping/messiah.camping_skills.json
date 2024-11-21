@@ -147,7 +147,7 @@
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "campingStressResistBuff",
-					"amount" : -0.20
+					"amount" : -0.25
 				}
 			],
 			"hero_classes" : ["messiah"],
@@ -260,6 +260,14 @@
                     "type": "reduce_ambush_chance",
                     "sub_type" : "",
 					"amount" : 1.0
+				},
+				{ 
+					"selection" : "party_other",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type" : "buff",
+					"sub_type" : "campingStressResistBuff",					
+					"amount" :  -0.10
 				}
 			],
 			"hero_classes" : ["messiah"],
