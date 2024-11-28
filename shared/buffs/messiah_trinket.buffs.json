@@ -398,7 +398,6 @@
 			"remove_if_not_active" : false,
 			"rule_type" : "actorStatus",
 			"is_false_rule" : false,
-			"has_description" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
