@@ -138,13 +138,13 @@ effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat
 
 //-----------------------Barks------------------------------------------------
 
-effect: .name "ArsonBark" .target performer .chance 15% .bark arson_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "OneShotBark" .target performer .chance 15% .bark oneshot_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "BlindingRaysBark" .target performer .chance 15% .bark blinding_rays_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "SunlightBark" .target performer .chance 15% .bark soothing_sunlight_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "ShowOfFaithBark" .target performer .chance 15% .bark show_of_faith_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "MyBurdenIsLightBark" .target performer .chance 15% .bark my_burden_is_light_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
-effect: .name "SunsetBark" .target performer .chance 15% .bark sunset_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "ArsonBark" .target performer .chance 10% .bark arson_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "OneShotBark" .target performer .chance 10% .bark oneshot_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "BlindingRaysBark" .target performer .chance 10% .bark blinding_rays_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "SunlightBark" .target performer .chance 10% .bark soothing_sunlight_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "ShowOfFaithBark" .target performer .chance 10% .bark show_of_faith_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "MyBurdenIsLightBark" .target performer .chance 10% .bark my_burden_is_light_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
+effect: .name "SunsetBark" .target performer .chance 10% .bark sunset_bark .on_hit true .on_miss true .queue true .apply_once true .has_description false
 
 //-----------------------Trinket On Kill Barks------------------------------------------------
 
@@ -169,7 +169,7 @@ effect: .name "NoteBook_Clear_Stun" .target "target" .chance 100% .unstun 1 .on_
 
 
 effect: .name "Crowbar_Mark" .target "target" .chance 100% .duration 3 .tag 1 .on_hit true .on_miss false  .queue true .has_description false
-effect: .name "Crowbar_Mark_Buff" .target "performer_group" .chance 100% .duration 3 .buff_ids "CrowbarMarkCrit10" .on_hit true .on_miss false    .queue true .has_description false
+effect: .name "Crowbar_Mark_Buff" .target "performer_group_other" .chance 100% .duration 3 .buff_ids "CrowbarMarkCrit10" .on_hit true .on_miss false    .queue true .has_description false
 
 effect: .name "Messiah_Self_Unstealth" .target "performer" .chance 100% .unstealth 1 .on_hit true .on_miss true  .queue true .has_description false
 
