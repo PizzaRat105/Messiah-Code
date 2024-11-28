@@ -242,7 +242,7 @@
 	
 		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Crowbar_Crit_Mark_TT"><![CDATA[On Attack Crit: {colour_start|mark}Mark{colour_end} Target (3 rds)]]></entry>
 	
-		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Crowbar_Crit_Mark_Buff_TT"><![CDATA[{colour_start|buff}Buff Party:{colour_end} +10%% Crit vs {colour_start|mark}Marked{colour_end} (3 rds)]]></entry>
+		<entry id="buff_stat_tooltip_upgrade_discount_Loc_Crowbar_Crit_Mark_Buff_TT"><![CDATA[{colour_start|buff}Buff All Companions:{colour_end} +10%% Crit vs {colour_start|mark}Marked{colour_end} (3 rds)]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_YellowPhosphor_Unstealth_TT"><![CDATA[On Friendly Skill Use: {colour_start|stealth}Unstealth{colour_end} Self]]></entry>
 	
