@@ -1,7 +1,6 @@
 {
 	"buffs":
 	[
-		
 		{
 
 			"id" : "MessiahTooltip",
@@ -1323,9 +1322,89 @@
 		
 		{
 
+			"id" : "Amber_StunClear_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Amber_StunClear_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Feather_Destealth_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Feather_Destealth_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
 			"id" : "Clover_No_Mark_TT",
 			"stat_type" : "upgrade_discount",
 			"stat_sub_type" : "Loc_Clover_No_Mark_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Clover_Destealth_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_Clover_Destealth_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Crit_Initiative_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_StrangeNoteBook_Crit_Initiative_TT",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_OneShot_Disable_TT",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_StrangeNoteBook_OneShot_Disable_TT",
 			"amount" : 1,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
