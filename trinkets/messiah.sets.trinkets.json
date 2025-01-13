@@ -32,8 +32,13 @@
       },
 	  
 	  {
-         "id" : "messiah_very_rare_flavour_set_2",
-         "buffs" : []
+         "id" : "messiah_very_rare_flavour_set",
+         "buffs" : 
+		 [
+			"MessiahVeryRareSet_ACC_6",
+			"MessiahVeryRareSet_CRIT_6",
+			"MessiahVeryRareSet_Trap_Disarm_60"
+		 ]
       },
 	  
 	  {
