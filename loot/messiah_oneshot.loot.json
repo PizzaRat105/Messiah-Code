@@ -1,0 +1,16 @@
+{
+    "loot_tables" :
+    [
+        {
+            "id" : "GODRAYSGACHA",
+            "difficulty" : 0,
+            "dungeon" : "",
+            "entries" :
+            [
+               { "type" : "item", "chances" : 4, "data" : { "type" : "trinket", "id" : "messiah_sniper_trinket", "amount" : 1 }},
+               { "type" : "nothing", "chances" : 96, "data" : { }}
+            ]
+         }
+    ]
+ }
+ 
