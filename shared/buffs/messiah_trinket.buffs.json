@@ -439,7 +439,7 @@
 		
 		{
 
-			"id" : "YellowPhosphor_Scouting_20",
+			"id" : "Amber_Scouting_20",
 			"stat_type" : "scouting_chance",
 			"stat_sub_type" : "",
 			"amount" : 0.20,
@@ -455,10 +455,10 @@
 		
 		{
 
-			"id" : "YellowPhosphor_Trap_Disarm_30",
-			"stat_type" : "resistance",
-			"stat_sub_type" : "trap",
-			"amount" : 0.30,
+			"id" : "Amber_Scouting_20",
+			"stat_type" : "scouting_chance",
+			"stat_sub_type" : "",
+			"amount" : 0.20,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -471,10 +471,10 @@
 		
 		{
 
-			"id" : "YellowPhosphor_Dodge_Penalty_10",
-			"stat_type" : "combat_stat_add",
-			"stat_sub_type" : "defense_rating",
-			"amount" : -0.1,
+			"id" : "Amber_Party_Surprised_10",
+			"stat_type" : "party_surprise_chance",
+			"stat_sub_type" : "",
+			"amount" : -0.10,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -484,6 +484,104 @@
 				"string" : ""
 			}
 		},
+		
+		{
+
+			"id" : "Amber_Speed_Penalty_2",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "speed_rating",
+			"amount" : -2,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Feather_Dodge_15",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "defense_rating",
+			"amount" : 0.15,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Feather_HP_Penalty_10",
+			"stat_type" : "combat_stat_multiply",
+			"stat_sub_type" : "max_hp",
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahVeryRareSet_ACC_6",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "attack_rating",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahVeryRareSet_CRIT_6",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 0.06,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "MessiahVeryRareSet_Trap_Disarm_60",
+			"stat_type" : "resistance",
+			"stat_sub_type" : "trap",
+			"amount" : 0.60,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		
 		
 		{
 
@@ -552,10 +650,26 @@
 		
 		{
 
-			"id" : "Clover_Crit_Received_5",
+			"id" : "Clover_Crit_Received_10",
 			"stat_type" : "crit_received_chance",
 			"stat_sub_type" : "",
-			"amount" : -0.05,
+			"amount" : -0.10,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "Clover_Stealth_Ignore",
+			"stat_type" : "ignore_stealth",
+			"stat_sub_type" : "",
+			"amount" : 1,
 			"remove_if_not_active" : false,
 			"rule_type" : "always",
 			"is_false_rule" : false,
@@ -656,6 +770,23 @@
 			"remove_if_not_active" : false,
 			"rule_type" : "is_stealthed",
 			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
+		{
+
+			"id" : "StrangeNoteBook_Daze_Disable",
+			"stat_type" : "disable_combat_skill_attribute",
+			"stat_sub_type" : "daze",
+			"amount" : 1,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description" : false,
 			"rule_data" : 
 			{
 				"float" : 0,
