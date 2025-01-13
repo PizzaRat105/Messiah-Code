@@ -102,9 +102,9 @@
          [
             "messiah"
          ],
-         "rarity" : "very_rare",
+         "rarity" : "rare",
 		 "set_id" : "messiah_battery_flavour_set",
-         "price" : 25000,
+         "price" : 15000,
          "limit" : 1,
          "origin_dungeon" : "",
          "attack_skill_additional_effects":
@@ -115,25 +115,54 @@
       },
 	  
 	  {
-         "id" : "messiah_phosphor_trinket",
+         "id" : "messiah_amber_trinket",
          "buffs" : 
          [
-			 "YellowPhosphor_Trap_Disarm_30",
-			 "YellowPhosphor_Scouting_20",
-			 "YellowPhosphor_Unstealth_TT"
+			 "Amber_Scouting_20",
+			 "Amber_Party_Surprised_10",
+			 "Amber_Speed_Penalty_2",
+			 "Amber_Stun_Cure_TT"
          ],
          "hero_class_requirements":
          [
             "messiah"
          ],
          "rarity" : "very_rare",
-		 "set_id" : "messiah_very_rare_flavour_set_2",
+		 "set_id" : "messiah_very_rare_flavour_set",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "friendly_skill_additional_effects":
 		 [
-		    "Messiah_Self_Unstealth"
+		    "Amber_Stun_Cure"
+		 ]
+      },
+	  
+	  {
+         "id" : "messiah_feather_trinket",
+         "buffs" : 
+         [
+			 "Feather_Dodge_15",
+			 "Feather_HP_Penalty_10",
+			 "Feather_Destealth_TT",
+			 "EmptySpaceDelete"
+         ],
+         "hero_class_requirements":
+         [
+            "messiah"
+         ],
+         "rarity" : "very_rare",
+		 "set_id" : "messiah_very_rare_flavour_set",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+		    "Feather_Self_Unstealth"
+		 ],
+		 "attack_skill_additional_effects":
+		 [
+		    "Feather_Self_Unstealth"
 		 ]
       },
 
@@ -142,10 +171,9 @@
          "buffs" : 
          [
 			 "Clover_Spd_2",
-			 "Clover_No_Mark_TT",
-			 "Clover_No_Mark",
-			 "Clover_Crit_Received_5",
-			 "Clover_Party_Surprised_10"
+			 "Clover_Crit_Received_10",
+			 "Clover_Stealth_Ignore",
+			 "Clover_Destealth_TT"
          ],
          "hero_class_requirements":
          [
@@ -155,7 +183,11 @@
 		 "set_id" : "messiah_cc_flavour_set",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
+         "origin_dungeon" : "courtyard",
+		 "attack_skill_additional_effects":
+		 [
+		    "Clover_Destealth"
+		 ]
       },
 
       {
@@ -184,16 +216,11 @@
          "id" : "messiah_com_trinket",
          "buffs" : 
          [
-			 "StrangeNoteBook_All_Skill_Chance_20_TT",
-			 "StrangeNoteBook_Debuff_Chance_20",
-			 "StrangeNoteBook_Bleed_Chance_20",
-			 "StrangeNoteBook_Blight_Chance_20",
-			 "StrangeNoteBook_Stun_Chance_20",
-			 "StrangeNoteBook_Move_Chance_20",
-			 "StrangeNotebook_Damage_High_Penalty_50",
-			 "StrangeNotebook_Damage_Low_Penalty_50",
-			 "StrangeNotebook_Max_HP_Penalty_15",
-			 "StrangeNoteBook_Friendly_Effect_TT"
+			 "StrangeNoteBook_OneShot_Disable_TT",
+			 "StrangeNoteBook_Daze_Disable",
+			 "StrangeNoteBook_Crit_Initiative_TT",
+			 "StrangeNoteBook_Friendly_Effect_TT",
+			 "EmptySpaceDelete"
          ],
          "hero_class_requirements":
          [
@@ -204,11 +231,16 @@
          "shard" : 90,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "friendly_skill_additional_effects":
+		  "friendly_skill_additional_effects":
 		 [
-		     "NoteBook_Clear_Stun",
-			 "NoteBook_Heal_2"
+			 "NoteBook_Heal_2",
+		     "NoteBook_Clear_Mark"
+		 ],
+		  "attack_crit_additional_effects":
+		 [
+		     "NoteBook_Crit_Initiative"
 		 ]
+		
       },
 	  
 	  {
@@ -227,9 +259,10 @@
          [
 		     "messiah"
          ],
-         "rarity" : "comet",
+         "rarity" : "messiah_joke",
 		 "set_id" : "messiah_sniper_flavour_set",
-         "shard" : 111,
+			"visual_rarity" : "ancestral",
+         "price" : 50000,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
