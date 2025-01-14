@@ -4,8 +4,9 @@ stats: .hp 100
 loot: .code "" .count 0
 initiative: .number_of_turns_per_round 0
 monster_brain: .id default
+loot: .code "GODRAYSGACHA" .count 1
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False
-spawn: .effects s0hpr_patch_anti_ng
+spawn: .effects s0hpr_patch_anti_ng s0hpr_patch_heal
 spawn: .effects niko_hpsteal niko_s0heal niko_s0kill
 hp_reaction: .hp_ratio 0.954 .is_under false .effects niko_s0_changelvl1
 hp_reaction: .hp_ratio 0.949 .is_under false .effects niko_s0_changelvl1
