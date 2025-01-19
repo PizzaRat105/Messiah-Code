@@ -340,6 +340,23 @@
 			}
 		},
 		
+		{
+
+			"id" : "SunsetAutoCrit",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "crit_chance",
+			"amount" : 100,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"has_description": false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		
 		
 		{
 
