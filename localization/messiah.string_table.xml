@@ -8,6 +8,8 @@
 	<entry id="effect_tooltip_clear_stress_dot"><![CDATA[Clear {colour_start|stress}Horror{colour_end}]]></entry>
 	<entry id="effect_tooltip_cure_debuff"><![CDATA[Cure {colour_start|debuff}Debuffs{colour_end}]]></entry>
 	<entry id="effect_refresh_skill_uses"><![CDATA[{colour_start|buff}Refresh{colour_end} Skill Uses]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_SunsetAutoCritTray"><![CDATA[Guaranteed Crit]]></entry>
 
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahTooltip"><![CDATA[Target:]]></entry>
