@@ -38,7 +38,7 @@ effect: .name "OneShot_s0_HP_3" .target "performer" .buff_ids "OneShot_s0_HP_3" 
 effect: .name "OneShot_s0_HP_4" .target "performer" .buff_ids "OneShot_s0_HP_4" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
 effect: .name "OneShot_s0_HP_5" .target "performer" .buff_ids "OneShot_s0_HP_5" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
 effect: .name "OneShot_s0_HEALRECV" .target "target" .swap_source_and_target true .chance 50000% .buff_ids "OneShot_s0_HEALRECV" .duration 1 .on_hit true .on_miss false .buff_source_type bsrc_last_hero .has_description false
-effect: .name "OneShot_s0summon" .target "performer" .summon_can_spawn_loot true .summon_monsters nikooneshots0_A .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .summon_limits 1 .on_hit true .on_miss false .has_description false .has_description false
+effect: .name "OneShot_s0summon" .target "performer" .summon_can_spawn_loot false .summon_monsters nikooneshots0_A .summon_chances 1.0 .summon_count 1 .summon_ranks 1 .summon_limits 1 .on_hit true .on_miss false .has_description false .has_description false
 effect: .name "niko_hpsteal" .target "target" .spawn_target_actor_base_class_id messiah .steal_buff_source_type bsrc_last_hero .on_hit true .on_miss true
 effect: .name "niko_s0heal" .target "performer" .heal 90 .on_hit true .on_miss true .can_crit_heal false
 effect: .name "niko_s0kill" .target "performer" .kill 1 .on_hit true .on_miss true
@@ -143,7 +143,9 @@ effect: .name "SunsetDebuffChanceBuff3" .target "performer"  .chance 100% .durat
 effect: .name "SunsetDebuffChanceBuff4" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance4" .on_hit true .on_miss true .queue true .has_description false
 effect: .name "SunsetDebuffChanceBuff5" .target "performer"  .chance 100% .duration 3  .combat_stat_buff 1 .buff_ids "SunsetDbfChance5" .on_hit true .on_miss true .queue true .has_description false
 
-effect: .name "SunsetCrit" .target "performer" .chance 100% .duration 2  .combat_stat_buff 1 .crit_chance_add 100 	.on_hit true .on_miss true .apply_once true   .queue true .has_description false
+effect: .name "SunsetCrit" .target "performer" .chance 100% .buff_ids "SunsetAutoCrit" .duration 2  .on_hit true .on_miss true .apply_once true   .queue true .has_description false
+
+effect: .name "SunsetCritTrayTooltipEffect" .target "performer" .chance 100% .buff_ids "SunsetAutoCritTray" .duration 2  .on_hit true .on_miss true .apply_once true   .queue true .has_description false
 
 //-----------------------Barks------------------------------------------------
 
