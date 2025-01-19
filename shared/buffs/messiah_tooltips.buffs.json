@@ -979,6 +979,24 @@
 			}
 		},
 		
+		{
+
+			"id" : "SunsetAutoCritTray",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "Loc_SunsetAutoCritTray",
+			"amount" : 5,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : 
+			{
+				"float" : 0,
+				"string" : ""
+			},
+			"remove_on_battle_complete": true,
+			"is_clear_debuff_valid": false
+		},
+		
 		
 		
 		{
