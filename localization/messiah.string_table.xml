@@ -193,6 +193,9 @@
 	<entry id="str_inventory_title_trinketmessiah_rare_trinket"><![CDATA[Crowbar]]></entry>
 	<entry id="str_inventory_title_trinketmessiah_battery_trinket"><![CDATA[Charged Battery]]></entry>
 	<entry id="str_inventory_title_trinketmessiah_phosphor_trinket"><![CDATA[Yellow Phosphor]]></entry>
+	<entry id="str_inventory_title_trinketmessiah_amber_trinket"><![CDATA[Amber Pendant]]></entry>
+	<entry id="str_inventory_title_trinketmessiah_feather_trinket"><![CDATA[Glowing Feather]]></entry>
+
 	<entry id="str_inventory_title_trinketmessiah_cc_trinket_1"><![CDATA[Black Clover]]></entry>
 	<entry id="str_inventory_title_trinketmessiah_cc_trinket_2"><![CDATA[Everlasting Memory]]></entry>
 	<entry id="str_inventory_title_trinketmessiah_com_trinket"><![CDATA[Strange Journal]]></entry>
@@ -319,13 +322,41 @@
     <entry id="upgrade_tree_name_messiah.weapon"><![CDATA[Weapon]]></entry>
 	
 	<!-- Party Names -->
-	<entry id="party_name_77788111"><![CDATA[Not a Cat!]]></entry>
-	<entry id="party_name_77788112"><![CDATA[Brownnoser.]]></entry>
-	<entry id="party_name_77788113"><![CDATA[Confused Cat Noises]]></entry>
+	
+	<!-- Mostly Vanilla Heroes -->
+	
+	<entry id="party_name_solo_niko"><![CDATA[Not a Cat!]]></entry>
+	
+	<entry id="party_name_niko_musk"><![CDATA[One Shot, Two Outcomes]]></entry>
+	
 	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	<entry id="party_name_77788114"><![CDATA[Children of the Stars]]></entry>
+	
+	<entry id="party_name_musk_hwm_niko_ghuntress"><![CDATA[Shootout]]></entry>
+	<entry id="party_name_niko_vixen_dredge_iris2b"><![CDATA[The Eleventh Hour]]></entry>
+	<entry id="party_name_grovetender_niko_entrenched_crysherald"><![CDATA[Youthful Determination]]></entry>
+	<entry id="party_name_niko_commando_vessel_ironclad"><![CDATA[Indie Cross]]></entry>
+	
+	<entry id="party_name_musk_niko_hwm_ghuntress"><![CDATA[Shootout]]></entry>
+	<entry id="party_name_musk_niko_hwm_ghuntress"><![CDATA[Shootout]]></entry>
+	<entry id="party_name_musk_niko_hwm_ghuntress"><![CDATA[Shootout]]></entry>
+	<entry id="party_name_musk_niko_hwm_ghuntress"><![CDATA[Shootout]]></entry>
+	
+	<!-- Modded Hero Party Names -->
+	
+	<entry id="party_name_reso_niko"><![CDATA[Brownnoser.]]></entry>
+	<entry id="party_name_niko_reso"><![CDATA[Confused Cat Noises]]></entry>
+	<entry id="party_name_niko_mat"><![CDATA[Confused Cat Noises]]></entry>
+	<entry id="party_name_niko_reso"><![CDATA[Confused Cat Noises]]></entry>
+	
+	<entry id="party_name_niko_crysherald"><![CDATA[Children of the Stars]]></entry>
 
 	<!-- Verbose Strings for Guild/Blacksmith/Camping Trainer -->
-	<entry id="action_verbose_body_guild_messiah"><![CDATA[Hailing from another world, the Messiah continues their duty to restore light to the realm. Despite their young age, the Messiah offers bottomless utility with their many skills they can use to support their companions. There is no time for hesitation, they have only One Shot!]]></entry>
+	<entry id="action_verbose_body_guild_messiah"><![CDATA[Hailing from another world, the Messiah continues their duty to restore light to the realm. Despite their young age, the Messiah offers bottomless utility with their many skills they can use to support their companions, wielding potent buffs and debuffs alongside being able to heal their teammates. There is no time for hesitation, they have only One Shot!]]></entry>
     <entry id="action_verbose_body_blacksmith_messiah"><![CDATA[The Messiah wears a brown overcoat and scarf alongside a hat with catlike ears. While this garb doesn't provide much protection, the Messiah utilizes divine guidance during expeditions to avoid danger. The lightbulb they carry is a powerful artifact, capable of illuminating entire worlds, which the Messiah wields to support their allies and ward off evil.]]></entry>
     <entry id="action_verbose_body_camping_trainer_messiah"><![CDATA[During camp, the Messiah uses methods they learned during their first venture into another world, providing guidance for their companions, as well as happily sharing their favorite dish. The lightbulb they carry illuminates the campsite, discouraging all evil from approaching the resting heroes.]]></entry>
 	
@@ -336,16 +367,19 @@
 	<entry id="messiah+str_bark_mes_pancakes"><![CDATA[If anyone has any leftovers, I'll have them!]]></entry>
 	<entry id="messiah+str_bark_mes_pancakes"><![CDATA[May I have seconds?]]></entry>
 	<entry id="messiah+str_bark_mes_pancakes"><![CDATA[This reminds me of mama...]]></entry>
+	<entry id="messiah+str_bark_mes_pancakes"><![CDATA[I hope everyone likes pancakes too!]]></entry>
+	<entry id="messiah+str_bark_mes_pancakes"><![CDATA[A pancake a day keeps the sadness away!]]></entry>
 	
-	<entry id="messiah+str_bark_mes_on_little_cat_feet"><![CDATA[Even though I'm not a cat, I'm still pretty good on my feet!]]></entry>
+	<entry id="messiah+str_bark_mes_on_little_cat_feet"><![CDATA[Even though I'm not a cat, I'm still pretty good on my feet.]]></entry>
 	<entry id="messiah+str_bark_mes_on_little_cat_feet"><![CDATA[Now we can get out of danger easier!]]></entry>
 	<entry id="messiah+str_bark_mes_on_little_cat_feet"><![CDATA[Hey, cats walk on four feet you know!]]></entry>
 	<entry id="messiah+str_bark_mes_on_little_cat_feet"><![CDATA[Ladders still scare me though...]]></entry>
 	
-	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[Player will make sure everything's fine!]]></entry>
+	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[Player will make sure everything's fine.]]></entry>
 	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[They won't be able to hide from us now.]]></entry>
 	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[Oh I see! Thanks a lot Player!]]></entry>
-	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[I wonder if Player is getting help from someone this time too...]]></entry>
+	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[I wonder if Player is getting help from someone this time too.]]></entry>
+	<entry id="messiah+str_bark_mes_player_guidance"><![CDATA[With Player's help, everything will go smoothly!]]></entry>
 	
 	<entry id="messiah+str_bark_mes_night_light"><![CDATA[The Sun will keep us safe and sound.]]></entry>
 	<entry id="messiah+str_bark_mes_night_light"><![CDATA[This reminds me of Maize...]]></entry>
@@ -353,15 +387,17 @@
 	<entry id="messiah+str_bark_mes_night_light"><![CDATA[I hope nobody tries to break the Sun while we sleep...]]></entry>
 	<entry id="messiah+str_bark_mes_night_light"><![CDATA[Hope everyone gets a good night's sleep!]]></entry>
 	
-	<entry id="messiah+str_bark_encourage"><![CDATA[Don't worry! Player is watching over us!]]></entry>
-	<entry id="messiah+str_bark_encourage"><![CDATA[Here, hold the Sun! It'll calm you down.]]></entry>
+	<entry id="messiah+str_bark_encourage"><![CDATA[Don't worry. Player is watching over us.]]></entry>
+	<entry id="messiah+str_bark_encourage"><![CDATA[Here, hold the Sun. It'll calm you down.]]></entry>
 	<entry id="messiah+str_bark_encourage"><![CDATA[*Comforting Hug*]]></entry>
-	<entry id="messiah+str_bark_encourage"><![CDATA[You're great at this, you should feel proud!]]></entry>
+	<entry id="messiah+str_bark_encourage"><![CDATA[You're good at this, you should feel proud!]]></entry>
+	<entry id="messiah+str_bark_encourage"><![CDATA[We wouldn't have gotten this far without you.]]></entry>
 
 	<entry id="messiah+str_bark_first_aid"><![CDATA[Good thing mama taught me first aid.]]></entry>
 	<entry id="messiah+str_bark_first_aid"><![CDATA[See? Good as new!]]></entry>
 	<entry id="messiah+str_bark_first_aid"><![CDATA[Pain pain go away!]]></entry>
 	<entry id="messiah+str_bark_first_aid"><![CDATA[Don't worry, Player knows how to patch you up.]]></entry>
+	<entry id="messiah+str_bark_first_aid"><![CDATA[Don't worry, I'm here to help.]]></entry>
 	
 	<entry id="messiah+str_bark_pep_talk"><![CDATA[Don't worry, the Sun will light the way!]]></entry>
 	<entry id="messiah+str_bark_pep_talk"><![CDATA[We can't be stopping now, the world needs to be saved!]]></entry>
@@ -376,13 +412,13 @@
 	<entry id="arson_bark"><![CDATA[*Turns to face you* You're Next.]]></entry>
 	<entry id="arson_bark"><![CDATA[I don't know why adults like to drink this stuff, alcohol is for setting things on fire!]]></entry>
 	
-	<entry id="oneshot_bark"><![CDATA[Your free trial of life has run out!]]></entry>
+	<entry id="oneshot_bark"><![CDATA[Your free trial of life has run out.]]></entry>
 	<entry id="oneshot_bark"><![CDATA[One Shot. One Kill.]]></entry>
-	<entry id="oneshot_bark"><![CDATA[You only have One Shot.]]></entry>
+	<entry id="oneshot_bark"><![CDATA[You only have OneShot.]]></entry>
 	
 	<entry id="blinding_rays_bark"><![CDATA[Looking directly at the Sun is bad for you!]]></entry>
 	<entry id="blinding_rays_bark"><![CDATA[Bright enough to light up an entire world!]]></entry>
-	<entry id="blinding_rays_bark"><![CDATA[Player seems to like this attack a lot!]]></entry>
+	<entry id="blinding_rays_bark"><![CDATA[Player seems to like this attack a lot.]]></entry>
 	
 	<entry id="soothing_sunlight_bark"><![CDATA[Look at the Sun, isn't it soothing?]]></entry>
 	<entry id="soothing_sunlight_bark"><![CDATA[Don't worry, I can heal you!]]></entry>
@@ -396,7 +432,7 @@
 	<entry id="my_burden_is_light_bark"><![CDATA[I'll do whatever it takes to save this world!]]></entry>
 	<entry id="my_burden_is_light_bark"><![CDATA[This is the right thing to do!]]></entry>
 	
-	<entry id="sunset_bark"><![CDATA[I can't wait for my next attack!]]></entry>
+	<entry id="sunset_bark"><![CDATA[I'll attack them from back here.]]></entry>
 	<entry id="sunset_bark"><![CDATA[I'll make sure to make my next attack count.]]></entry>
 	<entry id="sunset_bark"><![CDATA[Running away? You should be doing that!]]></entry>
 	
@@ -408,9 +444,9 @@
 		<!--Misc Camping Barks -->
 	
 	<entry id="messiah+str_night_ambush_bark_0"><![CDATA[Oh no! Help us Player!]]></entry>
-	<entry id="messiah+str_night_ambush_bark_1"><![CDATA[Oh no! Help us Player!]]></entry>
-	<entry id="messiah+str_night_ambush_bark_2"><![CDATA[Oh no! Help us Player!]]></entry>
-	<entry id="messiah+str_night_ambush_bark_3"><![CDATA[Oh no! Help us Player!]]></entry>
+	<entry id="messiah+str_night_ambush_bark_1"><![CDATA[We were caught off guard!]]></entry>
+	<entry id="messiah+str_night_ambush_bark_2"><![CDATA[We should have stayed more alert!]]></entry>
+	<entry id="messiah+str_night_ambush_bark_3"><![CDATA[The campfire must have gave our location away!]]></entry>
 	
 	<entry id="messiah+str_bark_companionship"><![CDATA[Does anyone know how I can return home?]]></entry>
 	<entry id="messiah+str_bark_companionship"><![CDATA[I thought camping would be more fun...]]></entry>
@@ -437,7 +473,7 @@
 	<entry id="messiah+str_bark_stress_partylow"><![CDATA[Everyone is doing well!]]></entry>
 	<entry id="messiah+str_bark_stress_partylow"><![CDATA[*Hums cheerfully*]]></entry>
 	<entry id="messiah+str_bark_stress_partylow"><![CDATA[Thanks for your guidance Player!]]></entry>
-	<entry id="messiah+str_bark_stress_partylow"><![CDATA[I'm glad I'm with you guys!]]></entry>
+	<entry id="messiah+str_bark_stress_partylow"><![CDATA[I'm glad I'm with you guys.]]></entry>
 	<entry id="messiah+str_bark_stress_partylow"><![CDATA[Turns out those monsters aren't so scary after all!]]></entry>
 	<entry id="messiah+str_bark_stress_partylow"><![CDATA[We won't be giving up anytime soon!]]></entry>
 
@@ -520,16 +556,16 @@
 	<entry id="messiah+str_bark_provisions_low"><![CDATA[We should have prepared better...]]></entry>
 	<entry id="messiah+str_bark_provisions_low"><![CDATA[At least we have less to carry around...]]></entry>
 
-	<entry id="messiah+str_bark_firewood_high"><![CDATA[Why don't we light a fire and take a rest?]]></entry>
-	<entry id="messiah+str_bark_firewood_high"><![CDATA[Let's light some firewood to free up space!]]></entry>
-	<entry id="messiah+str_bark_firewood_high"><![CDATA[With all this firewood, I'm sure we'll be fine!]]></entry>
+	<entry id="messiah+str_bark_firewood_high"><![CDATA[All this firewood reminds me of the fireplace at home...]]></entry>
+	<entry id="messiah+str_bark_firewood_high"><![CDATA[All this firewood is getting pretty heavy.]]></entry>
+	<entry id="messiah+str_bark_firewood_high"><![CDATA[Lighting a fire would keep us warm.]]></entry>
 	<entry id="messiah+str_bark_firewood_high"><![CDATA[If anyone needs to rest, don't hesitate to tell us!]]></entry>
 	<entry id="messiah+str_bark_firewood_high"><![CDATA[If anyone wants to learn how to light a fire, I can show you how!]]></entry>
 	<entry id="messiah+str_bark_firewood_high"><![CDATA[*Suppresses pyromaniacal urges*]]></entry> 
 	
-	<entry id="messiah+str_bark_firewood_low"><![CDATA[Maybe I can try to use the Sun to light a fire...]]></entry>
-	<entry id="messiah+str_bark_firewood_low"><![CDATA[Guess we won't be taking any more rests now...]]></entry>
-	<entry id="messiah+str_bark_firewood_low"><![CDATA[Maybe I could use my arson skills to light something on fire?]]></entry>
+	<entry id="messiah+str_bark_firewood_low"><![CDATA[Maybe I can try to use the Sun like a campfire...]]></entry>
+	<entry id="messiah+str_bark_firewood_low"><![CDATA[Guess rest time is over...]]></entry>
+	<entry id="messiah+str_bark_firewood_low"><![CDATA[Maybe I could use my arson skills to keep the flame going?]]></entry>
 	<entry id="messiah+str_bark_firewood_low"><![CDATA[Hopefully we can persevere until the end...]]></entry>
 	<entry id="messiah+str_bark_firewood_low"><![CDATA[Player, do you know any way we can get more firewood?]]></entry>
 	<entry id="messiah+str_bark_firewood_low"><![CDATA[Hope everyone's all rested up, we'll have to finish this in one shot.]]></entry>
@@ -591,15 +627,15 @@
 	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[I'm a bit sleepy but I suppose there's more work to do...]]></entry>
 	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[I can go out if you need me to, Player.]]></entry>
 	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[I have enough energy in me for another run.]]></entry>
-	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[If you need me to go out again, I'm ready Player.]]></entry>
-	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[I can handle another run Player.]]></entry>
+	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[If you need me to go out again, I'm ready.]]></entry>
+	<entry id="messiah+str_roster_list_medium_stress_bark"><![CDATA[I think can handle another run Player.]]></entry>
 	
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[P-player, I need some time to recover from what I saw...]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[Player, I'm too tired to go on right now... Please let me nap for a bit somewhere.]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[My head hurts so much I can't think properly...]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[*Sleeping fitfully*]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[I need more time to clear my head.]]></entry>
-	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[Player, Please. I can't be going on an expedition like this.]]></entry>
+	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[Player, Please. I don't think I can handle another expedition...]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[W-will I actually be able to go back home?]]></entry>
 	<entry id="messiah+str_roster_list_high_stress_bark"><![CDATA[Will I really be able to save this world?]]></entry>
 	
@@ -675,7 +711,7 @@
 	
 	<!-- Multiple Messiahs cannot party together -->
 	<entry id="str_incompatible_party_messiah_nodupes"><![CDATA[Player? That person scares me...]]></entry>
-	<entry id="str_incompatible_party_member_messiah_nodupes"><![CDATA[An invisible force is stopping me from joining that party!]]></entry>
+	<entry id="str_incompatible_party_member_messiah_nodupes"><![CDATA[Something is stopping me from joining that party!]]></entry>
 	<entry id="str_incompatible_party_member_messiah_nodupes"><![CDATA[I almost thought I saw another me!]]></entry>
 	
 	<!-- Barks Outside of Combat -->	
@@ -805,10 +841,11 @@
 	<entry id="messiah+str_bark_deathsdoorsurvive_ally"><![CDATA[See? We won't let anyone get left behind!]]></entry>
 	<entry id="messiah+str_bark_deathsdoorsurvive_ally"><![CDATA[We've come so far, let's show them our determination!]]></entry>
 	
-	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I'm still stable. I haven't crumbled yet.]]></entry>
-	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I'm all better now and ready for combat!]]></entry>
-	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I'm still stable. I haven't crumbled yet.]]></entry>
-	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I'm all better now and ready for combat!]]></entry>
+	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I won't let everyone down that easily.]]></entry>
+	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[Not yet, I still have a job to do!]]></entry>
+	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I refuse to make mama sad.]]></entry>
+	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I have a home to return to after all!]]></entry>
+	<entry id="messiah+str_bark_deathsdoor_recovered"><![CDATA[I can't give up now, this is my only shot at this!]]></entry>
 	
 	<entry id="messiah+str_bark_bigwound"><![CDATA[*Whimpering in pain*]]></entry>
 	<entry id="messiah+str_bark_bigwound"><![CDATA[I wasn't careful enough...]]></entry>
@@ -864,7 +901,7 @@
 	<entry id="messiah+str_bark_torch_2"><![CDATA[Did you let the light go out on purpose Player?]]></entry>
 	
 	<entry id="messiah+str_combat_wastingtime"><![CDATA[We shouldn't waste time on this enemy Player! We have a job to do!]]></entry>
-	<entry id="messiah+str_combat_wastingtime"><![CDATA[Why aren't you attacking Player?]]></entry>
+	<entry id="messiah+str_combat_wastingtime"><![CDATA[Why aren't you attacking, Player?]]></entry>
 	<entry id="messiah+str_combat_wastingtime"><![CDATA[You need to keep your head in the game Player!]]></entry>
 	<entry id="messiah+str_combat_wastingtime"><![CDATA[I know taking your time can be good but we need to move on Player...]]></entry>
 	<entry id="messiah+str_combat_wastingtime"><![CDATA[Player! You're giving them time to call for help!]]></entry>
@@ -877,7 +914,7 @@
 
 	<entry id="messiah+str_ignore_command_imposter_syndrome"><![CDATA[I can't afford to make a single mistake...]]></entry>
 	<entry id="messiah+str_ignore_command_imposter_syndrome"><![CDATA[I don't trust myself to do this Player...]]></entry>
-	<entry id="messiah+str_ignore_command_imposter_syndrome"><![CDATA[I'm sorry Player but I don't think I'm good enough...]]></entry>
+	<entry id="messiah+str_ignore_command_imposter_syndrome"><![CDATA[I'm sorry Player, but I don't think I'm good enough...]]></entry>
 	<entry id="messiah+str_ignore_command_imposter_syndrome"><![CDATA[Maybe someone else should have been the Messiah...]]></entry>
 	
 	<!-- Curio barks -->
@@ -900,22 +937,64 @@
 	<entry id="messiah+str_bark_curiomeh"><![CDATA[Oh well...]]></entry>
 	
 	<entry id="messiah+trigger_curio_quirk_dark_temptation"><![CDATA[Wow! I've always wanted to have a look at something like this!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_dark_temptation"><![CDATA[It's... Calling to me.]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_guilty_conscience"><![CDATA[I haven't been doing well enough... Maybe Player can help me.]]></entry>
+	<entry id="messiah+trigger_curio_quirk_guilty_conscience"><![CDATA[Maybe I can wash away my mistakes...]]></entry>
+	<entry id="messiah+trigger_curio_quirk_guilty_conscience"><![CDATA[I need to atone for my sins...]]></entry>
+	 
 	<entry id="messiah+trigger_curio_quirk_kleptomaniac"><![CDATA[Don't mind if I do!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_kleptomaniac"><![CDATA[I want my daily allowance!]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_bloodthirsty"><![CDATA[That looks like it'd hurt a lot!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_bloodthirsty"><![CDATA[I like arson more, but this is nice too!]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_hieromania"><![CDATA[I think I can hear Player calling me!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_hieromania"><![CDATA[Wait, I think I can see mama...]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_ablutomania"><![CDATA[I feel so dirty... Time to wash up!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_ablutomania"><![CDATA[Staying clean is good for your health!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_ablutomania"><![CDATA[You should always wash your hands!]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_dacnomania"><![CDATA[Ooh, maybe we can use them on the monsters!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_dacnomania"><![CDATA[Out here, it's kill or be killed.]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_egomania"><![CDATA[Hey! Know your place! I am the Messiah!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_egomania"><![CDATA[I am the center of the world!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_egomania"><![CDATA[I'm the main character here!]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_hylomania"><![CDATA[Ooh that looks expensive!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_hylomania"><![CDATA[Wait, I think I saw something valuable!]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_sitiomania"><![CDATA[I'm so hungry!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_sitiomania"><![CDATA[A feast for the Messiah!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_sitiomania"><![CDATA[I need to eat lots so I can grow strong!]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_plutomania"><![CDATA[Wow, that looks shiny!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_plutomania"><![CDATA[Money can buy happiness after all!]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_necromania"><![CDATA[A corpse? Let me see!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_necromania"><![CDATA[So this is what happens to people once they die.]]></entry>
+	<entry id="messiah+trigger_curio_quirk_necromania"><![CDATA[Wait, I need to check if they're actually dead.]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_dipsomania"><![CDATA[I've always wanted to try adult drinks!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_dipsomania"><![CDATA[I've seen mama drink this stuff once or twice.]]></entry>
+	<entry id="messiah+trigger_curio_quirk_dipsomania"><![CDATA[I'm thirsty!]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_paranormania"><![CDATA[Wait, let me see that. The Sun might work on ghosts!]]></entry>
-	<entry id="messiah+trigger_curio_quirk_hagiomania"><![CDATA[I can become a true Messiah with this!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_paranormania"><![CDATA[Wait, wait! I wanna have a look!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_paranormania"><![CDATA[I've always wanted to see what ghosts look like.]]></entry>
+	
+	<entry id="messiah+trigger_curio_quirk_hagiomania"><![CDATA[I can become a true Messiah with this...]]></entry>
+	<entry id="messiah+trigger_curio_quirk_hagiomania"><![CDATA[If I'm to talk to Player, I need to act the part.]]></entry>
+	
     <entry id="messiah+trigger_curio_quirk_demonomania"><![CDATA[I heard someone tell me to touch it!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_demonomania"><![CDATA[Maybe I can offer guidance to the spirits...]]></entry>
+	<entry id="messiah+trigger_curio_quirk_demonomania"><![CDATA[The spirits are calling for help!]]></entry>
+	
 	<entry id="messiah+trigger_curio_quirk_tapeworm"><![CDATA[I'm so hungry!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_tapeworm"><![CDATA[A feast for the Messiah!]]></entry>
+	<entry id="messiah+trigger_curio_quirk_tapeworm"><![CDATA[I won't be able to concentrate if I'm hungry!]]></entry>
 	
 	<entry id="messiah+trigger_curio_quirk_compulsive"><![CDATA[Ooh, let me touch that!]]></entry>
     <entry id="messiah+trigger_curio_quirk_compulsive"><![CDATA[Player, what's that?]]></entry>
@@ -931,12 +1010,18 @@
 	
 	<entry id="messiah+str_keep_loot_string"><![CDATA[I'll know how to use this better.]]></entry>
 	<entry id="messiah+str_keep_loot_string"><![CDATA[Finders Keepers.]]></entry>
+	<entry id="messiah+str_keep_loot_string"><![CDATA[Player would want me to have that.]]></entry>
+	<entry id="messiah+str_keep_loot_string"><![CDATA[I wanna keep this as a souvenir for mama!]]></entry>
+	<entry id="messiah+str_keep_loot_string"><![CDATA[What's here is mine and what's mine is mine.]]></entry>
 
 	<!-- Virtue Barks -->
 	<entry id="str_virtue_name_messiah_virtue_guided"><![CDATA[Guided]]></entry>
 	<entry id="str_virtue_description_messiah_virtue_guided"><![CDATA[The Messiah has established a deeper connection with you, enabling them to harness greater powers!]]></entry>
 	
 	<entry id="messiah+str_block_effect_messiah_virtue_guided"><![CDATA[Nuh uh!]]></entry>
+	<entry id="messiah+str_block_effect_messiah_virtue_guided"><![CDATA[You won't be able to stop me that easily!]]></entry>
+	<entry id="messiah+str_block_effect_messiah_virtue_guided"><![CDATA[Wait... Is that it? Underwhelming.]]></entry>
+	<entry id="messiah+str_block_effect_messiah_virtue_guided"><![CDATA[Player won't let that happen.]]></entry>
 
 	<entry id="messiah+str_virtued_messiah_virtue_guided"><![CDATA[It's okay, Player is watching over us!]]></entry>
 	<entry id="messiah+str_virtued_messiah_virtue_guided"><![CDATA[I'm sure even this world can be tamed.]]></entry>
@@ -985,9 +1070,11 @@
 	<entry id="messiah+trigger_curio_messiah_affliction_shattered"><![CDATA[Maybe I can use this to communicate with Player again...]]></entry>
 	<entry id="messiah+trigger_curio_messiah_affliction_shattered"><![CDATA[Player told me to do it... I think.]]></entry>
 	<entry id="messiah+trigger_curio_messiah_affliction_shattered"><![CDATA[Maybe the God of this world can guide me instead...]]></entry>
+	<entry id="messiah+trigger_curio_messiah_affliction_shattered"><![CDATA[I should be the one touching this.]]></entry>
 	
     <entry id="messiah+str_bark_stress_messiah_affliction_shattered"><![CDATA[Even now, this is my burden to bear...]]></entry>
     <entry id="messiah+str_bark_stress_messiah_affliction_shattered"><![CDATA[I let everyone down...]]></entry>
+	<entry id="messiah+str_bark_stress_messiah_affliction_shattered"><![CDATA[We're not gonna make it...]]></entry>
     <entry id="messiah+str_bark_stress_messiah_affliction_shattered"><![CDATA[Even if I know it's hopeless I have to keep going...]]></entry>
 	
     <entry id="messiah+str_change_pos_back_messiah_affliction_shattered"><![CDATA[Even if the world is doomed I don't wanna get hurt!]]></entry>
@@ -1009,6 +1096,7 @@
     <entry id="messiah+str_mark_self_messiah_affliction_shattered"><![CDATA[I have to make up for my uselessness somehow...]]></entry>
     <entry id="messiah+str_mark_self_messiah_affliction_shattered"><![CDATA[Even if the world is doomed, I have to try to lessen the burden on the others...]]></entry>
     <entry id="messiah+str_mark_self_messiah_affliction_shattered"><![CDATA[Maybe if I die, I'll get to go home.]]></entry>
+	<entry id="messiah+str_mark_self_messiah_affliction_shattered"><![CDATA[They'll be better off without me anyways...]]></entry>
 	
     <entry id="messiah+str_comment_self_hit_messiah_affliction_shattered"><![CDATA[Maybe I deserve this...]]></entry>
     <entry id="messiah+str_comment_self_hit_messiah_affliction_shattered"><![CDATA[Even now I don't wanna get hurt...]]></entry>
@@ -1023,14 +1111,17 @@
     <entry id="messiah+str_comment_ally_attack_missed_messiah_affliction_shattered"><![CDATA[Maybe if I had guided them better...]]></entry>
     <entry id="messiah+str_comment_ally_attack_missed_messiah_affliction_shattered"><![CDATA[I guess we were never good enough to succeed...]]></entry>
     <entry id="messiah+str_comment_ally_attack_missed_messiah_affliction_shattered"><![CDATA[First Player, and now even my party members are failing me...]]></entry>
+	<entry id="messiah+str_comment_ally_attack_missed_messiah_affliction_shattered"><![CDATA[They missed their shot...]]></entry>
 	
     <entry id="messiah+str_comment_move_messiah_affliction_shattered"><![CDATA[I guess it's my fate to be pushed around like this...]]></entry>
     <entry id="messiah+str_comment_move_messiah_affliction_shattered"><![CDATA[I ruined our formation...]]></entry>
     <entry id="messiah+str_comment_move_messiah_affliction_shattered"><![CDATA[I can't even hold my own...]]></entry>
+	<entry id="messiah+str_comment_move_messiah_affliction_shattered"><![CDATA[I messed up Player's plans...]]></entry>
 	
     <entry id="messiah+str_comment_trap_triggered_messiah_affliction_shattered"><![CDATA[I should have warned them...]]></entry>
     <entry id="messiah+str_comment_trap_triggered_messiah_affliction_shattered"><![CDATA[I failed to keep them safe...]]></entry>
 	<entry id="messiah+str_comment_trap_triggered_messiah_affliction_shattered"><![CDATA[I failed to notice such an obvious trap...]]></entry>
+	<entry id="messiah+str_comment_trap_triggered_messiah_affliction_shattered"><![CDATA[Player, why didn't you warn us...]]></entry>
 	
     <entry id="messiah+str_block_camping_meal_messiah_affliction_shattered"><![CDATA[This food shouldn't be wasted on me...]]></entry>
     <entry id="messiah+str_block_camping_meal_messiah_affliction_shattered"><![CDATA[You shouldn't be wasting that on me...]]></entry>
@@ -1040,10 +1131,12 @@
     <entry id="messiah+str_block_camping_skill_target_messiah_affliction_shattered"><![CDATA[This would be wasted on me...]]></entry>
     <entry id="messiah+str_block_camping_skill_target_messiah_affliction_shattered"><![CDATA[You guys aren't real so it won't work on me anyways...]]></entry>
     <entry id="messiah+str_block_camping_skill_target_messiah_affliction_shattered"><![CDATA[Player told you to do this didn't they? I won't trust them.]]></entry>
+	<entry id="messiah+str_block_camping_skill_target_messiah_affliction_shattered"><![CDATA[Are you patronizing me just because I'm a kid?]]></entry>
 	
     <entry id="messiah+str_block_camping_skill_performer_messiah_affliction_shattered"><![CDATA[It won't work anyways...]]></entry>
     <entry id="messiah+str_block_camping_skill_performer_messiah_affliction_shattered"><![CDATA[It doesn't matter whatever I do. Why even try?]]></entry>
     <entry id="messiah+str_block_camping_skill_performer_messiah_affliction_shattered"><![CDATA[I won't be able to do that without Player guiding me...]]></entry>
+	<entry id="messiah+str_block_camping_skill_performer_messiah_affliction_shattered"><![CDATA[Player wouldn't want me to do this right now.]]></entry>
 	
     <entry id="messiah+str_block_heal_messiah_affliction_shattered"><![CDATA[You shouldn't waste healing on someone like me...]]></entry>
     <entry id="messiah+str_block_heal_messiah_affliction_shattered"><![CDATA[I won't be able to save the world anyways...]]></entry>
@@ -1139,7 +1232,7 @@
 	<entry id="messiah+str_quest_darkest_dungeon"><![CDATA[That place looks scary...]]></entry>
 	<entry id="messiah+str_quest_darkest_dungeon"><![CDATA[Is this this world's Tower?]]></entry>
 	
-	<!-- These don't work, thanks RH -->
+	
 	<entry id="messiah+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[That place isn't real right?]]></entry>
 	<entry id="messiah+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[I keep having nightmares of that place...]]></entry>
 	<entry id="messiah+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[Mama would know how to calm me down...]]></entry>
@@ -1391,6 +1484,7 @@
 	<!-- Necromancer -->
 	
 	<entry id="messiah+str_monster_attack_unholy_smite"><![CDATA[I feel so cold...]]></entry>
+	<entry id="messiah+str_monster_attack_unholy_smite"><![CDATA[Lashing out like this won't fix anything!]]></entry>
 	<entry id="messiah+str_monster_attack_unholy_smite"><![CDATA[You have to learn to control your hatred!]]></entry>
 	
 	<entry id="messiah+str_monster_attack_unholy_curse"><![CDATA[He's showing me visions of what would happen if I fail...]]></entry>
@@ -1398,6 +1492,7 @@
 	
 	<entry id="messiah+str_monster_attack_unholy_judgement"><![CDATA[Skeletons are clawing at me from the floor!]]></entry>
     <entry id="messiah+str_monster_attack_unholy_judgement"><![CDATA[Controlling the dead like this isn't right!]]></entry>
+	<entry id="messiah+str_monster_attack_unholy_judgement"><![CDATA[Stop, those people earned their rest!]]></entry>
 	
 	<!-- Siren -->
 	
@@ -1461,7 +1556,7 @@
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[I don't think I can take much of this!]]></entry>
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[This isn't the right thing to do grandpa!]]></entry>
 	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Go pick on Bloodsuckers instead of innocent people!]]></entry>
-	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Why don't you try committing  some arson instead?]]></entry>
+	<entry id="messiah+str_prisoner_damage_pyre_full"><![CDATA[Why don't you try committing some arson instead?]]></entry>
 	
 	<!-- Miller -->
 	
@@ -1471,6 +1566,7 @@
     <entry id="messiah+str_boss_miller_grind"><![CDATA[Hey, why are you using that attack so much?!]]></entry>
     <entry id="messiah+str_boss_miller_grind"><![CDATA[This is getting old you know!]]></entry>
 	<entry id="messiah+str_boss_miller_grind"><![CDATA[The fact that you're sad doesn't mean you should keep lashing out at us!]]></entry>
+	<entry id="messiah+str_boss_miller_grind"><![CDATA[We aren't wheat!]]></entry>
 	
     <entry id="messiah+str_boss_miller_sadness"><![CDATA[Wait, is he the man in the locket she gave us?]]></entry>
     <entry id="messiah+str_boss_miller_sadness"><![CDATA[He had such a sad life...]]></entry>
