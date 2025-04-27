@@ -1,0 +1,230 @@
+
+messiah.sprite.idle.png
+size: 959,1065
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bulb
+  rotate: false
+  xy: 376, 700
+  size: 296, 363
+  orig: 296, 363
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 663, 441
+  size: 218, 173
+  orig: 218, 173
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: true
+  xy: 2, 150
+  size: 471, 201
+  orig: 471, 201
+  offset: 0, 0
+  index: -1
+Hat Back
+  rotate: true
+  xy: 205, 151
+  size: 470, 118
+  orig: 470, 118
+  offset: 0, 0
+  index: -1
+L Ear
+  rotate: true
+  xy: 390, 256
+  size: 129, 156
+  orig: 129, 156
+  offset: 0, 0
+  index: -1
+L Foot
+  rotate: false
+  xy: 846, 782
+  size: 111, 106
+  orig: 111, 106
+  offset: 0, 0
+  index: -1
+L Hair 1
+  rotate: true
+  xy: 846, 685
+  size: 95, 111
+  orig: 95, 111
+  offset: 0, 0
+  index: -1
+L Hair 2
+  rotate: false
+  xy: 444, 7
+  size: 93, 139
+  orig: 93, 139
+  offset: 0, 0
+  index: -1
+L Leg
+  rotate: true
+  xy: 325, 148
+  size: 106, 208
+  orig: 106, 208
+  offset: 0, 0
+  index: -1
+L Lil Bits
+  rotate: false
+  xy: 274, 16
+  size: 168, 130
+  orig: 168, 130
+  offset: 0, 0
+  index: -1
+L Scarf
+  rotate: false
+  xy: 674, 661
+  size: 170, 402
+  orig: 170, 402
+  offset: 0, 0
+  index: -1
+L Whisker
+  rotate: false
+  xy: 758, 104
+  size: 102, 121
+  orig: 102, 121
+  offset: 0, 0
+  index: -1
+L arm
+  rotate: true
+  xy: 2, 20
+  size: 128, 270
+  orig: 128, 270
+  offset: 0, 0
+  index: -1
+L foot walk
+  rotate: true
+  xy: 862, 109
+  size: 118, 94
+  orig: 118, 94
+  offset: 0, 0
+  index: -1
+L shoulder
+  rotate: false
+  xy: 846, 890
+  size: 111, 173
+  orig: 111, 173
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 2, 623
+  size: 372, 440
+  orig: 372, 440
+  offset: 0, 0
+  index: -1
+R Ear
+  rotate: true
+  xy: 652, 227
+  size: 116, 143
+  orig: 116, 143
+  offset: 0, 0
+  index: -1
+R Foot
+  rotate: false
+  xy: 758, 2
+  size: 118, 100
+  orig: 118, 100
+  offset: 0, 0
+  index: -1
+R Hair 1
+  rotate: false
+  xy: 797, 229
+  size: 89, 114
+  orig: 89, 114
+  offset: 0, 0
+  index: -1
+R Hair 2
+  rotate: false
+  xy: 539, 91
+  size: 107, 142
+  orig: 107, 142
+  offset: 0, 0
+  index: -1
+R Leg
+  rotate: false
+  xy: 548, 235
+  size: 102, 192
+  orig: 102, 192
+  offset: 0, 0
+  index: -1
+R Lil Bits
+  rotate: false
+  xy: 663, 345
+  size: 153, 94
+  orig: 153, 94
+  offset: 0, 0
+  index: -1
+R Scarf
+  rotate: true
+  xy: 838, 378
+  size: 112, 119
+  orig: 112, 119
+  offset: 0, 0
+  index: -1
+R Whisker
+  rotate: false
+  xy: 648, 99
+  size: 108, 126
+  orig: 108, 126
+  offset: 0, 0
+  index: -1
+R arm
+  rotate: false
+  xy: 390, 387
+  size: 139, 311
+  orig: 139, 311
+  offset: 0, 0
+  index: -1
+R shoulder
+  rotate: false
+  xy: 838, 492
+  size: 119, 167
+  orig: 119, 167
+  offset: 0, 0
+  index: -1
+Scarf Neck
+  rotate: true
+  xy: 531, 429
+  size: 269, 130
+  orig: 269, 130
+  offset: 0, 0
+  index: -1
+bang1
+  rotate: false
+  xy: 888, 321
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+bang2
+  rotate: false
+  xy: 888, 256
+  size: 40, 63
+  orig: 40, 63
+  offset: 0, 0
+  index: -1
+bang3
+  rotate: true
+  xy: 539, 2
+  size: 87, 94
+  orig: 87, 94
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 878, 34
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 325, 264
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

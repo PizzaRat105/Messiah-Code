@@ -1,0 +1,20 @@
+
+messiah.sprite.camp.png
+size: 833,687
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Niko_camp
+  rotate: true
+  xy: 2, 2
+  size: 683, 764
+  orig: 683, 764
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 768, 328
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

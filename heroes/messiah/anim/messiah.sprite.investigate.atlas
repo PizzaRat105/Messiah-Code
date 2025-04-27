@@ -1,0 +1,20 @@
+
+messiah.sprite.investigate.png
+size: 1079,751
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Niko_interact
+  rotate: true
+  xy: 2, 2
+  size: 747, 1010
+  orig: 747, 1010
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1014, 392
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

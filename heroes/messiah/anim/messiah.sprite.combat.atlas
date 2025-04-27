@@ -1,0 +1,202 @@
+
+messiah.sprite.combat.png
+size: 1169,1065
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bangs
+  rotate: false
+  xy: 930, 159
+  size: 134, 99
+  orig: 134, 99
+  offset: 0, 0
+  index: -1
+Bulb
+  rotate: false
+  xy: 2, 201
+  size: 297, 368
+  orig: 297, 368
+  offset: 0, 0
+  index: -1
+Face
+  rotate: true
+  xy: 545, 334
+  size: 219, 178
+  orig: 219, 178
+  offset: 0, 0
+  index: -1
+Hat
+  rotate: false
+  xy: 2, 2
+  size: 438, 197
+  orig: 438, 197
+  offset: 0, 0
+  index: -1
+Hat Back
+  rotate: false
+  xy: 705, 769
+  size: 433, 86
+  orig: 433, 86
+  offset: 0, 0
+  index: -1
+L Arm
+  rotate: true
+  xy: 409, 555
+  size: 191, 337
+  orig: 191, 337
+  offset: 0, 0
+  index: -1
+L Ear
+  rotate: true
+  xy: 1012, 372
+  size: 170, 155
+  orig: 170, 155
+  offset: 0, 0
+  index: -1
+L Foot
+  rotate: true
+  xy: 1069, 914
+  size: 149, 98
+  orig: 149, 98
+  offset: 0, 0
+  index: -1
+L Hair
+  rotate: true
+  xy: 944, 260
+  size: 110, 145
+  orig: 110, 145
+  offset: 0, 0
+  index: -1
+L Hair 2
+  rotate: false
+  xy: 780, 118
+  size: 148, 157
+  orig: 148, 157
+  offset: 0, 0
+  index: -1
+L Leg
+  rotate: true
+  xy: 725, 408
+  size: 127, 285
+  orig: 127, 285
+  offset: 0, 0
+  index: -1
+L Scarf
+  rotate: true
+  xy: 1001, 544
+  size: 223, 129
+  orig: 223, 129
+  offset: 0, 0
+  index: -1
+L Scarf 2
+  rotate: true
+  xy: 442, 21
+  size: 186, 167
+  orig: 186, 167
+  offset: 0, 0
+  index: -1
+L Whisker
+  rotate: false
+  xy: 936, 44
+  size: 92, 113
+  orig: 92, 113
+  offset: 0, 0
+  index: -1
+R Arm 1
+  rotate: true
+  xy: 748, 537
+  size: 230, 251
+  orig: 230, 251
+  offset: 0, 0
+  index: -1
+R Arm 2
+  rotate: true
+  xy: 705, 857
+  size: 206, 362
+  orig: 206, 362
+  offset: 0, 0
+  index: -1
+R Ear
+  rotate: true
+  xy: 545, 210
+  size: 122, 165
+  orig: 122, 165
+  offset: 0, 0
+  index: -1
+R Foot
+  rotate: true
+  xy: 1030, 52
+  size: 105, 54
+  orig: 105, 54
+  offset: 0, 0
+  index: -1
+R Hair
+  rotate: true
+  xy: 366, 209
+  size: 80, 142
+  orig: 80, 142
+  offset: 0, 0
+  index: -1
+R Hair 2
+  rotate: true
+  xy: 780, 5
+  size: 111, 154
+  orig: 111, 154
+  offset: 0, 0
+  index: -1
+R Leg
+  rotate: false
+  xy: 366, 291
+  size: 177, 262
+  orig: 177, 262
+  offset: 0, 0
+  index: -1
+R Scarf
+  rotate: false
+  xy: 611, 38
+  size: 167, 170
+  orig: 167, 170
+  offset: 0, 0
+  index: -1
+R Scarf 2
+  rotate: false
+  xy: 409, 748
+  size: 294, 315
+  orig: 294, 315
+  offset: 0, 0
+  index: -1
+R Whisker
+  rotate: false
+  xy: 1091, 263
+  size: 69, 107
+  orig: 69, 107
+  offset: 0, 0
+  index: -1
+Scarf Neck
+  rotate: false
+  xy: 725, 277
+  size: 217, 129
+  orig: 217, 129
+  offset: 0, 0
+  index: -1
+Torso
+  rotate: false
+  xy: 2, 571
+  size: 405, 492
+  orig: 405, 492
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 1066, 179
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 301, 212
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
