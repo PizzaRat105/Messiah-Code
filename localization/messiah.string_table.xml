@@ -107,15 +107,15 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5a"><![CDATA[{colour_start|buff}Buff Target:{colour_end}
 	   -7%% Crits Received Chance (3 rds)]]></entry>
 	   
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_1b"><![CDATA[-10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_1b"><![CDATA[    -10%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_2b"><![CDATA[-12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_2b"><![CDATA[    -12%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_3b"><![CDATA[-15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_3b"><![CDATA[    -15%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_4b"><![CDATA[-17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_4b"><![CDATA[    -17%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5b"><![CDATA[-20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Loc_Soothing_Sunlight_Buff_TT_5b"><![CDATA[    -20%% {colour_start|stress}Stress{colour_end} (3 rds)]]></entry>
 
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Loc_MessiahShowofFaithCDTooltip"><![CDATA[Cooldown: 1 rd]]></entry>
