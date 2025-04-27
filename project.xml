@@ -2,11 +2,11 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/Messiah-Code/</ModDataPath>
+	<ModDataPath>C:/Users/jerr0/Pictures/DISCORD EMOTES/ONESHOT/OneShot DD/</ModDataPath>
 	<Title>Messiah Playtest</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>private</Visibility>
+	<Visibility>unlisted</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
 	<VersionMinor>1</VersionMinor>
@@ -17,9 +17,28 @@
 		<Tags>english</Tags>
 	</Tags>
 	<ItemDescription>
-	Messiah (Niko from OneShot) Test Build 
-	ToDo: Barks, 
-	To be added: Workaround for Skills and Trinkets (Thanks Iris)
+		Messiah (Niko from OneShot) Test Build
+	
+Info Doc: https://docs.google.com/document/d/1ULwbEm-bkGvxcI1-MkUn80T2Al1tfoGyyBL-Ihq3804/edit?tab=t.0
+	
+
+Combat Skills
+
+[img]https://imgur.com/fuuRYHB.png[/img]
+[img]https://imgur.com/R8zB9vI.png[/img]
+[img]https://imgur.com/ibUONTv.png[/img]
+[img]https://imgur.com/7LmMk5I.png[/img]
+[img]https://imgur.com/kwZ70Ma.png[/img]
+[img]https://imgur.com/qlrHydy.png[/img]
+[img]https://imgur.com/CXZo6EJ.png[/img]
+
+Camping Skills
+
+[img]https://imgur.com/x5uM0n0.png[/img]
+[img]https://imgur.com/Y00CETU.png[/img]
+[img]https://imgur.com/Bxhb0eJ.png[/img]
+[img]https://imgur.com/qcvhRwg.png[/img]
+	
 	</ItemDescription>
 	<PublishedFileId>3357121300</PublishedFileId>
 </project>
