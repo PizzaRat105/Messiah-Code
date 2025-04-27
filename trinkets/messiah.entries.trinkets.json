@@ -143,7 +143,8 @@
          "buffs" : 
          [
 			 "Feather_Dodge_15",
-			 "Feather_HP_Penalty_10",
+			 "Feather_Ambush_Prevent",
+			 "Feather_Ambush_Prevent_TT",
 			 "Feather_Destealth_TT",
 			 "EmptySpaceDelete"
          ],
