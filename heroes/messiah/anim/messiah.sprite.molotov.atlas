@@ -1,16 +1,9 @@
 
 messiah.sprite.molotov.png
-size: 1254,410
+size: 661,410
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Layer 21
-  rotate: false
-  xy: 596, 2
-  size: 591, 406
-  orig: 591, 406
-  offset: 0, 0
-  index: -1
 New group Copy 2
   rotate: false
   xy: 2, 2
@@ -20,7 +13,7 @@ New group Copy 2
   index: -1
 shadow
   rotate: true
-  xy: 1189, 51
+  xy: 596, 51
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
