@@ -1,0 +1,20 @@
+
+messiah.sprite.shot_targfx.png
+size: 511,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 17
+  rotate: true
+  xy: 258, 5
+  size: 268, 251
+  orig: 268, 251
+  offset: 0, 0
+  index: -1
+shot_shadow
+  rotate: false
+  xy: 2, 2
+  size: 254, 271
+  orig: 254, 271
+  offset: 0, 0
+  index: -1

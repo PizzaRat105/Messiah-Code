@@ -1,0 +1,27 @@
+
+messiah.sprite.inspire_fx.png
+size: 1062,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 24 Copy
+  rotate: false
+  xy: 2, 2
+  size: 504, 436
+  orig: 504, 436
+  offset: 0, 0
+  index: -1
+Layer 3 Copy 2
+  rotate: true
+  xy: 821, 204
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+Layer 32 Copy
+  rotate: true
+  xy: 508, 70
+  size: 368, 311
+  orig: 368, 311
+  offset: 0, 0
+  index: -1

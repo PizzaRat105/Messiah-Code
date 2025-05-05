@@ -1,0 +1,34 @@
+
+messiah.sprite.lightup_fx.png
+size: 847,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 25 Copy
+  rotate: true
+  xy: 532, 62
+  size: 356, 161
+  orig: 356, 161
+  offset: 0, 0
+  index: -1
+Layer 29
+  rotate: false
+  xy: 2, 2
+  size: 528, 416
+  orig: 528, 416
+  offset: 0, 0
+  index: -1
+lightbulb
+  rotate: false
+  xy: 695, 87
+  size: 128, 154
+  orig: 128, 154
+  offset: 0, 0
+  index: -1
+lightbulb_fx
+  rotate: false
+  xy: 695, 243
+  size: 150, 175
+  orig: 150, 175
+  offset: 0, 0
+  index: -1

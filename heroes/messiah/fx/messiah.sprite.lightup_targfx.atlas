@@ -1,0 +1,20 @@
+
+messiah.sprite.lightup_targfx.png
+size: 778,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 30 Copy
+  rotate: false
+  xy: 564, 120
+  size: 212, 220
+  orig: 212, 220
+  offset: 0, 0
+  index: -1
+Layer 31
+  rotate: true
+  xy: 2, 2
+  size: 338, 560
+  orig: 338, 560
+  offset: 0, 0
+  index: -1

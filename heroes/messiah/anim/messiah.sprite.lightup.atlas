@@ -1,0 +1,20 @@
+
+messiah.sprite.lightup.png
+size: 597,442
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Inserted Image Copy
+  rotate: false
+  xy: 2, 2
+  size: 528, 438
+  orig: 528, 438
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 532, 83
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

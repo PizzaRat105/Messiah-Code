@@ -12,10 +12,10 @@ armour: .name "messiah_armour_2" .icon "eqp_armour_2.png"
 armour: .name "messiah_armour_3" .icon "eqp_armour_3.png"
 armour: .name "messiah_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "mes_seasoned_arson" .icon "one" .anim "attack_dirk" .fx "dirk_stab" .targchestfx "solo_target"
-combat_skill: .id "mes_oneshot" .icon "two" .anim "attack_bow" .fx "finale" .targchestfx "finale_target" .area_pos_offset 0 25
-combat_skill: .id "mes_blinding_rays" .icon "three" .anim "attack_powerslide" .fx "solo" .targchestfx "solo_target" .area_pos_offset 75 25 .target_area_pos_offset -150 25
-combat_skill: .id "mes_soothing_sunlight" .icon "four" .fx "inspiring_tune" .anim "attack_lute" .can_display_performer_selection_after_turn false
+combat_skill: .id "mes_seasoned_arson" .icon "one" .anim "molotov" .fx "molotov_fx" .targfx "molotov_targfx"
+combat_skill: .id "mes_oneshot" .icon "two" .anim "shot" .fx "shot_fx" .targchestfx "shot_targfx" .area_pos_offset -25 0
+combat_skill: .id "mes_blinding_rays" .icon "three" .anim "lightup" .fx "lightup_fx" .targchestfx "lightup_targfx" .area_pos_offset 75 25 .target_area_pos_offset -150 25
+combat_skill: .id "mes_soothing_sunlight" .icon "four" .fx "" .anim "" .can_display_performer_selection_after_turn false
 combat_skill: .id "mes_show_of_faith" .icon "five" .anim "attack_lute" .fx "battle_ballad" .targchestfx "battle_ballad_target" .can_display_performer_selection_after_turn false
 combat_skill: .id "mes_my_burden_is_light" .icon "six" .fx "inspiring_tune" .anim "attack_lute" .can_display_performer_selection_after_turn false
 combat_skill: .id "mes_sunset" .icon "seven" .fx "inspiring_tune" .anim "attack_lute" .can_display_performer_selection_after_turn false

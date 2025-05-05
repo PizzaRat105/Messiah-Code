@@ -1,0 +1,20 @@
+
+messiah.sprite.heal_targfx.png
+size: 652,373
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Inserted Image Copy 3
+  rotate: false
+  xy: 445, 115
+  size: 205, 256
+  orig: 205, 256
+  offset: 0, 0
+  index: -1
+Layer 27
+  rotate: true
+  xy: 2, 2
+  size: 369, 441
+  orig: 369, 441
+  offset: 0, 0
+  index: -1

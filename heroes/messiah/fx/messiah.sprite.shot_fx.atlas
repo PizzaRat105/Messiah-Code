@@ -1,0 +1,41 @@
+
+messiah.sprite.shot_fx.png
+size: 1354,485
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 14 Copy
+  rotate: true
+  xy: 813, 177
+  size: 306, 280
+  orig: 306, 280
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: false
+  xy: 1095, 27
+  size: 257, 183
+  orig: 257, 183
+  offset: 0, 0
+  index: -1
+Layer 19 Copy
+  rotate: true
+  xy: 505, 24
+  size: 459, 306
+  orig: 459, 306
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: true
+  xy: 2, 2
+  size: 481, 501
+  orig: 481, 501
+  offset: 0, 0
+  index: -1
+shot_shadow
+  rotate: false
+  xy: 1095, 212
+  size: 254, 271
+  orig: 254, 271
+  offset: 0, 0
+  index: -1

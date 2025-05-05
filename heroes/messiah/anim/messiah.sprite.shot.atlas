@@ -1,0 +1,20 @@
+
+messiah.sprite.shot.png
+size: 699,505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+New group Copy 3
+  rotate: false
+  xy: 2, 2
+  size: 630, 501
+  orig: 630, 501
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 634, 146
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+messiah.sprite.fade.png
+size: 633,480
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Inserted Image Copy 4
+  rotate: false
+  xy: 2, 2
+  size: 564, 476
+  orig: 564, 476
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 568, 121
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

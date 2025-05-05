@@ -1,0 +1,111 @@
+
+messiah.sprite.molotov_targfx.png
+size: 1230,533
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 7
+  rotate: false
+  xy: 2, 2
+  size: 1115, 529
+  orig: 1115, 529
+  offset: 0, 0
+  index: -1
+bottle_0
+  rotate: false
+  xy: 1119, 34
+  size: 60, 81
+  orig: 60, 81
+  offset: 0, 0
+  index: -1
+bottle_1
+  rotate: false
+  xy: 1119, 5
+  size: 48, 27
+  orig: 48, 27
+  offset: 0, 0
+  index: -1
+bottle_10
+  rotate: false
+  xy: 1160, 143
+  size: 41, 36
+  orig: 41, 36
+  offset: 0, 0
+  index: -1
+bottle_11
+  rotate: false
+  xy: 1119, 319
+  size: 74, 89
+  orig: 74, 89
+  offset: 0, 0
+  index: -1
+bottle_12
+  rotate: false
+  xy: 1203, 154
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+bottle_13
+  rotate: false
+  xy: 1185, 110
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+bottle_2
+  rotate: true
+  xy: 1165, 181
+  size: 55, 60
+  orig: 55, 60
+  offset: 0, 0
+  index: -1
+bottle_3
+  rotate: true
+  xy: 1119, 213
+  size: 104, 44
+  orig: 104, 44
+  offset: 0, 0
+  index: -1
+bottle_4
+  rotate: true
+  xy: 1119, 117
+  size: 94, 39
+  orig: 94, 39
+  offset: 0, 0
+  index: -1
+bottle_5
+  rotate: true
+  xy: 1195, 321
+  size: 42, 28
+  orig: 42, 28
+  offset: 0, 0
+  index: -1
+bottle_6
+  rotate: true
+  xy: 1119, 410
+  size: 121, 99
+  orig: 121, 99
+  offset: 0, 0
+  index: -1
+bottle_7
+  rotate: false
+  xy: 1160, 118
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+bottle_8
+  rotate: true
+  xy: 1165, 238
+  size: 79, 60
+  orig: 79, 60
+  offset: 0, 0
+  index: -1
+bottle_9
+  rotate: true
+  xy: 1195, 365
+  size: 43, 28
+  orig: 43, 28
+  offset: 0, 0
+  index: -1

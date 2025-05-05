@@ -1,0 +1,27 @@
+
+messiah.sprite.heal_fx.png
+size: 749,448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 24
+  rotate: false
+  xy: 2, 10
+  size: 504, 436
+  orig: 504, 436
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 508, 212
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+Layer 3 Copy
+  rotate: false
+  xy: 508, 2
+  size: 215, 208
+  orig: 215, 208
+  offset: 0, 0
+  index: -1

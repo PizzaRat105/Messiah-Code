@@ -1,0 +1,20 @@
+
+messiah.sprite.inspire_targfx.png
+size: 486,320
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 25 Copy 3
+  rotate: false
+  xy: 314, 118
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+Layer 31 Copy
+  rotate: false
+  xy: 2, 2
+  size: 310, 316
+  orig: 310, 316
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+messiah.sprite.molotov_fx.png
+size: 874,420
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 21
+  rotate: false
+  xy: 2, 12
+  size: 591, 406
+  orig: 591, 406
+  offset: 0, 0
+  index: -1
+Layer 22 Copy
+  rotate: false
+  xy: 595, 2
+  size: 277, 416
+  orig: 277, 416
+  offset: 0, 0
+  index: -1

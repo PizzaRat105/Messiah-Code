@@ -1,0 +1,20 @@
+
+messiah.sprite.flash.png
+size: 508,419
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+New group Copy 4
+  rotate: true
+  xy: 2, 2
+  size: 415, 439
+  orig: 415, 439
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 443, 60
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+messiah.sprite.flash_fx.png
+size: 1702,1337
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 18
+  rotate: false
+  xy: 2, 2
+  size: 1559, 508
+  orig: 1559, 508
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 1278, 868
+  size: 401, 467
+  orig: 401, 467
+  offset: 0, 0
+  index: -1
+Layer 20 Copy
+  rotate: false
+  xy: 2, 512
+  size: 1274, 823
+  orig: 1274, 823
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: true
+  xy: 1278, 518
+  size: 348, 422
+  orig: 348, 422
+  offset: 0, 0
+  index: -1

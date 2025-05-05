@@ -1,0 +1,20 @@
+
+messiah.sprite.heal.png
+size: 573,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+New group Copy
+  rotate: false
+  xy: 2, 2
+  size: 504, 436
+  orig: 504, 436
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 508, 81
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
